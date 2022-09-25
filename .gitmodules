@@ -1,0 +1,3 @@
+[submodule "nppPluginList"]
+	path = nppPluginList
+	url = https://github.com/NotepadFree/nppPluginList.git
