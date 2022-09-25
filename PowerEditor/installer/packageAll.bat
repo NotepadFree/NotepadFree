@@ -17,7 +17,7 @@ rem along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 echo on
 
-if %SIGN% == 0 goto NoSign
+if "%SIGN%" == "0" goto NoSign
 
 signtool.exe sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad++" /du https://notepad-plus-plus.org/ /t http://timestamp.digicert.com/ ..\bin\notepad++.exe
 If ErrorLevel 1 goto End
@@ -506,7 +506,7 @@ ren npp.portable.minimalist.7z !7zvarMin!
 ren npp.portable.minimalist.x64.7z !7zvarMin64!
 ren npp.portable.minimalist.arm64.7z !7zvarMinArm64!
 
-if %SIGN% == 0 goto NoSignInstaller
+if "%SIGN%" == "0" goto NoSignInstaller
 signtool.exe sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad++ Installer" /du https://notepad-plus-plus.org/ /t http://timestamp.digicert.com/ !nppInstallerVar!
 If ErrorLevel 1 goto End
 signtool.exe sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad++ Installer" /du https://notepad-plus-plus.org/ /t http://timestamp.digicert.com/ !nppInstallerVar64!
