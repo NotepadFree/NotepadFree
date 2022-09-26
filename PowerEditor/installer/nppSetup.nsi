@@ -1,5 +1,4 @@
-; This file is part of Notepad++ project
-; Copyright (C)2021 Don HO <don.h@free.fr>
+; This file is part of NotepadFree project
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
@@ -28,7 +27,7 @@ SetCompressor /SOLID lzma	; This reduces installer size by approx 30~35%
 
 
 ; Installer is DPI-aware: not scaled by the DWM, no blurry text
-ManifestDPIAware true
+ManifestDPIAware true    ; Declare that the installer is DPI-aware.
 
 !include "nsisInclude\winVer.nsh"
 !include "nsisInclude\globalDef.nsh"
@@ -36,11 +35,11 @@ ManifestDPIAware true
 !include "nsisInclude\uninstall.nsh"
 
 !ifdef ARCH64
-OutFile ".\build\npp.${APPVERSION}.Installer.x64.exe"
+OutFile ".\build\ntf.${APPVERSION}.Installer.x64.exe"
 !else ifdef ARCHARM64
-OutFile ".\build\npp.${APPVERSION}.Installer.arm64.exe"
+OutFile ".\build\ntf.${APPVERSION}.Installer.arm64.exe"
 !else
-OutFile ".\build\npp.${APPVERSION}.Installer.exe"
+OutFile ".\build\ntf.${APPVERSION}.Installer.exe"
 !endif
 
 ; ------------------------------------------------------------------------
@@ -59,19 +58,8 @@ OutFile ".\build\npp.${APPVERSION}.Installer.exe"
 !insertmacro CheckIfRunning "un."
 
 ; Modern interface settings
-!define MUI_ICON ".\images\npp_inst.ico"
-!define MUI_UNICON ".\images\npp_inst.ico"
-
-!define MUI_WELCOMEFINISHPAGE_BITMAP ".\images\wizard.bmp"
-;!define MUI_WELCOMEFINISHPAGE_BITMAP ".\images\wizard_GiletJaune.bmp"
-
-
-!define MUI_HEADERIMAGE
-!define MUI_HEADERIMAGE_BITMAP ".\images\headerLeft.bmp" ; optional
-!define MUI_HEADERIMAGE_BITMAP_RTL ".\images\headerLeft_RTL.bmp" ; Header for RTL languages
-!define MUI_ABORTWARNING
-!define MUI_COMPONENTSPAGE_SMALLDESC ;Show components page with a small description and big box for components
-
+!define MUI_ICON ".\images\ntf.ico"
+!define MUI_UNICON ".\images\ntf.ico"
 
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "..\..\LICENSE"
@@ -83,7 +71,7 @@ page Custom ExtraOptions
 
 
 !define MUI_FINISHPAGE_RUN
-!define MUI_FINISHPAGE_RUN_FUNCTION "LaunchNpp"
+!define MUI_FINISHPAGE_RUN_FUNCTION "LaunchNtf"
 !insertmacro MUI_PAGE_FINISH
 
 !insertmacro MUI_UNPAGE_CONFIRM
@@ -122,7 +110,7 @@ Function .onInit
 	; --- PATCH BEGIN (it can be deleted without side-effects, when the NSIS N++ x64 installer binary becomes x64 too)---
 	;
 	; 64-bit patch for the NSIS attribute InstallDirRegKey (used in globalDef.nsh)
-	; - this is needed because of the NSIS binary, generated for 64-bit Notepad++ installations, is still a 32-bit app,
+	; - this is needed because of the NSIS binary, generated for 64-bit NotepadFree installations, is still a 32-bit app,
 	;   so the InstallDirRegKey checks for the irrelevant HKLM\SOFTWARE\WOW6432Node\Notepad++, explanation:
 	;   https://nsis.sourceforge.io/Reference/SetRegView
 	;
@@ -203,22 +191,22 @@ updaterDone:
 		${EndIf}
 		
 		; check if 32-bit version has been installed if yes, ask user to remove it
-		IfFileExists $PROGRAMFILES\${APPNAME}\notepad++.exe 0 noDelete32
-		MessageBox MB_YESNO "You are trying to install 64-bit version while 32-bit version is already installed. Would you like to remove Notepad++ 32 bit version before proceeding further?$\n(Your custom config files will be kept)" /SD IDYES IDYES doDelete32 IDNO noDelete32 ;IDYES remove
+		IfFileExists $PROGRAMFILES\${APPNAME}\Notepad++.exe 0 noDelete32
+		MessageBox MB_YESNO "You are trying to install 64-bit version while 32-bit version is already installed. Would you like to remove NotepadFree 32 bit version before proceeding further?$\n(Your custom config files will be kept)" /SD IDYES IDYES doDelete32 IDNO noDelete32 ;IDYES remove
 doDelete32:
 		StrCpy $diffArchDir2Remove $PROGRAMFILES\${APPNAME}
 noDelete32:
 		
 	${Else}
-		MessageBox MB_OK "You cannot install Notepad++ 64-bit version on your 32-bit system.$\nPlease download and install Notepad++ 32-bit version instead."
+		MessageBox MB_OK "You cannot install NotepadFree 64-bit version on your 32-bit system.$\nPlease download and install NotepadFree 32-bit version instead."
 		Abort
 	${EndIf}
 
 !else ; 32-bit installer
 	${If} ${RunningX64}
 		; check if 64-bit version has been installed if yes, ask user to remove it
-		IfFileExists $PROGRAMFILES64\${APPNAME}\notepad++.exe 0 noDelete64
-		MessageBox MB_YESNO "You are trying to install 32-bit version while 64-bit version is already installed. Would you like to remove Notepad++ 64 bit version before proceeding further?$\n(Your custom config files will be kept)"  /SD IDYES IDYES doDelete64 IDNO noDelete64
+		IfFileExists $PROGRAMFILES64\${APPNAME}\Notepad++.exe 0 noDelete64
+		MessageBox MB_YESNO "You are trying to install 32-bit version while 64-bit version is already installed. Would you like to remove NotepadFree 64 bit version before proceeding further?$\n(Your custom config files will be kept)"  /SD IDYES IDYES doDelete64 IDNO noDelete64
 doDelete64:
 		StrCpy $diffArchDir2Remove $PROGRAMFILES64\${APPNAME}
 noDelete64:
@@ -231,7 +219,7 @@ noDelete64:
 FunctionEnd
 
 
-Section -"Notepad++" mainSection
+Section -"NotepadFree" mainSection
 	${If} $diffArchDir2Remove != ""
 		!insertmacro uninstallRegKey
 		!insertmacro uninstallDir $diffArchDir2Remove 
@@ -287,16 +275,16 @@ ${MementoSectionDone}
 
 ;--------------------------------
   !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-    !insertmacro MUI_DESCRIPTION_TEXT ${explorerContextMenu} 'Explorer context menu entry for Notepad++ : Open whatever you want in Notepad++ from Windows Explorer.'
+    !insertmacro MUI_DESCRIPTION_TEXT ${explorerContextMenu} 'Explorer context menu entry for NotepadFree : Open whatever you want in NotepadFree from Windows Explorer.'
     !insertmacro MUI_DESCRIPTION_TEXT ${autoCompletionComponent} 'Install the API files you need for the auto-completion feature (Ctrl+Space).'
     !insertmacro MUI_DESCRIPTION_TEXT ${functionListComponent} 'Install the function list files you need for the function list feature (Ctrl+Space).'
-    !insertmacro MUI_DESCRIPTION_TEXT ${Plugins} 'You may need these plugins to extend the capabilities of Notepad++.'
-    !insertmacro MUI_DESCRIPTION_TEXT ${NppExport} 'Copy your syntax highlighted source code as HTML/RTF into clipboard, or save them as HTML/RTF files.'
+    !insertmacro MUI_DESCRIPTION_TEXT ${Plugins} 'You may need these plugins to extend the capabilities of NotepadFree.'
+    !insertmacro MUI_DESCRIPTION_TEXT ${NtfExport} 'Copy your syntax highlighted source code as HTML/RTF into clipboard, or save them as HTML/RTF files.'
     !insertmacro MUI_DESCRIPTION_TEXT ${MimeTools} 'Encode/decode selected text with Base64, Quoted-printable, URL encoding, and SAML.'
     !insertmacro MUI_DESCRIPTION_TEXT ${Converter} 'Convert ASCII to binary, octal, hexadecimal and decimal string.'
-    !insertmacro MUI_DESCRIPTION_TEXT ${localization} 'To use Notepad++ in your favorite language(s), install all/desired language(s).'
+    !insertmacro MUI_DESCRIPTION_TEXT ${localization} 'To use NotepadFree in your favorite language(s), install all/desired language(s).'
     !insertmacro MUI_DESCRIPTION_TEXT ${Themes} 'The eye-candy to change visual effects. Use Theme selector to switch among them.'
-    !insertmacro MUI_DESCRIPTION_TEXT ${AutoUpdater} 'Keep Notepad++ updated: Automatically download and install the latest updates.'
+    !insertmacro MUI_DESCRIPTION_TEXT ${AutoUpdater} 'Keep NotepadFree updated: Automatically download and install the latest updates.'
     !insertmacro MUI_DESCRIPTION_TEXT ${PluginsAdmin} 'Install, Update and Remove any plugin from a list by some clicks. It needs Auto-Updater installed.'
   !insertmacro MUI_FUNCTION_DESCRIPTION_END
 ;--------------------------------
@@ -317,6 +305,6 @@ Section -FinishSection
   Call writeInstallInfoInRegistry
 SectionEnd
 
-BrandingText "Software is like sex: It's better when it's free"
+BrandingText "Free software is not political."
 
 ; eof

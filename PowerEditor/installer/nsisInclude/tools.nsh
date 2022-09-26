@@ -1,5 +1,4 @@
-; This file is part of Notepad++ project
-; Copyright (C)2021 Don HO <don.h@free.fr>
+; This file is part of NotepadFree project
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
@@ -15,7 +14,7 @@
 ; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-Function LaunchNpp
+Function LaunchNtf
   ; Open notepad instance with same integrity level as explorer,
   ; so that drag n drop continue to function even
   ; Once npp is launched, show change.log file (this is to handle issues #2896, #2979, #3014)
@@ -30,7 +29,7 @@ Function LaunchNpp
   ; If npp is not available even after 5 seconds, exit without showing change.log
 
   ${ForEach} $R1 1 5 + 1				; Loop to find opened Npp instance
-	System::Call 'kernel32::OpenMutex(i 0x100000, b 0, t "nppInstance") i .R0'
+	System::Call 'kernel32::OpenMutex(i 0x100000, b 0, t "ntfInstance") i .R0'
 	IntCmp $R0 0 NotYetExecuted
 		System::Call 'kernel32::CloseHandle(i $R0)'
 		Exec '"$INSTDIR\notepad++.exe" "$INSTDIR\change.log" '
@@ -40,7 +39,7 @@ Function LaunchNpp
   ${Next}
 FunctionEnd
 
-; Check if Notepad++ is running
+; Check if NotepadFree is running
 ; Created by Motaz Alnuweiri
 ; URL: http://nsis.sourceforge.net/Check_whether_your_application_is_running
 ;      http://nsis.sourceforge.net/Sharing_functions_between_Installer_and_Uninstaller
@@ -53,9 +52,9 @@ FunctionEnd
 		
 		IntCmp $R0 0 NotRunning
 			System::Call 'kernel32::CloseHandle(i $R0)'
-			MessageBox MB_RETRYCANCEL|MB_DEFBUTTON1|MB_ICONSTOP "Cannot continue the installation: Notepad++ is running.\
+			MessageBox MB_RETRYCANCEL|MB_DEFBUTTON1|MB_ICONSTOP "Cannot continue the installation: NotepadFree is running.\
 			          $\n$\n\
-                      Please close Notepad++, then click ''Retry''." IDRETRY Retry IDCANCEL Cancel
+                      Please close NotepadFree, then click ''Retry''." IDRETRY Retry IDCANCEL Cancel
 			Retry:
 				Goto Check
 			
@@ -88,7 +87,7 @@ Function ExtraOptions
 	${NSD_Check} $ShortcutCheckboxHandle
 	${NSD_OnClick} $ShortcutCheckboxHandle OnChange_ShortcutCheckBox
 	
-	${NSD_CreateCheckbox} 0 120 100% 30u "Don't use %APPDATA%$\nEnable this option to make Notepad++ load/write the configuration files from/to its install directory. Check it if you use Notepad++ in a USB device."
+	${NSD_CreateCheckbox} 0 120 100% 30u "Don't use %APPDATA%$\nEnable this option to make NotepadFree load/write the configuration files from/to its install directory. Check it if you use NotepadFree in a USB device."
 	Pop $NoUserDataCheckboxHandle
 	${NSD_OnClick} $NoUserDataCheckboxHandle OnChange_NoUserDataCheckBox
 	
@@ -112,36 +111,28 @@ Function preventInstallInWin9x
 	${GetWindowsVersion} $WinVer
 	
 	StrCmp $WinVer "95" 0 +3
-		MessageBox MB_OK "Notepad++ does not support your OS. The installation will be aborted."
+		MessageBox MB_OK "NotepadFree does not support your OS. The installation will be aborted."
 		Abort
 		
 	StrCmp $WinVer "98" 0 +3
-		MessageBox MB_OK "Notepad++ does not support your OS. The installation will be aborted."
+		MessageBox MB_OK "NotepadFree does not support your OS. The installation will be aborted."
 		Abort
 		
 	StrCmp $WinVer "ME" 0 +3
-		MessageBox MB_OK "Notepad++ does not support your OS. The installation will be aborted."
+		MessageBox MB_OK "NotepadFree does not support your OS. The installation will be aborted."
 		Abort
 		
 	StrCmp $WinVer "2000" 0 +3 ; Windows 2000
-		MessageBox MB_OK "Notepad++ does not support your OS. The installation will be aborted."
+		MessageBox MB_OK "NotepadFree does not support your OS. The installation will be aborted."
 		Abort
 		
-	StrCmp $WinVer "XP" 0 xp_endTest ; XP
-		MessageBox MB_YESNO "This version of Notepad++ doesn't support Windows XP. The installation will be aborted.$\nDo you want to go to Notepad++ download page for downloading the last version which supports XP (v7.9.2)?" IDYES xp_openDlPage IDNO xp_goQuit
-xp_openDlPage:
-		ExecShell "open" "https://notepad-plus-plus.org/downloads/v7.9.2/"
-xp_goQuit:
+	StrCmp $WinVer "XP" 0 +3 ; XP
+		MessageBox MB_OK "NotepadFree does not support your OS. The installation will be aborted."
 		Abort
-xp_endTest:
 		
-	StrCmp $WinVer "2003" 0 ws2003_endTest ; Windows Server 2003
-		MessageBox MB_YESNO "This version of Notepad++ doesn't support Windows Server 2003. The installation will be aborted.$\nDo you want to go to Notepad++ download page for downloading the last version which supports this OS?" IDYES ws2003_openDlPage IDNO ws2003_goQuit
-ws2003_openDlPage:
-		ExecShell "open" "https://notepad-plus-plus.org/downloads/v7.9.2/"
-ws2003_goQuit:
+	StrCmp $WinVer "2003" 0 +3 ; Windows Server 2003
+		MessageBox MB_OK "NotepadFree does not support your OS. The installation will be aborted."
 		Abort
-ws2003_endTest:
 FunctionEnd
 
 Var noUserDataChecked
@@ -158,7 +149,7 @@ FunctionEnd
 
 
 Function writeInstallInfoInRegistry
-	WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\notepad++.exe" "" "$INSTDIR\notepad++.exe"
+	WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\notepadfree.exe" "" "$INSTDIR\notepad++.exe"
 	
 	WriteRegStr HKLM "Software\${APPNAME}" "" "$INSTDIR"
 	!ifdef ARCH64
@@ -168,7 +159,7 @@ Function writeInstallInfoInRegistry
 	!else
 		WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "DisplayName" "${APPNAME} (32-bit x86)"
 	!endif
-	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "Publisher" "Notepad++ Team"
+	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "Publisher" "NotepadFree Team"
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "MajorVersion" "${VERSION_MAJOR}"
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "MinorVersion" "${VERSION_MINOR}"
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "UninstallString" '"$INSTDIR\uninstall.exe"'

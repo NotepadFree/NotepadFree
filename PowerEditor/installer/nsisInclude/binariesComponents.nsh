@@ -1,5 +1,4 @@
-; This file is part of Notepad++ project
-; Copyright (C)2021 Don HO <don.h@free.fr>
+; This file is part of NotepadFree project
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
@@ -18,7 +17,7 @@
 SectionGroup "Plugins" Plugins
 	SetOverwrite on
 	
-	${MementoSection} "NppExport" NppExport
+	${MementoSection} "NtfExport" NtfExport
 		Delete "$INSTDIR\plugins\NppExport.dll"
 		Delete "$INSTDIR\plugins\NppExport\NppExport.dll"
 		Delete "$PLUGIN_INST_PATH\NppExport\NppExport.dll"
@@ -109,7 +108,7 @@ ${MementoSectionEnd}
 
 ;Uninstall section
 SectionGroup un.Plugins
-	Section un.NppExport
+	Section un.NtfExport
 		Delete "$INSTDIR\plugins\NppExport.dll"
 		Delete "$INSTDIR\plugins\NppExport\NppExport.dll"
 		RMDir "$INSTDIR\plugins\NppExport"

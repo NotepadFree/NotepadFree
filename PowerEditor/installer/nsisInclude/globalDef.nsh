@@ -1,5 +1,4 @@
-; This file is part of Notepad++ project
-; Copyright (C)2021 Don HO <don.h@free.fr>
+; This file is part of NotepadFree project
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
@@ -16,7 +15,7 @@
 
 
 ; Define the application name
-!define APPNAME "Notepad++"
+!define APPNAME "NotepadFree"
 
 ; ------------------------------------------------------------------------
 ; Get Notepad++ version from the notepad++ binary
@@ -52,13 +51,13 @@
 ; ------------------------------------------------------------------------
 
 !define APPNAMEANDVERSION	"${APPNAME} v${APPVERSION}"
-!define CompanyName		"Don HO don.h@free.fr"
-!define Description		"Notepad++ : a free (GNU) source code editor"
+!define CompanyName		"NotepadFree-org"
+!define Description		"NotepadFree : a free (GNU) source code editor"
 !define Version		"${nppVer_1}.${nppVer_2}.${nppVer_3}.${nppVer_4}"
 !define ProdVer		"${VERSION_MAJOR}.${VERSION_MINOR}"
-!define LegalCopyright		"Copyleft 1998-2017 by Don HO"
+!define LegalCopyright		"Copyleft 2022-Present by NotepadFree"
 
-!define APPWEBSITE "https://notepad-plus-plus.org/"
+!define APPWEBSITE "https://notepadfree.song-zh.com/"
 
 !define UNINSTALL_REG_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}"
 !define MEMENTO_REGISTRY_ROOT HKLM
