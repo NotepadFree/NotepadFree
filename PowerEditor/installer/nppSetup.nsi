@@ -111,7 +111,7 @@ Function .onInit
 	;
 	; 64-bit patch for the NSIS attribute InstallDirRegKey (used in globalDef.nsh)
 	; - this is needed because of the NSIS binary, generated for 64-bit NotepadFree installations, is still a 32-bit app,
-	;   so the InstallDirRegKey checks for the irrelevant HKLM\SOFTWARE\WOW6432Node\Notepad++, explanation:
+	;   so the InstallDirRegKey checks for the irrelevant HKLM\SOFTWARE\WOW6432Node\Notepadfree, explanation:
 	;   https://nsis.sourceforge.io/Reference/SetRegView
 	;
 !ifdef ARCH64 || ARCHARM64
@@ -191,7 +191,7 @@ updaterDone:
 		${EndIf}
 		
 		; check if 32-bit version has been installed if yes, ask user to remove it
-		IfFileExists $PROGRAMFILES\${APPNAME}\Notepad++.exe 0 noDelete32
+		IfFileExists $PROGRAMFILES\${APPNAME}\notepadfree.exe 0 noDelete32
 		MessageBox MB_YESNO "You are trying to install 64-bit version while 32-bit version is already installed. Would you like to remove NotepadFree 32 bit version before proceeding further?$\n(Your custom config files will be kept)" /SD IDYES IDYES doDelete32 IDNO noDelete32 ;IDYES remove
 doDelete32:
 		StrCpy $diffArchDir2Remove $PROGRAMFILES\${APPNAME}
@@ -205,7 +205,7 @@ noDelete32:
 !else ; 32-bit installer
 	${If} ${RunningX64}
 		; check if 64-bit version has been installed if yes, ask user to remove it
-		IfFileExists $PROGRAMFILES64\${APPNAME}\Notepad++.exe 0 noDelete64
+		IfFileExists $PROGRAMFILES64\${APPNAME}\notepadfree.exe 0 noDelete64
 		MessageBox MB_YESNO "You are trying to install 32-bit version while 64-bit version is already installed. Would you like to remove NotepadFree 64 bit version before proceeding further?$\n(Your custom config files will be kept)"  /SD IDYES IDYES doDelete64 IDNO noDelete64
 doDelete64:
 		StrCpy $diffArchDir2Remove $PROGRAMFILES64\${APPNAME}

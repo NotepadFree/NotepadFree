@@ -3,18 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Notepad++", "notepadPlus.vcxproj", "{FCF60E65-1B78-4D1D-AB59-4FC00AC8C248}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NotepadFree", "notepadPlus.vcxproj", "{FCF60E65-1B78-4D1D-AB59-4FC00AC8C248}"
 	ProjectSection(ProjectDependencies) = postProject
 		{19CCA8B8-46B9-4609-B7CE-198DA19F07BD} = {19CCA8B8-46B9-4609-B7CE-198DA19F07BD}
 		{E541C9BE-13BC-4CE6-A0A4-31145F51A2C1} = {E541C9BE-13BC-4CE6-A0A4-31145F51A2C1}
-		{EF020C4C-DD73-4844-B792-A39FDA815D83} = {EF020C4C-DD73-4844-B792-A39FDA815D83}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lexilla", "..\..\lexilla\src\Lexilla.vcxproj", "{E541C9BE-13BC-4CE6-A0A4-31145F51A2C1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scintilla", "..\..\scintilla\win32\Scintilla.vcxproj", "{19CCA8B8-46B9-4609-B7CE-198DA19F07BD}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nppPluginList", "..\..\nppPluginList\vcxproj\nppPluginList.vcxproj", "{EF020C4C-DD73-4844-B792-A39FDA815D83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,18 +59,6 @@ Global
 		{19CCA8B8-46B9-4609-B7CE-198DA19F07BD}.Release|Win32.Build.0 = Release|Win32
 		{19CCA8B8-46B9-4609-B7CE-198DA19F07BD}.Release|x64.ActiveCfg = Release|x64
 		{19CCA8B8-46B9-4609-B7CE-198DA19F07BD}.Release|x64.Build.0 = Release|x64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Debug|ARM64.Build.0 = Debug|ARM64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Debug|Win32.ActiveCfg = Debug|Win32
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Debug|Win32.Build.0 = Debug|Win32
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Debug|x64.ActiveCfg = Debug|x64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Debug|x64.Build.0 = Debug|x64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Release|ARM64.ActiveCfg = Release|ARM64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Release|ARM64.Build.0 = Release|ARM64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Release|Win32.ActiveCfg = Release|Win32
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Release|Win32.Build.0 = Release|Win32
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Release|x64.ActiveCfg = Release|x64
-		{EF020C4C-DD73-4844-B792-A39FDA815D83}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

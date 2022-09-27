@@ -210,7 +210,7 @@ Section Uninstall
 	Delete "$INSTDIR\change.log"
 	Delete "$INSTDIR\LICENSE"
 
-	Delete "$INSTDIR\notepad++.exe"
+	Delete "$INSTDIR\notepadfree.exe"
 	Delete "$INSTDIR\readme.txt"
 	
 	${If} $doLocalConf == "true"

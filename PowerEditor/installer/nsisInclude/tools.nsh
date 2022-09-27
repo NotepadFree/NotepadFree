@@ -23,7 +23,7 @@ Function LaunchNtf
   ;		2. If previous npp is configured as "Always in multi-instance mode", then
   ;			a. Two npp instances will be opened which is not expected
   ;			b. Second instance may not support drag n drop if current user's integrity level is not as admin
-  Exec '"$WINDIR\explorer.exe" "$INSTDIR\notepad++.exe"'
+  Exec '"$WINDIR\explorer.exe" "$INSTDIR\notepadfree.exe"'
 
   ; Max 5 seconds wait here to open change.log
   ; If npp is not available even after 5 seconds, exit without showing change.log
@@ -32,7 +32,7 @@ Function LaunchNtf
 	System::Call 'kernel32::OpenMutex(i 0x100000, b 0, t "ntfInstance") i .R0'
 	IntCmp $R0 0 NotYetExecuted
 		System::Call 'kernel32::CloseHandle(i $R0)'
-		Exec '"$INSTDIR\notepad++.exe" "$INSTDIR\change.log" '
+		Exec '"$INSTDIR\notepadfree.exe" "$INSTDIR\change.log" '
 		${Break}
 	NotYetExecuted:
 		Sleep 1000
@@ -149,7 +149,7 @@ FunctionEnd
 
 
 Function writeInstallInfoInRegistry
-	WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\notepadfree.exe" "" "$INSTDIR\notepad++.exe"
+	WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\notepadfree.exe" "" "$INSTDIR\notepadfree.exe"
 	
 	WriteRegStr HKLM "Software\${APPNAME}" "" "$INSTDIR"
 	!ifdef ARCH64
@@ -164,7 +164,7 @@ Function writeInstallInfoInRegistry
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "MinorVersion" "${VERSION_MINOR}"
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "UninstallString" '"$INSTDIR\uninstall.exe"'
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "QuietUninstallString" '"$INSTDIR\uninstall.exe" /S'
-	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "DisplayIcon" "$INSTDIR\notepad++.exe"
+	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "DisplayIcon" "$INSTDIR\notepadfree.exe"
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "DisplayVersion" "${APPVERSION}"
 	WriteRegStr HKLM "${UNINSTALL_REG_KEY}" "URLInfoAbout" "${APPWEBSITE}"
 	WriteRegDWORD HKLM "${UNINSTALL_REG_KEY}" "VersionMajor" ${VERSION_MAJOR}
