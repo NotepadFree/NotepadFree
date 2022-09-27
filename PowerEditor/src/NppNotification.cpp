@@ -287,7 +287,7 @@ BOOL Notepad_plus::notify(SCNotification *notification)
 							_nativeLangSpeaker.messageBox("CannotMoveDoc",
 								_pPublicInterface->getHSelf(),
 								TEXT("Document is modified, save it then try again."),
-								TEXT("Move to new Notepad++ Instance"),
+								TEXT("Move to new NotepadFree Instance"),
 								MB_OK);
 						}
 						else

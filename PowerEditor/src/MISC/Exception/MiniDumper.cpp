@@ -21,7 +21,7 @@
 #include <shlwapi.h>
 #include "MiniDumper.h"
 
-LPCTSTR msgTitle = TEXT("Notepad++ crash analysis");
+LPCTSTR msgTitle = TEXT("NotepadFree crash analysis");
 
 MiniDumper::MiniDumper()
 {
@@ -46,7 +46,7 @@ bool MiniDumper::writeDump(EXCEPTION_POINTERS * pExceptionInfo)
 			wcscat_s(szDumpPath, TEXT("\\NppDump.dmp"));
 
 			// ask the user if they want to save a dump file
-			int msgret = ::MessageBox(NULL, TEXT("Do you want to save a dump file?\r\nDoing so can aid in developing Notepad++."), msgTitle, MB_YESNO);
+			int msgret = ::MessageBox(NULL, TEXT("Do you want to save a dump file?\r\nDoing so can aid in developing NotepadFree."), msgTitle, MB_YESNO);
 			if (msgret == IDYES)
 			{
 				// create the file

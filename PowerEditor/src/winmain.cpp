@@ -318,7 +318,7 @@ const TCHAR FLAG_MONITOR_FILES[] = TEXT("-monitor");
 void doException(Notepad_plus_Window & notepad_plus_plus)
 {
 	Win32Exception::removeHandler();	//disable exception handler after excpetion, we dont want corrupt data structurs to crash the exception handler
-	::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Notepad++ will attempt to save any unsaved data. However, dataloss is very likely."), TEXT("Recovery initiating"), MB_OK | MB_ICONINFORMATION);
+	::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("NotepadFree will attempt to save any unsaved data. However, dataloss is very likely."), TEXT("Recovery initiating"), MB_OK | MB_ICONINFORMATION);
 
 	TCHAR tmpDir[1024];
 	GetTempPath(1024, tmpDir);
@@ -328,12 +328,12 @@ void doException(Notepad_plus_Window & notepad_plus_plus)
 	bool res = notepad_plus_plus.emergency(emergencySavedDir);
 	if (res)
 	{
-		generic_string displayText = TEXT("Notepad++ was able to successfully recover some unsaved documents, or nothing to be saved could be found.\r\nYou can find the results at :\r\n");
+		generic_string displayText = TEXT("NotepadFree was able to successfully recover some unsaved documents, or nothing to be saved could be found.\r\nYou can find the results at :\r\n");
 		displayText += emergencySavedDir;
 		::MessageBox(Notepad_plus_Window::gNppHWND, displayText.c_str(), TEXT("Recovery success"), MB_OK | MB_ICONINFORMATION);
 	}
 	else
-		::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Unfortunatly, Notepad++ was not able to save your work. We are sorry for any lost data."), TEXT("Recovery failure"), MB_OK | MB_ICONERROR);
+		::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Unfortunatly, NotepadFree was not able to save your work. We are sorry for any lost data."), TEXT("Recovery failure"), MB_OK | MB_ICONERROR);
 }
 
 PWSTR advanceCmdLine(PWSTR pCmdLine, const generic_string& string)
@@ -514,7 +514,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int)
 	}
 
 	if (showHelp)
-		::MessageBox(NULL, COMMAND_ARG_HELP, TEXT("Notepad++ Command Argument Help"), MB_OK);
+		::MessageBox(NULL, COMMAND_ARG_HELP, TEXT("NotepadFree Command Argument Help"), MB_OK);
 
 	if (cmdLineParams._localizationPath != TEXT(""))
 	{
@@ -762,7 +762,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int)
 	catch (const Win32Exception & ex)
 	{
 		TCHAR message[1024];	//TODO: sane number
-		wsprintf(message, TEXT("An exception occured. Notepad++ cannot recover and must be shut down.\r\nThe exception details are as follows:\r\n")
+		wsprintf(message, TEXT("An exception occured. NotepadFree cannot recover and must be shut down.\r\nThe exception details are as follows:\r\n")
 			TEXT("Code:\t0x%08X\r\nType:\t%S\r\nException address: 0x%p"), ex.code(), ex.what(), ex.where());
 		::MessageBox(Notepad_plus_Window::gNppHWND, message, TEXT("Win32Exception"), MB_OK | MB_ICONERROR);
 		mdump.writeDump(ex.info());

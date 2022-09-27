@@ -27,7 +27,7 @@
 
 using namespace std;
 
-const TCHAR * USERMSG = TEXT(" is not compatible with the current version of Notepad++.\n\n\
+const TCHAR * USERMSG = TEXT(" is not compatible with the current version of NotepadFree.\n\n\
 Do you want to remove this plugin from the plugins directory to prevent this message from the next launch?");
 
 
@@ -138,7 +138,7 @@ int PluginsManager::loadPluginFromPath(const TCHAR *pluginFilePath)
         
 		pi->_pFuncIsUnicode = (PFUNCISUNICODE)GetProcAddress(pi->_hLib, "isUnicode");
 		if (!pi->_pFuncIsUnicode || !pi->_pFuncIsUnicode())
-			throw generic_string(TEXT("This ANSI plugin is not compatible with your Unicode Notepad++."));
+			throw generic_string(TEXT("This ANSI plugin is not compatible with your Unicode NotepadFree."));
 
 		pi->_pFuncSetInfo = (PFUNCSETINFO)GetProcAddress(pi->_hLib, "setInfo");
 
@@ -350,8 +350,8 @@ bool PluginsManager::loadPlugins(const TCHAR* dir, const PluginViewList* pluginU
 	Version nppVer;
 	nppVer.setVersionFrom(nppFullPathName);
 
-	const TCHAR* incompatibleWarning = L"%s's version %s is not compatible to this version of Notepad++ (v%s).\r\nAs a result the plugin cannot be loaded.";
-	const TCHAR* incompatibleWarningWithSolution = L"%s's version %s is not compatible to this version of Notepad++ (v%s).\r\nAs a result the plugin cannot be loaded.\r\n\r\nGo to Updates section and update your plugin to %s for solving the compatibility issue.";
+	const TCHAR* incompatibleWarning = L"%s's version %s is not compatible to this version of NotepadFree (v%s).\r\nAs a result the plugin cannot be loaded.";
+	const TCHAR* incompatibleWarningWithSolution = L"%s's version %s is not compatible to this version of NotepadFree (v%s).\r\nAs a result the plugin cannot be loaded.\r\n\r\nGo to Updates section and update your plugin to %s for solving the compatibility issue.";
 
 	// get plugin folder
 	if (hFindFolder != INVALID_HANDLE_VALUE && (foundData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY))

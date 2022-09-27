@@ -62,7 +62,7 @@ BEGIN
     CONTROL         "Show status bar",IDC_CHECK_SHOWSTATUSBAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,28,37,130,10
     GROUPBOX        "Menu",IDC_MENU_GB_STATIC,27,160,373,42,BS_CENTER
     CONTROL         "Hide menu bar (use Alt or F10 key to toggle)",IDC_CHECK_HIDEMENUBAR,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,34,173,218,10
-    CONTROL         "Hide right shortcuts ＋ ▼ ✕ from the menu bar (Need to restart Notepad++)",IDC_CHECK_HIDERIGHTSHORTCUTSOFMENUBAR,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,34,185,350,10
+    CONTROL         "Hide right shortcuts ＋ ▼ ✕ from the menu bar (Need to restart NotepadFree)",IDC_CHECK_HIDERIGHTSHORTCUTSOFMENUBAR,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,34,185,350,10
 END
 
 
@@ -326,7 +326,7 @@ BEGIN
     GROUPBOX        "When Find Dialog is Invoked", IDD_FILL_FIND_FIELD_GRP_STATIC, 31, 4, 323, 43, BS_CENTER
     CONTROL         "Fill Find Field with Selected Text", IDC_CHECK_FILL_FIND_FIELD_WITH_SELECTED, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 16, 275, 10
     CONTROL         "Select Word Under Caret when Nothing Selected", IDC_CHECK_FILL_FIND_FIELD_SELECT_CARET, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 52, 31, 275, 10
-    CONTROL         "Use Monospaced font in Find dialog (Need to restart Notepad++)", IDC_CHECK_MONOSPACEDFONT_FINDDLG, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 52, 350, 10
+    CONTROL         "Use Monospaced font in Find dialog (Need to restart NotepadFree)", IDC_CHECK_MONOSPACEDFONT_FINDDLG, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 52, 350, 10
     CONTROL         "Find dialog remains open after search that outputs to results window", IDC_CHECK_FINDDLG_ALWAYS_VISIBLE, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 67, 350, 10
     CONTROL         "Confirm Replace All in All Opened Documents", IDC_CHECK_CONFIRMREPLOPENDOCS, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 82, 350, 10
     CONTROL         "Replace: Don't move to the following occurrence", IDC_CHECK_REPLACEANDSTOP, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 97, 350, 10
@@ -406,7 +406,7 @@ BEGIN
     CONTROL         "Open session in a new instance (and save session automatically on exit)",IDC_SESSIONININST_RADIO,"Button",BS_AUTORADIOBUTTON|BS_MULTILINE,122,14,226,20
     CONTROL         "Always in multi-instance mode",IDC_MULTIINST_RADIO,"Button",BS_AUTORADIOBUTTON,122,38,218,10
     CONTROL         "Default (mono-instance)",IDC_MONOINST_RADIO,"Button",BS_AUTORADIOBUTTON,122,55,196,10
-    LTEXT           "* The modification of this setting needs to restart Notepad++",IDD_STATIC_RESTARTNOTE,110,74,239,20
+    LTEXT           "* The modification of this setting needs to restart NotepadFree",IDD_STATIC_RESTARTNOTE,110,74,239,20
     GROUPBOX        "Customize insert Date Time",IDC_DATETIMEFORMAT_GB_STATIC,90,100,268,102,BS_CENTER
     CONTROL         "Reverse default date time order (short && long formats)",IDD_DATETIMEFORMAT_REVERSEORDER_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,103,116,241,10
     RTEXT           "yyyy-MM-dd HH:mm:ss\nH:m d/M/yyyy\nMMM d, yyyy  tt h:m",IDC_STATIC,134,142,77,25
@@ -493,12 +493,12 @@ BEGIN
     CONTROL         "Peek on document map",IDC_CHECK_ENABLEDOCPEEKONMAP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,269,71,140,10
 
     // "Enable Notepad++ auto-updater" should be always the 1st item, because it'll be hidden if GUP.exe is absent
-    CONTROL         "Enable Notepad++ auto-updater",IDC_CHECK_AUTOUPDATE,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP, 37, 94, 210, 10
+    CONTROL         "Enable NotepadFree auto-updater",IDC_CHECK_AUTOUPDATE,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP, 37, 94, 210, 10
     CONTROL         "Mute all sounds", IDC_CHECK_MUTE_SOUNDS, "Button", BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP, 37, 109, 190, 10
     CONTROL         "Autodetect character encoding",IDC_CHECK_DETECTENCODING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,124,217,10
     CONTROL         "Minimize to system tray",IDC_CHECK_MIN2SYSTRAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,139,217,10
     CONTROL         "Show only filename in title bar",IDC_CHECK_SHORTTITLE,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,37,154,217,10
-    CONTROL         "Use DirectWrite (May improve rendering special characters, need to restart Notepad++)",IDC_CHECK_DIRECTWRITE_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,169,377,10
+    CONTROL         "Use DirectWrite (May improve rendering special characters, need to restart NotepadFree)",IDC_CHECK_DIRECTWRITE_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,169,377,10
     CONTROL         "Enable Save All confirm dialog", IDC_CHECK_SAVEALLCONFIRM, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 37, 184, 217, 10
 
     RTEXT           "Session file ext.:",IDC_SESSIONFILEEXT_STATIC,270,130,108,8

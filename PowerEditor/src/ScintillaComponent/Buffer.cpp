@@ -1409,7 +1409,7 @@ bool FileManager::loadFileData(Document doc, int64_t fileSize, const TCHAR * fil
 		{
 			pNativeSpeaker->messageBox("FileTooBigToOpen",
 				_pNotepadPlus->_pEditView->getHSelf(),
-				TEXT("File is too big to be opened by Notepad++"),
+				TEXT("File is too big to be opened by NotepadFree"),
 				TEXT("File size problem"),
 				MB_OK | MB_APPLMODAL);
 
@@ -1571,7 +1571,7 @@ bool FileManager::loadFileData(Document doc, int64_t fileSize, const TCHAR * fil
 			case SC_STATUS_BADALLOC:
 				pNativeSpeaker->messageBox("FileTooBigToOpen",
 					_pNotepadPlus->_pEditView->getHSelf(),
-					TEXT("File is too big to be opened by Notepad++"),
+					TEXT("File is too big to be opened by NotepadFree"),
 					TEXT("Exception: File size problem"),
 					MB_OK | MB_APPLMODAL);
 			case SC_STATUS_FAILURE:

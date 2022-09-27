@@ -55,7 +55,7 @@
 !define Description		"NotepadFree : a free (GNU) source code editor"
 !define Version		"${nppVer_1}.${nppVer_2}.${nppVer_3}.${nppVer_4}"
 !define ProdVer		"${VERSION_MAJOR}.${VERSION_MINOR}"
-!define LegalCopyright		"Copyleft 2022-Present by NotepadFree"
+!define LegalCopyright		"Copyleft 2022-Present by NotepadFree-org"
 
 !define APPWEBSITE "https://notepadfree.song-zh.com/"
 
