@@ -45,9 +45,9 @@ BEGIN
             VALUE    "CompanyName",        "NotepadFree-org\0"
             VALUE    "FileDescription",    "NotepadFree\0"
             VALUE    "FileVersion",        VERSION_VALUE
-            VALUE    "InternalName",       "notepad++.exe\0"
+            VALUE    "InternalName",       "notepadfree.exe\0"
             VALUE    "LegalCopyright",     "Copyleft 2022-Present by NotepadFree-org\0"
-            VALUE    "OriginalFilename",   "notepad++.exe\0"
+            VALUE    "OriginalFilename",   "notepadfree.exe\0"
             VALUE    "ProductName",        "NotepadFree\0"
             VALUE    "ProductVersion",     VERSION_VALUE
         END

@@ -1287,7 +1287,7 @@ bool isAssoCommandExisting(LPCTSTR FullPathName)
 		hres = AssocQueryString(ASSOCF_VERIFY|ASSOCF_INIT_IGNOREUNKNOWN, ASSOCSTR_COMMAND, ext, NULL, buffer, &bufferLen);
 
         isAssoCommandExisting = (hres == S_OK)                  // check if association exist and no error
-			&& (wcsstr(buffer, TEXT("notepad++.exe")) == NULL); // check association with notepad++
+			&& (wcsstr(buffer, TEXT("notepadfree.exe")) == NULL); // check association with notepad++
 
 	}
 	return isAssoCommandExisting;

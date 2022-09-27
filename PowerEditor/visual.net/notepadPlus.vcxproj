@@ -27,9 +27,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>Notepad++</ProjectName>
+    <ProjectName>NotepadFree</ProjectName>
     <ProjectGuid>{FCF60E65-1B78-4D1D-AB59-4FC00AC8C248}</ProjectGuid>
-    <RootNamespace>Notepad++</RootNamespace>
+    <RootNamespace>NotepadFree</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -147,12 +147,12 @@
       <AdditionalOptions>/fixed:no %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Oleacc.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;libscintilla.lib;liblexilla.lib;imm32.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)notepadfree.exe</OutputFile>
       <Version>1.0</Version>
       <TypeLibraryFile>/TLBID</TypeLibraryFile>
       <TypeLibraryResourceID>5</TypeLibraryResourceID>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)notepadPlus.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)notepadFree.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
       <MinimumRequiredVersion>5.01</MinimumRequiredVersion>
@@ -187,12 +187,12 @@
       <AdditionalOptions>/fixed:no %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Oleacc.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;libscintilla.lib;liblexilla.lib;imm32.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)notepadfree.exe</OutputFile>
       <Version>1.0</Version>
       <TypeLibraryFile>/TLBID</TypeLibraryFile>
       <TypeLibraryResourceID>5</TypeLibraryResourceID>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)notepadPlus.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)notepadFree.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <MinimumRequiredVersion>5.02</MinimumRequiredVersion>
       <AdditionalLibraryDirectories>..\..\scintilla\bin;$(IntDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -227,12 +227,12 @@
       <AdditionalOptions>/fixed:no %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Oleacc.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;libscintilla.lib;liblexilla.lib;imm32.lib;msimg32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)notepadfree.exe</OutputFile>
       <Version>1.0</Version>
       <TypeLibraryFile>/TLBID</TypeLibraryFile>
       <TypeLibraryResourceID>5</TypeLibraryResourceID>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)notepadPlus.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)notepadFree.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>..\..\scintilla\bin;$(IntDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
@@ -270,12 +270,12 @@
     <Link>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Oleacc.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;libscintilla.lib;liblexilla.lib;imm32.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)notepadfree.exe</OutputFile>
       <Version>1.0</Version>
       <TypeLibraryFile />
       <TypeLibraryResourceID>1</TypeLibraryResourceID>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)npp.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ntf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -321,13 +321,13 @@ copy ..\src\contextMenu.xml ..\bin\contextMenu.xml
     <Link>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Oleacc.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;libscintilla.lib;liblexilla.lib;imm32.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)notepadfree.exe</OutputFile>
       <Version>1.0</Version>
       <TypeLibraryFile>
       </TypeLibraryFile>
       <TypeLibraryResourceID>1</TypeLibraryResourceID>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)npp.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ntf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -372,13 +372,13 @@ copy ..\src\contextMenu.xml ..\bin64\contextMenu.xml
     <Link>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Oleacc.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;libscintilla.lib;liblexilla.lib;imm32.lib;msimg32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)notepadfree.exe</OutputFile>
       <Version>1.0</Version>
       <TypeLibraryFile>
       </TypeLibraryFile>
       <TypeLibraryResourceID>1</TypeLibraryResourceID>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)npp.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ntf.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -827,7 +827,7 @@ copy ..\src\contextMenu.xml ..\binarm64\contextMenu.xml
     <ClInclude Include="..\src\WinControls\ReadDirectoryChanges\ReadFileChanges.h" />
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="..\src\notepad++.exe.manifest" />
+    <Manifest Include="..\src\notepadfree.exe.manifest" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
