@@ -526,6 +526,7 @@ copy ..\src\contextMenu.xml ..\binarm64\contextMenu.xml
     <ClCompile Include="..\src\WinControls\ReadDirectoryChanges\ReadFileChanges.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\src\icons\ntf.ico" />
     <Image Include="..\src\icons\allChars_off.ico" />
     <Image Include="..\src\icons\allChars_on.ico" />
     <Image Include="..\src\icons\closeAll.bmp" />
