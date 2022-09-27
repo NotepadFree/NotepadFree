@@ -2,7 +2,7 @@
 // Copyright 1998-2001 by Neil Hodgson <neilh@scintilla.org>
 
 // The License.txt file describes the conditions under which this software may be distributed.
-//this file is part of notepad++
+//this file is part of notepadfree
 //Copyright (C)2003 Don HO <donho@altern.org >
 //
 //This program is free software; you can redistribute it and/or

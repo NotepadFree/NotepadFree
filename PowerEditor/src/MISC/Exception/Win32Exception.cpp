@@ -4,7 +4,7 @@
 //By Bennett
 //Formatting Slightly modified for N++
 
-// This file is part of Notepad++ project
+// This file is part of NotepadFree project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
