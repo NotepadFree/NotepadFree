@@ -318,12 +318,6 @@
     <ClInclude Include="..\src\resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\src\bitmap\npp.bmp" />
-    <Image Include="..\src\icon\npp.ico" />
-    <Image Include="..\src\icon\npp_0.ico" />
-    <Image Include="..\src\icon\npp_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="..\src\NppShell.rc" />
   </ItemGroup>
   <ItemGroup>

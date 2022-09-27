@@ -28,7 +28,7 @@ BEGIN
             VALUE "FileDescription", "ShellHandler for Notepad++"
 #endif
             VALUE "FileVersion", "0.1"
-            VALUE "LegalCopyright", "Copyright © 2010"
+            VALUE "LegalCopyright", "Copyright ?2010"
 #ifdef WIN64
             VALUE "OriginalFilename", "NppShell64.dll"
 #else
@@ -50,7 +50,7 @@ END
 //
 
 //IDI_ICON_NPP          ICON                    "icon\\npp_1.ico"
-IDI_ICON_NPP          ICON                    "icon\\nppNewIcon.ico"
+IDI_ICON_NPP          ICON                    "icon\\ntfNewIcon.ico"
 
 
 /////////////////////////////////////////////////////////////////////////////
