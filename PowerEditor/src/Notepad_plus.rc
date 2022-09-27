@@ -56,9 +56,9 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_M30ICON                     ICON      "icons/npp.ico"
-IDI_CHAMELEON                   ICON      "icons/chameleon.ico"
-IDI_CHAMELEON_DM                ICON      "icons/darkMode/about/chameleon.ico"
+IDI_M30ICON                     ICON      "icons/ntf.ico"
+IDI_CHAMELEON                   ICON      "icons/ntf.ico"
+IDI_CHAMELEON_DM                ICON      "icons/darkMode/about/ntf.ico"
 //IDI_JESUISCHARLIE             ICON      "icons/Je_suis_Charlie.ico"
 //IDI_GILETJAUNE                ICON      "icons/giletJaune.ico"
 //IDI_SAMESEXMARRIAGE           ICON      "icons/same-sexMarriageTaiwan.ico"
