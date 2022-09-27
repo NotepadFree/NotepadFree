@@ -470,7 +470,7 @@ setlocal enableDelayedExpansion
 cd .\build\
 
 
-for %%a in (npp.*.Installer.exe) do (
+for %%a in (ntf.*.Installer.exe) do (
   rem echo a = %%a
   set nppInstallerVar=%%a
   set nppInstallerVar64=!nppInstallerVar:Installer.exe=Installer.x64.exe!
