@@ -68,8 +68,8 @@ private:
 
 	// Code signing certificate
 	std::wstring _signer_display_name = TEXT("NotepadFree");
-	std::wstring _signer_subject = TEXT("C=FR, S=Ile-de-France, L=Saint Cloud, O=\"NotepadFree\", CN=\"NotepadFree\"");
-	std::wstring _signer_key_id = TEXT("E687332916D6B681FE28C5EF423CEE259D3953B9");
+	std::wstring _signer_subject = TEXT("C=CN, S=GuangDong, L=GuangZhou, O=NotepadFree-org, OU=NotepadFree-org, CN=NotepadFree, E=songzihuan@song-zh.com");
+	std::wstring _signer_key_id = TEXT("4146AE4D4AC1DC8B2CE1AD36FBAAF4D744BDD295");
 	bool _doCheckRevocation = false;
 	bool _doCheckChainOfTrust = false;
 
