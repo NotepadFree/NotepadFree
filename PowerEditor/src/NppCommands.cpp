@@ -3249,7 +3249,7 @@ void Notepad_plus::command(int id)
 		}
 		case IDM_PROJECTPAGE :
 		{
-			::ShellExecute(NULL, TEXT("open"), TEXT("https://github.com/notepad-plus-plus/notepad-plus-plus/"), NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, TEXT("open"), TEXT("https://github.com/NotepadFree/NotepadFree"), NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 
@@ -3268,7 +3268,7 @@ void Notepad_plus::command(int id)
 
 		case IDM_FORUM:
 		{
-			::ShellExecute(NULL, TEXT("open"), TEXT("https://community.notepadfree.song-zh.com/"), NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, TEXT("open"), TEXT("http://community.notepadfree.song-zh.com/"), NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 
