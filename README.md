@@ -13,7 +13,6 @@ NotepadFree 支持所有微软仍然支持的 Windows 系统。但是，并非�
 
 
 ## 构建NotepadFree
----------------
 
 请你参考 [构建指南](BUILD.md) 来构建NotepadFree，你可以通过我的邮件获得构建方面的帮助。
 值得注意的是，我并不是权威。
