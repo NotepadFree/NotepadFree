@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-	- last change:  Notepad++ 8.4.6  22/Sep/2022  by Ondřej Müller (mullero@email.cz)
+	- last change:  NotepadFree 8.4.6  22/Sep/2022  by Ondřej Müller (mullero@email.cz)
 	- N++ Community QA:  https://notepad-plus-plus.org/community/topic/87/czech-translations
 	- contributors:  Ondřej Müller (mullero@email.cz), Tomáš Hrouda (gobbet@centrum.cz), Martin Darebný (darBis)
 	- the most recent version of this file can be downloaded from the project master-branch here: https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/installer/nativeLang/czech.xml
@@ -352,7 +352,7 @@
 					<Item id = "47003" name = "N++ - online příručka pro uživatele"/>
 					<Item id = "47004" name = "N++ - Community (diskuzní fórum)"/>
 					<Item id = "47005" name = "Získat další pluginy"/>
-					<Item id = "47006" name = "Aktualizovat Notepad++"/>
+					<Item id = "47006" name = "Aktualizovat NotepadFree"/>
 					<Item id = "47007" name = "Wiki FAQ"/>
 					<Item id = "47008" name = "Obsah nápovědy"/>
 					<Item id = "47009" name = "Nastavit proxy-server pro aktualizace ..."/>
@@ -1036,7 +1036,7 @@ Můžete definovat více značek sloupců použitím více čísel oddělených 
 					<Item id = "6431" name = "Otevírat všechny soubory ve složce při přetažení myší (místo zdroje pro pracovní plochu)"/>
 				</DefaultDir>
 				<FileAssoc title = "Asociovat se soubory">
-					<Item id = "4008" name = "Abyste mohli použít tuto vlastnost, restartujte prosím Notepad++ pod účtem administrátora."/>
+					<Item id = "4008" name = "Abyste mohli použít tuto vlastnost, restartujte prosím NotepadFree pod účtem administrátora."/>
 					<Item id = "4009" name = "Podporované přípony:"/>
 					<Item id = "4010" name = "Zaregistr. přípony:"/>
 				</FileAssoc>
@@ -1212,7 +1212,7 @@ Můžete definovat více značek sloupců použitím více čísel oddělených 
 					<Item id = "6163" name = "Přidat Váš vlastní znak jako součást slova (nepoužívejte tuto volbu, pokud si nejste jisti tím, co děláte)"/>
 				</Delimiter>
 				<Cloud title = "Cloud a odkazy">
-					<Item id = "6261" name = "Pro aktivaci změn prosím restartujte Notepad++."/>
+					<Item id = "6261" name = "Pro aktivaci změn prosím restartujte NotepadFree."/>
 					<Item id = "6262" name = "Nastavení internetového úložiště"/>
 					<Item id = "6263" name = "Bez cloudu"/>
 					<Item id = "6267" name = "Zde nastavte cestu k Vašemu i-úložišti:"/>
@@ -1304,7 +1304,7 @@ Potvrzovací dialog můžete kdykoliv reaktivovat v 'Nastavení'."/>
 
 		<MessageBox>
 			<!-- $INT_REPLACE$ is a place holder, don't translate it -->
-			<ContextMenuXmlEditWarning title = "Úprava kontextové nabídky" message = "Úpravou souboru contextMenu.xml můžete modifikovat chování vyskakovacího kontextového menu Notepadu++. Po případné změně musíte restartovat Notepad++, aby se změny projevily."/>
+			<ContextMenuXmlEditWarning title = "Úprava kontextové nabídky" message = "Úpravou souboru contextMenu.xml můžete modifikovat chování vyskakovacího kontextového menu Notepadu++. Po případné změně musíte restartovat NotepadFree, aby se změny projevily."/>
 			<SaveCurrentModifWarning title = "Uložit změny" message = "Měli byste uložit aktuální změny. Uložené změny nemohou být vráceny zpět. Pokračovat?"/>
 			<LoseUndoAbilityWarning title = "Varování před ztrátou možnosti vrátit změny" message = "Měli byste uložit aktuální změny. Uložené změny nemohou být vráceny zpět. Pokračovat?"/>
 			<CannotMoveDoc title = "Přejít k nové instanci Notepadu++" message = "Dokument je modifikován, uložte jej a poté to zkuste znovu."/>
@@ -1329,7 +1329,7 @@ Potvrzovací dialog můžete kdykoliv reaktivovat v 'Nastavení'."/>
 			<DoReloadOrNotAndLooseChange title = "Znovuotevření" message = "&quot;$STR_REPLACE$&quot;  Tento soubor byl změněn jiným programem. Chcete jej znovu načíst a ztratit tak všechny změny provedené v Notepadu++?"/>
 			<PrehistoricSystemDetected title = "Detekován příliš starý systém" message = "Vypadá to, že používáte příliš starý operační systém. Je nám líto, ale tato funkce je podporována pouze na novějších systémech."/>
 			<XpUpdaterProblem title = "Aktualizační program Notepadu++" message = "Aktualizační program Notepadu++ není kompatibilní s Windows XP vzhledem k zastaralé bezpečnostní vrstvě tohoto systému. Chcete místo toho přejít na webové stránky Notepadu++, odkud si můžete sami stáhnout poslední verzi Notepadu++?"/>
-			<GUpProxyConfNeedAdminMode title = "Nastavení proxy-serveru" message = "Pro nastavení proxy-serveru spusťte prosím znovu Notepad++ pod účtem administrátora."/>
+			<GUpProxyConfNeedAdminMode title = "Nastavení proxy-serveru" message = "Pro nastavení proxy-serveru spusťte prosím znovu NotepadFree pod účtem administrátora."/>
 			<DocTooDirtyToMonitor title = "Chyba sledování stavu" message = "Dokument je v nekonzistentním stavu. Uložte prosím změny v dokumentu před zapnutím sledování jeho stavu."/>
 			<DocNoExistToMonitor title = "Problém se sledováním stavu" message = "Soubor musí existovat, aby jej bylo možné sledovat."/>
 			<FileTooBigToOpen title = "Problém s velikostí souboru" message = "Soubor je příliš velký na to, aby mohl být otevřen v Notepadu++."/>
@@ -1358,13 +1358,13 @@ Vaše pracovní plocha nebyla uložena."/> <!-- HowToReproduce: this message pre
 			<UDLRemoveCurrentLang title = "Odstranění aktuální syntaxe" message = "Jste si jisti?"/>
 			<SCMapperDoDeleteOrNot title = "Jste si jisti?" message = "Jste si jisti, že chcete smazat tuto klávesovou zkratku?"/>
 			<FindCharRangeValueError title = "Problém s rozsahem hodnoty" message = "Měli byste napsat hodnotu z rozsahu 0 až 255."/>
-			<OpenInAdminMode title = "Uložení selhalo" message = "Soubor nemůže být uložen a může být chráněn proti zápisu. Chcete zkusit spustit Notepad++ s právy administrátora?"/>
-			<OpenInAdminModeWithoutCloseCurrent title = "Uložení selhalo" message = "Soubor nemůže být uložen a může být chráněn proti zápisu. Chcete zkusit spustit Notepad++ s právy administrátora?"/>
-			<OpenInAdminModeFailed title = "Otevření s administrátorskými právy selhalo" message = "Notepad++ nemůže být spuštěn s právy administrátora."/>
+			<OpenInAdminMode title = "Uložení selhalo" message = "Soubor nemůže být uložen a může být chráněn proti zápisu. Chcete zkusit spustit NotepadFree s právy administrátora?"/>
+			<OpenInAdminModeWithoutCloseCurrent title = "Uložení selhalo" message = "Soubor nemůže být uložen a může být chráněn proti zápisu. Chcete zkusit spustit NotepadFree s právy administrátora?"/>
+			<OpenInAdminModeFailed title = "Otevření s administrátorskými právy selhalo" message = "NotepadFree nemůže být spuštěn s právy administrátora."/>
 			<ViewInBrowser title = "Zobrazit aktuální soubor v prohlížeči" message="Není možno nalézt aplikaci ve Vašem systému."/>
-			<ExitToUpdatePlugins title = "Notepad++ má být ukončen" message = "Jestliže kliknete na ANO, ukončíte tím Notepad++ kvůli provedení naplánovaných operací. Notepad++ bude po dokončení všech operací restartován. Pokračovat?"/>
-			<NeedToRestartToLoadPlugins title = "Notepad++ potřebuje být znovu spuštěn" message = "Pro zavedení nainstalovaných zásuvných modulů musíte restartovat Notepad++."/>
-			<ChangeHistoryEnabledWarning title = "Notepad++ potřebuje být znovu spuštěn" message = "Pro aktivaci historie změn souborů musíte restartovat Notepad++."/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+			<ExitToUpdatePlugins title = "NotepadFree má být ukončen" message = "Jestliže kliknete na ANO, ukončíte tím NotepadFree kvůli provedení naplánovaných operací. NotepadFree bude po dokončení všech operací restartován. Pokračovat?"/>
+			<NeedToRestartToLoadPlugins title = "NotepadFree potřebuje být znovu spuštěn" message = "Pro zavedení nainstalovaných zásuvných modulů musíte restartovat NotepadFree."/>
+			<ChangeHistoryEnabledWarning title = "NotepadFree potřebuje být znovu spuštěn" message = "Pro aktivaci historie změn souborů musíte restartovat NotepadFree."/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
 		</MessageBox>
 		
 		<ClipboardHistory>
@@ -1488,8 +1488,8 @@ Vaše pracovní plocha nebyla uložena."/> <!-- HowToReproduce: this message pre
 			<word-chars-list-warning-end value = "  ve Vašem seznamu znaků."/>
 			<backup-select-folder value = "Vyberte složku pro zálohy"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
 			<cloud-invalid-warning value = "Neplatná cesta."/>
-			<cloud-restart-warning value = "Pro aktivaci změn prosím restartujte Notepad++."/>
-			<cloud-select-folder value = "Vyberte složku, ze/do které Notepad++ načítá/zapisuje svoje nastavení"/>
+			<cloud-restart-warning value = "Pro aktivaci změn prosím restartujte NotepadFree."/>
+			<cloud-select-folder value = "Vyberte složku, ze/do které NotepadFree načítá/zapisuje svoje nastavení"/>
 			<default-open-save-select-folder value = "Vyberte výchozí složku"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
 			<shift-change-direction-tip value = "Pro změnu směru vyhledávání použijte Shift + Enter."/>
 			<two-find-buttons-tip value = "Mód se dvěma vyhledávacími tlačítky"/>

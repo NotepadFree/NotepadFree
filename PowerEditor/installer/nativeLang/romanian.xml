@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
  <!--
--    Traducerea în română pentru Notepad++ 7.6.6
+-    Traducerea în română pentru NotepadFree 7.6.6
 -    Ultima modificare 30 Ianuarie 2019 de către Barna Cosmin Marian
      Pentru actualizări vizitați: https://github.com/notepad-plus-plus/notepad-plus-plus/tree/master/PowerEditor/installer/nativeLang
  -->
@@ -286,15 +286,15 @@
                     <Item id="46001" name="Configurator stil..."/>
                     <Item id="46250" name="Definire limbaj..."/>
                     <Item id="46180" name="Definit de utilizator"/>
-                    <Item id="47000" name="Despre Notepad++"/>
+                    <Item id="47000" name="Despre NotepadFree"/>
                     <Item id="47010" name="Argumente linie de comandă..."/>
-                    <Item id="47001" name="Pagină web Notepad++"/>
-                    <Item id="47002" name="Pagină proiect Notepad++"/>
+                    <Item id="47001" name="Pagină web NotepadFree"/>
+                    <Item id="47002" name="Pagină proiect NotepadFree"/>
                     <Item id="47003" name="Documentație online"/>
-                    <Item id="47004" name="Comunitatea Notepad++ (Forum)"/>
+                    <Item id="47004" name="Comunitatea NotepadFree (Forum)"/>
                     <Item id="47012" name="Informații depanare"/>
                     <Item id="47005" name="Descărcaţi mai multe module"/>
-                    <Item id="47006" name="Actualizare Notepad++"/>
+                    <Item id="47006" name="Actualizare NotepadFree"/>
                     <Item id="47009" name="Setare proxy actualizare..."/>
                     <Item id="48005" name="Importare modul(e) ..."/>
                     <Item id="48006" name="Importare temă(e) afișare..."/>
@@ -881,10 +881,10 @@
 
                 <MultiInstance title="Instanțe multiple">
                     <Item id="6151" name="Setări instanțe multiple"/>
-                    <Item id="6152" name="Deschidere sesiune în instanță nouă Notepad++"/>
+                    <Item id="6152" name="Deschidere sesiune în instanță nouă NotepadFree"/>
                     <Item id="6153" name="Totdeauna în mod instanță multiplă"/>
                     <Item id="6154" name="Implicit (instanță unică)"/>
-                    <Item id="6155" name="* Modificarea acestor setări necesită repornirea Notepad++"/>
+                    <Item id="6155" name="* Modificarea acestor setări necesită repornirea NotepadFree"/>
                 </MultiInstance>
 
                 <Delimiter title="Separatori">
@@ -928,7 +928,7 @@
                     <Item id="6319" name="Activare"/>
                     <Item id="6320" name="Fără subliniere"/>
                     <Item id="6322" name="Extensie fișier sesiune:"/>
-                    <Item id="6323" name="Activare autoactualizare Notepad++"/>
+                    <Item id="6323" name="Activare autoactualizare NotepadFree"/>
                     <Item id="6324" name="Comutare documente (Ctrl+Tab)"/>
                     <Item id="6331" name="Afișare doar nume fișier în bara de titlu"/>
                     <Item id="6334" name="Autodetectare codificare caractere"/>
@@ -985,10 +985,10 @@
             </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Editare meniu contextual" message="Editarea fișierului contextMenu.xml vă permite să modificați meniul contextual al Notepad++.
-Trebuie să reporniți Notepad++ pentru a se aplica modificările efectuate în contextMenu.xml."/>
+            <ContextMenuXmlEditWarning title="Editare meniu contextual" message="Editarea fișierului contextMenu.xml vă permite să modificați meniul contextual al NotepadFree.
+Trebuie să reporniți NotepadFree pentru a se aplica modificările efectuate în contextMenu.xml."/>
             <NppHelpAbsentWarning title="Fișierul nu există" message="
-nu există. Vă rugăm să-l descărcați de pe site-ul Notepad++."/>
+nu există. Vă rugăm să-l descărcați de pe site-ul NotepadFree."/>
             <SaveCurrentModifWarning title="Salvare modificare curentă" message="Ar trebui să salvați modificările curente.
 Toate modificările salvate nu vor putea fi refăcute.
 
@@ -997,10 +997,10 @@ Continuați?"/>
 Toate modificările salvate nu vor putea fi refăcute.
 
 Continuați?"/>
-            <CannotMoveDoc title="Mutare în instanță nouă Notepad++" message="Documentul este modificat, salvați-l și încercați din nou."/>
-            <DocReloadWarning title="Reîncărcare" message="Sigur doriți să reîncărcați fișierul curent și să pierdeți modificările efectuate în Notepad++?"/>
+            <CannotMoveDoc title="Mutare în instanță nouă NotepadFree" message="Documentul este modificat, salvați-l și încercați din nou."/>
+            <DocReloadWarning title="Reîncărcare" message="Sigur doriți să reîncărcați fișierul curent și să pierdeți modificările efectuate în NotepadFree?"/>
             <FileLockedWarning title="Salvare eșuată" message="Verificați dacă acest fișier nu este accesat și de un alt program."/>
-            <FileAlreadyOpenedInNpp title="" message="Fișierul este deja deschis în Notepad++."/>
+            <FileAlreadyOpenedInNpp title="" message="Fișierul este deja deschis în NotepadFree."/>
             <DeleteFileFailed title="Ștergere fișier" message="Ștergere fișier eșuată."/>
 
             <NbFileToOpenImportantWarning title="Numărul fișierelor de deschis este prea mare" message="$INT_REPLACE$ fișiere sunt pe cale să fie deschise.
@@ -1031,13 +1031,13 @@ Doriți să-l reîncărcați?"/>
             <DoReloadOrNotAndLooseChange title="Reîncărcare" message="&quot;$STR_REPLACE$&quot;
 
 Acest fișier a fost modificat de un alt program.
-Doriți să-l reîncărcați și să anulați modificările efectuate în Notepad++?"/>
+Doriți să-l reîncărcați și să anulați modificările efectuate în NotepadFree?"/>
             <PrehistoricSystemDetected title="S-a detectat un sistem preistoric" message="Se pare că încă folosiți un sistem foarte vechi. Această funcție se poate executa doar pe un sistem modern."/>
-            <XpUpdaterProblem title="Actualizator Notepad++" message="Actualizatorul Notepad++ nu este compatibil cu Windows XP datorită nivelelor de securitate depășite ale acestuia.
-Doriți să vizitați pagina de descărcare a Notepad++ pentru a descărca ultima versiune?"/>
+            <XpUpdaterProblem title="Actualizator NotepadFree" message="Actualizatorul NotepadFree nu este compatibil cu Windows XP datorită nivelelor de securitate depășite ale acestuia.
+Doriți să vizitați pagina de descărcare a NotepadFree pentru a descărca ultima versiune?"/>
             <DocTooDirtyToMonitor title="Problemă monitorizare" message="Documentul este necorespunzător. Salvați modificările înainte de a-l monitoriza."/>
             <DocNoExistToMonitor title="Problemă monitorizare" message="Pentru a putea fi monitorizat fișierul trebuie să existe."/>
-            <FileTooBigToOpen title="Problemă dimensiune fișier" message="Fișierul este prea mare pentru a fi deschis cu Notepad++"/>
+            <FileTooBigToOpen title="Problemă dimensiune fișier" message="Fișierul este prea mare pentru a fi deschis cu NotepadFree"/>
             <CreateNewFileOrNot title="Creare fișier nou" message="Fișierul &quot;$STR_REPLACE$&quot; nu există. Îl creați?."/>
             <CreateNewFileError title="Creare fișier nou" message="Nu se poate crea fișierul &quot;$STR_REPLACE$&quot;."/>
             <OpenFileError title="EROARE" message="Nu se poate deschide fișierul &quot;$STR_REPLACE$&quot;."/>
@@ -1069,10 +1069,10 @@ alegeți altul."/>
             <SCMapperDoDeleteOrNot title="Sunteți sigur?" message="Sigur doriți să eliminați această combinație de taste?"/>
             <FindCharRangeValueError title="Problemă valoare interval" message="Ar trebui să introduceți o valoare între 0 și 255."/>
             <OpenInAdminMode title="Salvare eșuată" message="Fișierul nu poate fi salvat și s-ar putea să fie protejat.
-Doriți să lansați Notepad++ în mod Administrator?"/>
+Doriți să lansați NotepadFree în mod Administrator?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Salvare eșuată" message="Fișierul nu poate fi salvat și s-ar putea să fie protejat.
-Doriți să lansați Notepad++ în mod Administrator?"/>
-            <OpenInAdminModeFailed title="Deschidere în mod Administrator eșuat" message="Notepad++ nu poate fi deschis în mod Administrator."/>        
+Doriți să lansați NotepadFree în mod Administrator?"/>
+            <OpenInAdminModeFailed title="Deschidere în mod Administrator eșuat" message="NotepadFree nu poate fi deschis în mod Administrator."/>        
             <ViewInBrowser title="Afişare fişier curent în navigator" message="Aplicaţia nu poate fi găsită în sistem."/>
 		</MessageBox>
         <ClipboardHistory>
@@ -1171,8 +1171,8 @@ Doriți să lansați Notepad++ în mod Administrator?"/>
             <word-chars-list-tab-warning value="$INT_REPLACE$ Tab(-uri)"/>
             <word-chars-list-warning-end value="  în lista de caractere."/>
             <cloud-invalid-warning value="Cale nevalidă."/>
-            <cloud-restart-warning value="Reporniți Notepad++ pentru aplicare modificări."/>
-            <cloud-select-folder value="Selectare folder din/în care Notepad++ citește/scrie setările sale"/>
+            <cloud-restart-warning value="Reporniți NotepadFree pentru aplicare modificări."/>
+            <cloud-select-folder value="Selectare folder din/în care NotepadFree citește/scrie setările sale"/>
             <shift-change-direction-tip value="Folosiți Shift+Enter pentru a căuta în direcția opusă"/>
             <two-find-buttons-tip value="Mod căutare cu 2 butoane"/>
             <find-status-top-reached value="Căutare: S-a găsit prima potrivire de jos.S-a ajuns la începutul documentului."/>

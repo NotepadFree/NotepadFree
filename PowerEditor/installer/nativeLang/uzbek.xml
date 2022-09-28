@@ -6,7 +6,7 @@ Abdurashid Muhitdinov <cool_zero at list.ru>
 Last update: 2009 July 07
 -->
 <!--
-Uzbek (Latin) translation for Notepad++
+Uzbek (Latin) translation for NotepadFree
 Updated to v8.1.4:
 Updater: Shamsiddinov Zafar
 -->
@@ -312,8 +312,8 @@ Updater: Shamsiddinov Zafar
 					<Item id="46180" name="Oʻz tanlovlaringiz"/>
 					<Item id="46250" name="Oʻz sintaksisingizni koʻrsating..."/>
 					<Item id="47000" name="Dastur haqida..."/>
-					<Item id="47001" name="Notepad++ veb-sahifasi"/>
-					<Item id="47002" name="Notepad++ loyihasi sahifasi"/>
+					<Item id="47001" name="NotepadFree veb-sahifasi"/>
+					<Item id="47002" name="NotepadFree loyihasi sahifasi"/>
 					<Item id="47003" name="Internet hujjati"/>
 					<Item id="47004" name="Forum"/>
 					<Item id="47005" name="Ilovalar..."/>
@@ -836,7 +836,7 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 					<Item id="6431" name="Dasturga surib olib kelingan jilddagi barcha fayllarni ochmoq"/>
 				</DefaultDir>
 				<FileAssoc title = "Fayllar birikuvi">
-					<Item id="4008" name="Notepad++ dasturiga Maʼmur (Admin) nomi bilan kirsangiz ushbu funksiya faollashadi."/>
+					<Item id="4008" name="NotepadFree dasturiga Maʼmur (Admin) nomi bilan kirsangiz ushbu funksiya faollashadi."/>
 					<Item id="4009" name="Qoʻllovchi formatlar:"/>
 					<Item id="4010" name="Qayd etilgan formatlar:"/>
 				</FileAssoc>
@@ -929,7 +929,7 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 					<Item id="6344" name="Faylni Koʻrmoq"/>
 					<Item id="6345" name="Xatchoʻplar ostida miniatura"/>
 					<Item id="6346" name="Fayl xaritasida koʻrsatmoq"/>
-					<Item id="6349" name="DirectWrite funksiyasidan foydalanmoq (Notepad++ dasturiga qayta kirish talab etiladi)"/>
+					<Item id="6349" name="DirectWrite funksiyasidan foydalanmoq (NotepadFree dasturiga qayta kirish talab etiladi)"/>
 					<Item id="6350" name="Toʻldirish rejimini qoʻllamoq"/>
 					<Item id="6351" name="Saqlash darchasiga *.* filterini qoʻshmoq"/>
 					<Item id="6360" name="Barcha ovozlarni oʻchirib qoʻymoq"/>
@@ -942,7 +942,7 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
 					<Item id="6152" name="Sessiya faqat yangi darchada ochilganda"/>
 					<Item id="6153" name="Har bir faylni yangi darchada ochmoq"/>
 					<Item id="6154" name="Barcha fayllarni bir darchada ochmoq (odatiy)"/>
-					<Item id="6155" name="* Oʻzgarishlar Notepad++ qayta yuklangach, ishga tushadi"/>
+					<Item id="6155" name="* Oʻzgarishlar NotepadFree qayta yuklangach, ishga tushadi"/>
 				</MultiInstance>
 				<Delimiter title = "Ajratkich">
 					<Item id="6251" name="Ajratkich parametrlari (Ctrl + 2 Sichq.ni bosish)"/>
@@ -1055,14 +1055,14 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
             </FindInFinder>
         </Dialog>
         <MessageBox>
-            <ContextMenuXmlEditWarning title="contextMenu tahriri" message="contextMenu.xml faylini tahrirlash orqali oʻzingizning Notepad++ qalquvchi menyusini tahrirlash imkonini beradi.&#x0A;Oʻzgarishlarni amalda qoʻllash uchun Notepad++ dasturini qayta ishga tushirasiz."/>
-            <NppHelpAbsentWarning title="Fayl mavjud emas" message="&#x0A;mavjud emas. Uni Notepad++ saytidan koʻchirib oling."/>
+            <ContextMenuXmlEditWarning title="contextMenu tahriri" message="contextMenu.xml faylini tahrirlash orqali oʻzingizning NotepadFree qalquvchi menyusini tahrirlash imkonini beradi.&#x0A;Oʻzgarishlarni amalda qoʻllash uchun NotepadFree dasturini qayta ishga tushirasiz."/>
+            <NppHelpAbsentWarning title="Fayl mavjud emas" message="&#x0A;mavjud emas. Uni NotepadFree saytidan koʻchirib oling."/>
             <SaveCurrentModifWarning title="Joriy oʻzgarishni saqlash" message="Joriy oʻzgarish saqlanishi kerak.&#x0A;Barcha saqlangan oʻzgarishlarni bekor qilib boʻlmaydi.&#x0A;&#x0A;Davom ettirilsinmi?"/>
             <LoseUndoAbilityWarning title="Bekor qilish imkoniyati yoʻqotildi" message="Joriy oʻzgarish saqlanmogʻi lozim.&#x0A;Barcha saqlangan oʻzgarishlarni bekor qilib boʻlmaydi.&#x0A;&#x0A;Davom ettirilsinmi?"/>
-            <CannotMoveDoc title="Notepad++ dasturining yangi namunasiga oʻtish" message="Faylda oʻzgarish mavjud. Uni saqlang va qayta urinib koʻring."/>
+            <CannotMoveDoc title="NotepadFree dasturining yangi namunasiga oʻtish" message="Faylda oʻzgarish mavjud. Uni saqlang va qayta urinib koʻring."/>
             <DocReloadWarning title="Qayta yuklash" message="Barcha kiritilgan oʻzgarishlar yoʻqotiladi!&#x0A;Davom ettirilsinmi?"/>
             <FileLockedWarning title="Saqlashning imkoni yoʻq" message="Fayl boshqa dasturda ochilganligini tekshirib koʻring."/>
-            <FileAlreadyOpenedInNpp title="" message="Fayl allaqachon Notepad++ dasturida ochilgan."/>
+            <FileAlreadyOpenedInNpp title="" message="Fayl allaqachon NotepadFree dasturida ochilgan."/>
             <DeleteFileFailed title="Faylni olib tashlash" message="Faylni yoʻqotib boʻlmadi."/>
 
             <NbFileToOpenImportantWarning title="Fayllar soni juda koʻp" message="$INT_REPLACE$ ta fayl ochiladi.&#x0A;Davom ettirilsinmi?"/>
@@ -1078,12 +1078,12 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
             <DoDeleteOrNot title="Faylni yoʻqotish" message="&quot;$STR_REPLACE$&quot;&#x0A; fayli yopiladi va Savatga joʻnatiladi.&#x0A;Davom ettirilsinmi?"/>
             <NoBackupDoSaveFile title="Сохранение" message="Файл резервной копии не найден (удалён извне).&#x0A;Сохраните его, иначе ваши данные будут потеряны.&#x0A;Вы хотите сохранить файл &quot;$STR_REPLACE$&quot; ?"/>
             <DoReloadOrNot title="Обновление файла" message="&quot;$STR_REPLACE$&quot;&#x0A;&#x0A;Этот файл был изменен другой программой.&#x0A;Вы хотите обновить его?"/>
-            <DoReloadOrNotAndLooseChange title="Обновление файла" message="&quot;$STR_REPLACE$&quot;&#x0A;&#x0A;Этот файл был изменен другой программой.&#x0A;Вы хотите обновить его?&#x0A;Но вы потеряете все внесенные изменения в Notepad++?"/>
+            <DoReloadOrNotAndLooseChange title="Обновление файла" message="&quot;$STR_REPLACE$&quot;&#x0A;&#x0A;Этот файл был изменен другой программой.&#x0A;Вы хотите обновить его?&#x0A;Но вы потеряете все внесенные изменения в NotepadFree?"/>
             <PrehistoricSystemDetected title="Обнаружена доисторическая система" message="Кажется, вы все еще используете доисторическую систему. Извините, но эта функция работает только на современных системах."/>
-            <XpUpdaterProblem title="Обновление Notepad++" message="Обновление Notepad++ не совместимо с XP из-за устаревшего уровня безопасности.&#x0A;Хотите перейти на страницу Notepad++, чтобы загрузить последнюю версию?"/>
+            <XpUpdaterProblem title="Обновление NotepadFree" message="Обновление NotepadFree не совместимо с XP из-за устаревшего уровня безопасности.&#x0A;Хотите перейти на страницу NotepadFree, чтобы загрузить последнюю версию?"/>
             <DocTooDirtyToMonitor title="Проблема Мониторинга" message="Документ в работе. Сохраните внесённые изменения перед его мониторингом."/>
             <DocNoExistToMonitor title="Проблема Мониторинга" message="Для мониторинга файл должен существовать."/>
-            <FileTooBigToOpen title="Fayl hajmida muammo" message="Faylni Notepad++ dasturida ochish uchun judda kattalik qiladi"/>
+            <FileTooBigToOpen title="Fayl hajmida muammo" message="Faylni NotepadFree dasturida ochish uchun judda kattalik qiladi"/>
             <CreateNewFileOrNot title="Yangi fayl yaratish" message="&quot;$STR_REPLACE$&quot; mavjud emas. Yaratilsinmi?"/>
             <CreateNewFileError title="Yangi fayl yaratish" message="&quot;$STR_REPLACE$&quot; faylini yaratib boʻlmadi."/>
             <OpenFileError title="XATOLIK" message="&quot;$STR_REPLACE$&quot; nomli faylni ochib boʻlmadi."/>
@@ -1106,9 +1106,9 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
             <UDLRemoveCurrentLang title="Удаление текущего языка" message="Вы уверены?"/>
             <SCMapperDoDeleteOrNot title="Ishonchingiz komilmi?" message="Haqiqatan ham ushbu tezkor tugma olib tashlansinmi?"/>
             <FindCharRangeValueError title="Проблема со значением диапазона" message="Вы должны ввести от 0 и до 255."/>
-            <OpenInAdminMode title="Saqlash xatoligi" message="Faylni saqlab boʻlmaydi yoki himoyalangan.&#x0A;Notepad++ dasturiga administrator rejimida kirishni xohlaysizmi?"/>
-            <OpenInAdminModeWithoutCloseCurrent title="Saqlashda xatolik" message="Faylni saqlab boʻlmaydi va himoyalangan boʻlishi mumkin.&#x0A;Notepad++ dasturi Administrator rejimida ochishini xohlaysizmi?"/>
-            <OpenInAdminModeFailed title="Administrator rejimida ochishning imkoni yoʻq" message="Notepad++ Administrator rejimida ocha olmaydi."/>
+            <OpenInAdminMode title="Saqlash xatoligi" message="Faylni saqlab boʻlmaydi yoki himoyalangan.&#x0A;NotepadFree dasturiga administrator rejimida kirishni xohlaysizmi?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Saqlashda xatolik" message="Faylni saqlab boʻlmaydi va himoyalangan boʻlishi mumkin.&#x0A;NotepadFree dasturi Administrator rejimida ochishini xohlaysizmi?"/>
+            <OpenInAdminModeFailed title="Administrator rejimida ochishning imkoni yoʻq" message="NotepadFree Administrator rejimida ocha olmaydi."/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Bufer tarixi"/>
@@ -1206,8 +1206,8 @@ Siz bir necha marker ustunlarini probellar orqali belgilashingiz mumkin."/>
             <word-chars-list-tab-warning value="$INT_REPLACE$ ta TAB"/>
             <word-chars-list-warning-end value="  roʻyxatingizdagi belgilar."/>
             <cloud-invalid-warning value="Ruxsat etilmagan yoʻlak."/>
-            <cloud-restart-warning value="Faollashtirish uchun Notepad++ qayta yuklanishi lozim."/>
-            <cloud-select-folder value="Notepad++ oʻz tanlovlarini oʻqishi/yozishi uchun jild tanlang"/>
+            <cloud-restart-warning value="Faollashtirish uchun NotepadFree qayta yuklanishi lozim."/>
+            <cloud-select-folder value="NotepadFree oʻz tanlovlarini oʻqishi/yozishi uchun jild tanlang"/>
             <shift-change-direction-tip value="Teskari tartibda izlash uchun Shift+Enter tugmalarini birdaniga bosing."/>
             <two-find-buttons-tip value="2 tomonlama izlash"/>
             <find-status-top-reached value="Izlash: Pastda bitta oʻxshashlik topildi. Fayl boshiga oʻtildi."/>

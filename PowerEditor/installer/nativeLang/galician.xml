@@ -137,9 +137,9 @@
                     <Item id = "10004" name = "Abrir en nova xanela"/>
 
                     <Item id = "46001" name = "Configurador de estilo..."/>
-                    <Item id = "47000" name = "Sobre o Notepad++..."/>
-                    <Item id = "47001" name = "Web de Notepad++"/>
-                    <Item id = "47002" name = "Proxecto Notepad++ en Sourceforge"/>
+                    <Item id = "47000" name = "Sobre o NotepadFree..."/>
+                    <Item id = "47001" name = "Web de NotepadFree"/>
+                    <Item id = "47002" name = "Proxecto NotepadFree en Sourceforge"/>
                     <Item id = "47003" name = "Axuda en liña"/>
                     <Item id = "47004" name = "Foro"/>
                     <Item id = "47005" name = "Descargar máis 'engadidos'"/>

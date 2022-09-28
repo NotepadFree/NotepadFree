@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-    Venetian translation for Notepad++
+    Venetian translation for NotepadFree
     Last modified Mon, January 10th, 2022.
     Translators: 2019-xxxx, Matteo Concato (Conky77)
     For updates, see https://github.com/notepad-plus-plus/notepad-plus-plus/tree/master/PowerEditor/installer/nativeLang
@@ -329,17 +329,17 @@
                     <Item id="46001" name="Configura i stiƚi..."/>
                     <Item id="46250" name="Definisi el to ƚenguagio..."/>
                     <Item id="46300" name ="Vèrxi carteƚa ƚenguagi definìi da &apos;l utente..." />
-                    <Item id="46301" name="Personalixasion Ƚenguagio Notepad++"/>
+                    <Item id="46301" name="Personalixasion Ƚenguagio NotepadFree"/>
                     <Item id="46180" name="Definìo da ƚ&apos;utente"/>
-                    <Item id="47000" name="Informasion so Notepad++"/>
+                    <Item id="47000" name="Informasion so NotepadFree"/>
                     <Item id="47010" name="Argomenti riga de comando..."/>
-                    <Item id="47001" name="Sito web Notepad++"/>
-                    <Item id="47002" name="Progeto Notepad++"/>
-                    <Item id="47003" name="Documentasion Notepad++ online"/>
-                    <Item id="47004" name="Community Notepad++ (Forum)"/>
+                    <Item id="47001" name="Sito web NotepadFree"/>
+                    <Item id="47002" name="Progeto NotepadFree"/>
+                    <Item id="47003" name="Documentasion NotepadFree online"/>
+                    <Item id="47004" name="Community NotepadFree (Forum)"/>
                     <Item id="47012" name="Informasion de debug..."/>
                     <Item id="47005" name="Otieni altri plugin"/>
-                    <Item id="47006" name="Axorna Notepad++"/>
+                    <Item id="47006" name="Axorna NotepadFree"/>
                     <Item id="47009" name="Inposta proxy axornamento..."/>
                     <Item id="48005" name="Inporta plugin..."/>
                     <Item id="48006" name="Inporta tema..."/>
@@ -940,7 +940,7 @@ Te poi definire vari deƚimitatori de coƚona uxando spasi par spartire i divers
                 </DefaultDir>
 
                 <FileAssoc title="Asociasion file">
-                    <Item id="4008" name="Sara su Notepad++ e invìa Notepad++ co priviƚegi de Aministradore par uxare sta funsionaƚità" />
+                    <Item id="4008" name="Sara su NotepadFree e invìa NotepadFree co priviƚegi de Aministradore par uxare sta funsionaƚità" />
                     <Item id="4009" name="Estension suportà:"/>
                     <Item id="4010" name="Estension registrà:"/>
                 </FileAssoc>
@@ -1005,7 +1005,7 @@ Te poi definire vari deƚimitatori de coƚona uxando spasi par spartire i divers
 
                 <Searching title="Riserca">
                     <Item id="6901" name="No propore ƚe paròƚe seƚesionà inte ƚa fenèstra de riserca"/>
-                    <Item id="6902" name="Uxa caràtare a spasiatura fisa inte ƚa fenèstra de riserca (Te devi inviare de novo Notepad++)"/>
+                    <Item id="6902" name="Uxa caràtare a spasiatura fisa inte ƚa fenèstra de riserca (Te devi inviare de novo NotepadFree)"/>
                     <Item id="6903" name="Ƚasa vèrta ƚa fenèstra de dialogo dopo aver catà cuel output inte ƚa fenèstra de i rixultadi"/>
                     <Item id="6904" name="Conferma Sostituisi tuto cuanto en tuti i documenti vèrti"/>
                     <Item id="6905" name="Sostituisi: sensa spostamento a ƚa corispondensa sucesiva"/>
@@ -1066,7 +1066,7 @@ Te poi definire vari deƚimitatori de coƚona uxando spasi par spartire i divers
                     <Item id="6152" name="Vèrxi sesion en na nova istansa  (e salva otomaticamente ƚe sesioni a l&apos;usita)"/>
                     <Item id="6153" name="Senpre en modaƚità istansa multipla"/>
                     <Item id="6154" name="Predefinìo (istansa ùgnoƚa)"/>
-                    <Item id="6155" name="* Ƚa modìfega de sta inpostasion ƚa ga bixogno de inviare de novo Notepad++"/>
+                    <Item id="6155" name="* Ƚa modìfega de sta inpostasion ƚa ga bixogno de inviare de novo NotepadFree"/>
                     <Item id="6171" name="Inserimento Data e ora personalixà"/>
                     <Item id="6175" name="Inverti l&apos;ordinamento de date e ora de default (formado longo &amp;&amp; curto)"/>
                     <Item id="6172" name="formadi personalixà:"/>
@@ -1116,11 +1116,11 @@ Te poi definire vari deƚimitatori de coƚona uxando spasi par spartire i divers
                     <Item id="6313" name="Axorna sensa notifica"/>
                     <Item id="6325" name="Và a ƚ&apos;ùltima riga dopo ƚ&apos;axornamento"/>
                     <Item id="6322" name="Est. file de sesion:"/>
-                    <Item id="6323" name="Axorna otomàticamente Notepad++" />
+                    <Item id="6323" name="Axorna otomàticamente NotepadFree" />
                     <Item id="6324" name="Sostituisi Documento (Ctrl+TAB)"/>
                     <Item id="6331" name="Visuaƚixa soƚo nòme file inte ƚa bara de&apos;l tìtoƚo"/>
                     <Item id="6334" name="Riƚeva otomàticamente codefega caràtari"/>
-                    <Item id="6349" name="Uxa DirectWrite (Poderìa mejorare el rendering de i caràtari speciaƚi, cogna inviare de novo Notepad++)"/>
+                    <Item id="6349" name="Uxa DirectWrite (Poderìa mejorare el rendering de i caràtari speciaƚi, cogna inviare de novo NotepadFree)"/>
                     <Item id="6337" name="Est. file workspace:"/>
                     <Item id="6114" name="Abìƚita"/>
                     <Item id="6117" name="Presedensa a i file pì resenti"/>
@@ -1194,8 +1194,8 @@ Te poi riativare de novo sto dialogo da Prefarense."/>
 
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Modìfega menu contestuaƚe" message="Ƚa modìfega de&apos;l file contextMenu.xml parmete de modifegare el menu contestuaƚe de Notepad++.
-Bisogna inviare de novo Notepad++ parchè ƚe modìfeghe aportà a&apos;l file contextMenu.xml ƚe gàpia efeto."/>
+            <ContextMenuXmlEditWarning title="Modìfega menu contestuaƚe" message="Ƚa modìfega de&apos;l file contextMenu.xml parmete de modifegare el menu contestuaƚe de NotepadFree.
+Bisogna inviare de novo NotepadFree parchè ƚe modìfeghe aportà a&apos;l file contextMenu.xml ƚe gàpia efeto."/>
             <SaveCurrentModifWarning title="Salva modìfeghe corenti" message="Te devi salvare ƚe modìfeghe corenti.
 Tute ƚe modìfeghe salvà no ƚe poƚe èsare ripristinà.
 
@@ -1204,15 +1204,15 @@ Continuare?"/> <!-- HowToReproduce: when you openned file is modified but unsave
 Tute ƚe modìfeghe salvà no ƚe poƚe èsare ripristinà.
 
 Continuare?"/> <!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-            <CannotMoveDoc title="Manda a na nova istansa de Notepad++" message="El documento el xe stà modifegà, salvarƚo vanti de continuare."/> <!-- HowToReproduce: From your Notepad++ drag & drop a clean (not dirty) file to outside of Notepad++, another instance of Notepad++ will be created. Then from your first Notepad++ drag & drop an unsaved file to the new instance. -->
+            <CannotMoveDoc title="Manda a na nova istansa de NotepadFree" message="El documento el xe stà modifegà, salvarƚo vanti de continuare."/> <!-- HowToReproduce: From your NotepadFree drag & drop a clean (not dirty) file to outside of NotepadFree, another instance of NotepadFree will be created. Then from your first NotepadFree drag & drop an unsaved file to the new instance. -->
             <DocReloadWarning title="Carga de novo" message="Sito sicuro de voƚer cargare de novo el file? Ogni modìfega aportà ƚa vegnerà persa."/>
             <FileLockedWarning title="Salvatagio faƚìo" message="Verificare che el file no&apos;l sìpia vèrto co &apos;n altro programa."/>
-            <FileAlreadyOpenedInNpp title="" message="El file el xe xà vèrto en Notepad++."/> <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
+            <FileAlreadyOpenedInNpp title="" message="El file el xe xà vèrto en NotepadFree."/> <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
             <RenameTabTemporaryNameAlreadyInUse title="Rinomina falìa" message="El nome indicà el xe xà en uxo so nantro tab."/> <!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
             <DeleteFileFailed title="Scanseƚasion file" message="Scanseƚasion de&apos;l file faƚìa."/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 
             <NbFileToOpenImportantWarning title="El nùmaro de file da vèrxare el xe masa grando" message="Se xe drìo vèrxare $INT_REPLACE$ file.
-Sito sicuro de voƚerƚi vèrxare?"/> <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+Sito sicuro de voƚerƚi vèrxare?"/> <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into NotepadFree. -->
             <SettingsOnCloudError title="Inpostasion Cloud" message="Senbra che el percorso par ƚe inpostasion de&apos;l cloud el sìa inpostà so na carteƚa en soƚa ƚetura,
 o en na carteƚa che ga bixogno de i priviƚegi de scritura par poderghe asédare.
 Ƚe to inpostasion inte&apos;l cloud ƚe vegnerà scanceƚà. Reinposta on vaƚore coerente da ƚe inpostasion."/>
@@ -1238,14 +1238,14 @@ Vuto recargarƚo?"/>
             <DoReloadOrNotAndLooseChange title="Recarga" message="&quot;$STR_REPLACE$&quot;
 
 Sto file el xe stà modifegà da &apos;n altro programa.
-Vuto recargarƚo e perdare tute ƚe modìfeghe aportà en Notepad++?"/>
+Vuto recargarƚo e perdare tute ƚe modìfeghe aportà en NotepadFree?"/>
             <PrehistoricSystemDetected title="Catà on sistema preistorico" message="Senbra che te si drìo uxare on sistema preistorico. Sta funsionaƚità ƚa ga bisogno de on sistema pì moderno, scusane."/> <!-- HowToReproduce: Launch "Document Map" under Windows XP. -->
-            <XpUpdaterProblem title="Axornamento Notepad++" message="Ƚ&apos;axornamento otomàtico de Notepad++ no&apos;l xe conpatibiƚe co XP par colpa de on sistema de parmesi obsoƚeto.
-Vuto &apos;ndare inte ƚa pàgina de Notepad++ par descargare ƚ&apos;axornamento manualmente?"/> <!-- HowToReproduce: Run menu "? -> Update Notepad++" under Windows XP. -->
-            <GUpProxyConfNeedAdminMode title = "Inpostasion proxy" message = "Riƚancia Notepad++ co i priviƚegi de aministradore par configurare el proxy." />
+            <XpUpdaterProblem title="Axornamento NotepadFree" message="Ƚ&apos;axornamento otomàtico de NotepadFree no&apos;l xe conpatibiƚe co XP par colpa de on sistema de parmesi obsoƚeto.
+Vuto &apos;ndare inte ƚa pàgina de NotepadFree par descargare ƚ&apos;axornamento manualmente?"/> <!-- HowToReproduce: Run menu "? -> Update NotepadFree" under Windows XP. -->
+            <GUpProxyConfNeedAdminMode title = "Inpostasion proxy" message = "Riƚancia NotepadFree co i priviƚegi de aministradore par configurare el proxy." />
             <DocTooDirtyToMonitor title="Problema monitoragio" message="El documento el xe sporco. Salva ƚe modìfeghe vanti de scomisiare el monitoragio."/>
             <DocNoExistToMonitor title="Problema monitoragio" message="El file el deve existare par èsare monitorà."/>
-            <FileTooBigToOpen title="Problema dimension file" message="El file el xe masa grando par èsare vèrto co Notepad++"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
+            <FileTooBigToOpen title="Problema dimension file" message="El file el xe masa grando par èsare vèrto co NotepadFree"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
             <CreateNewFileOrNot title="Crea novo file" message="&quot;$STR_REPLACE$&quot; no existe. Crearƚo??"/>
             <CreateNewFileError title="Crea novo file" message="Inposibiƚe creare el file &quot;$STR_REPLACE$&quot;."/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
             <OpenFileError title="ERORE" message="Inposibiƚe vèrxare el file &quot;$STR_REPLACE$&quot;."/>
@@ -1254,8 +1254,8 @@ Vuto &apos;ndare inte ƚa pàgina de Notepad++ par descargare ƚ&apos;axornament
 Vuto salvare el file ƚo steso?"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
             <LoadStylersFailed title="Cargamento stylers.xml faƚìo" message="El cargamento de &quot;$STR_REPLACE$&quot; el xe faƚìo!"/>
             <LoadLangsFailed title="Configurasion" message="El cargamento de langs.xml el xe faƚìo!
-Vuto ripristinare el file langs.xml?"/> <!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
-            <LoadLangsFailedFinal title="Configurasion" message="El cargamento de langs.xml el xe faƚìo!"/> <!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+Vuto ripristinare el file langs.xml?"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open NotepadFree. -->
+            <LoadLangsFailedFinal title="Configurasion" message="El cargamento de langs.xml el xe faƚìo!"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to make "langs.xml" an invalid xml file then save it. Open NotepadFree. -->
             <FolderAsWorspaceSubfolderExists title="Problema par Carteƚa cofà Workspace" message="Na soto carteƚa de ƚa carteƚa che te voi xontare ƚa existe xà.
 Rimovi ƚa carteƚa da&apos;l paneƚo vanti de xontare &quot;$STR_REPLACE$&quot;."/>  <!-- HowToReproduce: Add a folder like "c:\temp\aFolder\" into "Folder as Workspace" panel, then try to add "c:\temp\". -->
 
@@ -1278,15 +1278,15 @@ usane &apos;n altro."/>
             <SCMapperDoDeleteOrNot title="Sito sicuro?" message="Sito sicuro de voƚer scanseƚare sta scorciatoia?"/>
             <FindCharRangeValueError title="Problema inte&apos;l intervaƚo de vaƚori" message="Te devi inserire on vaƚore tra 0 e 255."/>
             <OpenInAdminMode title="Salvatagio faƚìo" message="El file no&apos;l poƚe èsare salvà e el poderìa èsare proteto.
-Vuto inviare Notepad++ cofà aministradore?"/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
+Vuto inviare NotepadFree cofà aministradore?"/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
             <OpenInAdminModeWithoutCloseCurrent title="Salvatagio faƚìo" message="El file no&apos;l poƚe èsare salvà e el poderìa èsare proteto.
-Vuto inviare Notepad++ cofà aministradore?"/>
-            <OpenInAdminModeFailed title="Vertaura cofà aministradore faƚìa" message="Notepad++ no&apos;l poƚe èsare vèrto cofà aministradore."/>
+Vuto inviare NotepadFree cofà aministradore?"/>
+            <OpenInAdminModeFailed title="Vertaura cofà aministradore faƚìa" message="NotepadFree no&apos;l poƚe èsare vèrto cofà aministradore."/>
             <ViewInBrowser title="Visuaƚixa file corente inte&apos;l browser" message="Aplicasion no catà inte&apos;l sistema."/>
-            <ExitToUpdatePlugins title="Notepad++ el xe drio sararse su" message="Se te fe clic so &quot;Sì&quot;, te narè fora da Notepad++ par continuare ƚe operasion.
-Notepad++ el vegnerà invià de novo dòpo che ƚe operasion ƚe vegnerà conpletà.
+            <ExitToUpdatePlugins title="NotepadFree el xe drio sararse su" message="Se te fe clic so &quot;Sì&quot;, te narè fora da NotepadFree par continuare ƚe operasion.
+NotepadFree el vegnerà invià de novo dòpo che ƚe operasion ƚe vegnerà conpletà.
 Vuto continuare?"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ el deve èsare invià de novo" message="Te devi inviare de novo Notepad++ par cargare i plugin che te ghe instaƚà."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
+            <NeedToRestartToLoadPlugins title="NotepadFree el deve èsare invià de novo" message="Te devi inviare de novo NotepadFree par cargare i plugin che te ghe instaƚà."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Cronoƚogia Scarabòci"/>
@@ -1398,8 +1398,8 @@ Vuto continuare?"/>
             <word-chars-list-warning-end value=" inte ƚa to ƚista caràtari."/> <!-- HowToReproduce: In "Delimiter" section of Preferences dialog, check "Add your character as part of word\r(don't choose it unless you know what you're doing)", then type a white-space in the text field. -->
             <backup-select-folder value="Selesiona un percorso par ƚa carteƚa de Backup"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
             <cloud-invalid-warning value="Percorso no vaƚido."/>
-            <cloud-restart-warning value="Invìa de novo Notepad++ par aplicare ƚe modìfeghe."/>
-            <cloud-select-folder value="Seƚesiona na carteƚa da indove Notepad++ pòsa ƚèxare o scrìvare ƚe proprie inpostasion"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
+            <cloud-restart-warning value="Invìa de novo NotepadFree par aplicare ƚe modìfeghe."/>
+            <cloud-select-folder value="Seƚesiona na carteƚa da indove NotepadFree pòsa ƚèxare o scrìvare ƚe proprie inpostasion"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
             <default-open-save-select-folder value="Selesiona un percorso par ƚa carteƚa de default"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
             <shift-change-direction-tip value="Utiƚixa Shift+Invio par sercare inte ƚa diresion oposta"/>
             <two-find-buttons-tip value="Modaƚità riserca a 2 botoni"/>

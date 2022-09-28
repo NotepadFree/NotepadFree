@@ -326,15 +326,15 @@
                     <Item id="46250" name="定義你的語法樣式..."/>
                     <Item id="46300" name="開啟自訂語法樣式資料夾..."/>
                     <Item id="46180" name="自訂"/>
-                    <Item id="47000" name="關於 Notepad++"/>
+                    <Item id="47000" name="關於 NotepadFree"/>
                     <Item id="47010" name="命令列參數..."/>
-                    <Item id="47001" name="Notepad++ 首頁"/>
-                    <Item id="47002" name="Notepad++ 專案網頁"/>
+                    <Item id="47001" name="NotepadFree 首頁"/>
+                    <Item id="47002" name="NotepadFree 專案網頁"/>
                     <Item id="47003" name="線上文件"/>
-                    <Item id="47004" name="Notepad++ 社群(論壇)"/>
+                    <Item id="47004" name="NotepadFree 社群(論壇)"/>
                     <Item id="47012" name="除錯資訊..."/>
                     <Item id="47005" name="取得更多外掛模組"/>
-                    <Item id="47006" name="更新 Notepad++"/>
+                    <Item id="47006" name="更新 NotepadFree"/>
                     <Item id="47009" name="設定更新代理伺服器..."/>
                     <Item id="48005" name="匯入外掛模組..."/>
                     <Item id="48006" name="匯入樣式主題..."/>
@@ -881,7 +881,7 @@
                     <Item id="6121" name="關閉最後一個文件時關閉程式"/>
                     <Item id="6131" name="選單"/>
                     <Item id="6122" name="隱藏（用 Alt 或 F10 切換）"/>
-                    <Item id="6132" name="隱藏選單中右邊的 ＋ ▼ ✕ 捷徑（需要重新啟動 Notepad++）"/>
+                    <Item id="6132" name="隱藏選單中右邊的 ＋ ▼ ✕ 捷徑（需要重新啟動 NotepadFree）"/>
                     <Item id="6123" name="語言"/>
                     <Item id="6125" name="文件切換器"/>
                     <Item id="6127" name="停用副檔名欄"/>
@@ -989,7 +989,7 @@
                 </DefaultDir>
 
                 <FileAssoc title="副檔名連結設定">
-                    <Item id="4008" name="請關閉 Notepad++，並在系統管理員模式下重新啟動 Notepad++ 以使用此功能。"/>
+                    <Item id="4008" name="請關閉 NotepadFree，並在系統管理員模式下重新啟動 NotepadFree 以使用此功能。"/>
                     <Item id="4009" name="支援的副檔名"/>
                     <Item id="4010" name="已連結的副檔名"/>
                 </FileAssoc>
@@ -1061,7 +1061,7 @@
 
                 <Searching title="尋找">
                     <Item id="6901" name="不用選取詞填充尋找與取代對話方塊中的尋找內容"/>
-                    <Item id="6902" name="在尋找與取代對話方塊中使用等寬字型（需要重新啟動 Notepad++）"/>
+                    <Item id="6902" name="在尋找與取代對話方塊中使用等寬字型（需要重新啟動 NotepadFree）"/>
                     <Item id="6903" name="搜尋結果輸出到結果視窗後，尋找與取代對話方塊繼續保持打開狀態"/>
                     <Item id="6904" name="確認「在所有開啟的文件中取代」"/>
                     <Item id="6905" name="替換：不要移動到下一個匹配項"/>
@@ -1118,11 +1118,11 @@
                     <Item id="6866" name="自訂括弧 3："/>
                 </AutoCompletion>
                 <MultiInstance title="多重實體與日期時間">
-                    <Item id="6151" name="多重 Notepad++ 實體設定"/>
-                    <Item id="6152" name="在新的 Notepad++ 實體開啟工作階段（並在結束程式前自動儲存載入的工作階段）"/>
+                    <Item id="6151" name="多重 NotepadFree 實體設定"/>
+                    <Item id="6152" name="在新的 NotepadFree 實體開啟工作階段（並在結束程式前自動儲存載入的工作階段）"/>
                     <Item id="6153" name="允許多重實體"/>
                     <Item id="6154" name="禁止多重實體（預設）"/>
-                    <Item id="6155" name="（重新啟動 Notepad++ 以使變更生效。）"/>
+                    <Item id="6155" name="（重新啟動 NotepadFree 以使變更生效。）"/>
                     <Item id="6171" name="插入日期時間自訂"/>
                     <Item id="6175" name="顛倒日期時間內定順序（簡短與完整格式）"/>
                     <Item id="6172" name="自訂格式："/>
@@ -1173,11 +1173,11 @@
                     <Item id="6313" name="於背景自動更新"/>
                     <Item id="6325" name="更新後捲動至最後一行"/>
                     <Item id="6322" name="工作階段檔案副檔名："/>
-                    <Item id="6323" name="自動更新 Notepad++"/>
+                    <Item id="6323" name="自動更新 NotepadFree"/>
                     <Item id="6324" name="文件切換器（Ctrl + TAB）"/>
                     <Item id="6331" name="在標題列僅顯示檔案名稱（隱藏資料夾路徑）"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
-                    <Item id="6349" name="使用 DirectWrite（可改善特殊字符的呈現，需要重新啟動 Notepad++）"/>
+                    <Item id="6349" name="使用 DirectWrite（可改善特殊字符的呈現，需要重新啟動 NotepadFree）"/>
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
                     <Item id="6114" name="啟動"/>
                     <Item id="6117" name="開啟「最近使用的檔案」功能"/>
@@ -1251,16 +1251,16 @@
             </DoSaveAll>
         </Dialog>
         <MessageBox>
-            <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以變更 Notepad++ 之快顯功能表。
-請於修改後重新啟動 Notepad++ 以使變更生效。"/>
+            <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以變更 NotepadFree 之快顯功能表。
+請於修改後重新啟動 NotepadFree 以使變更生效。"/>
             <SaveCurrentModifWarning title="警告" message="你必須儲存目前的修改，而儲存後將無法復原。
 你確定要繼續嗎？"/>
             <LoseUndoAbilityWarning title="警告" message="你必須儲存目前的修改，而儲存後將無法復原。
 你確定要繼續嗎？"/>
-            <CannotMoveDoc title="移至新的 Notepad++ 實體" message="文件已被修改，請在儲存後再試一次。"/>
-            <DocReloadWarning title="重新載入" message="你確定要重新載入目前文件，並捨棄在 Notepad++ 中所做的修改嗎？"/>
+            <CannotMoveDoc title="移至新的 NotepadFree 實體" message="文件已被修改，請在儲存後再試一次。"/>
+            <DocReloadWarning title="重新載入" message="你確定要重新載入目前文件，並捨棄在 NotepadFree 中所做的修改嗎？"/>
             <FileLockedWarning title="儲存失敗" message="請檢查其他應用程式是否已開啟此檔案。"/>
-            <FileAlreadyOpenedInNpp title="已開啟" message="這個檔案已在 Notepad++ 中開啟。"/>
+            <FileAlreadyOpenedInNpp title="已開啟" message="這個檔案已在 NotepadFree 中開啟。"/>
             <DeleteFileFailed title="刪除失敗" message="檔案刪除失敗。"/>
             <NbFileToOpenImportantWarning title="開啟檔案" message="你確定要開啟全數 $INT_REPLACE$ 個檔案嗎？"/>
             <SettingsOnCloudError title="雲端設定" message="設定的雲端路徑位於一個唯讀的磁碟或未擁有寫入權限的資料夾，因此你的「雲端」設定將被清除。
@@ -1273,7 +1273,7 @@
             <ColumnModeTip title="多欄選取提示" message="請使用「ALT + 滑鼠選擇」或「Alt + Shift + 方向鍵」以切換到多欄選取。"/>
             <BufferInvalidWarning title="儲存失敗" message="緩衝區無效。"/>
             <DoCloseOrNot title="保留文件" message="檔案「$STR_REPLACE$」已不存在。
-你要在 Notepad++ 中保留這個文件嗎？"/>
+你要在 NotepadFree 中保留這個文件嗎？"/>
             <DoDeleteOrNot title="刪除檔案" message="你確定要刪除並關閉「$STR_REPLACE$」嗎？"/>
             <NoBackupDoSaveFile title="儲存" message="你的備份文件已從外部刪除。
 請儲存「$STR_REPLACE$」，否則你的數據將會遺失。
@@ -1281,14 +1281,14 @@
             <DoReloadOrNot title="重新載入" message="「$STR_REPLACE$」已被其他程式修改。
 你要重新載入此文件嗎？"/>
             <DoReloadOrNotAndLooseChange title="重新載入" message="「$STR_REPLACE$」已被其他程式修改。
-你要重新載入並捨棄在 Notepad++ 中所做的修改嗎？"/>
+你要重新載入並捨棄在 NotepadFree 中所做的修改嗎？"/>
             <PrehistoricSystemDetected title="系統過舊" message="很抱歉，此功能不適用於過舊的系統。"/>
-            <XpUpdaterProblem title="Notepad++ 更新程式" message="由於 XP 的安全機制過舊，更新程式與 XP 並不兼容。
-你要直接到 Notepad++ 網站下載最新版本嗎？"/>
-            <GUpProxyConfNeedAdminMode title="代理伺服器設定" message="請關閉 Notepad++，並在系統管理員模式下重新啟動 Notepad++ 以設定代理伺服器。"/>
+            <XpUpdaterProblem title="NotepadFree 更新程式" message="由於 XP 的安全機制過舊，更新程式與 XP 並不兼容。
+你要直接到 NotepadFree 網站下載最新版本嗎？"/>
+            <GUpProxyConfNeedAdminMode title="代理伺服器設定" message="請關閉 NotepadFree，並在系統管理員模式下重新啟動 NotepadFree 以設定代理伺服器。"/>
             <DocTooDirtyToMonitor title="監控錯誤" message="文件已被修改，請在監視前儲存文件。"/>
             <DocNoExistToMonitor title="監控錯誤" message="文件不存在，因此無法進行監視。"/>
-            <FileTooBigToOpen title="文件太大" message="文件太大，無法使用 Notepad++ 開啟。"/>
+            <FileTooBigToOpen title="文件太大" message="文件太大，無法使用 NotepadFree 開啟。"/>
             <FileLoadingException title="例外處理編號： $STR_REPLACE$" message="開啟文件時發生錯誤！"/>
             <WantToOpenHugeFile title="開啟超大文件預警" message="開啟一個 2GB 以上的大型文件可能需要數分鐘時間。
 你仍要打開它嗎？"/>
@@ -1316,11 +1316,11 @@
             <UDLRemoveCurrentLang title="刪除語言" message="你確定要刪除目前的自訂程式語言嗎？"/>
             <SCMapperDoDeleteOrNot title="刪除快捷鍵" message="你確定要刪除這個快捷鍵嗎？"/>
             <FindCharRangeValueError title="輸入值範圍錯誤" message="你輸入的值應在 0 到 255 之間。如要搜尋字元編號大於 255 的字元，請在「尋找」對話方塊中使用「規則運算式」。"/>
-            <ExitToUpdatePlugins title="關閉 Notepad++" message="Notepad++ 將自動關閉以進行後續作業。
-在所有後續作業完成後，Notepad++ 將重新啟動。
+            <ExitToUpdatePlugins title="關閉 NotepadFree" message="NotepadFree 將自動關閉以進行後續作業。
+在所有後續作業完成後，NotepadFree 將重新啟動。
 繼續嗎？"/>
-            <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 才能載入已安裝的外掛模組。"/>
-            <ChangeHistoryEnabledWarning title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 才能啟動文件修改紀錄。"/>
+            <NeedToRestartToLoadPlugins title="重新啟動 NotepadFree" message="你必須重新啟動 NotepadFree 才能載入已安裝的外掛模組。"/>
+            <ChangeHistoryEnabledWarning title="重新啟動 NotepadFree" message="你必須重新啟動 NotepadFree 才能啟動文件修改紀錄。"/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1426,8 +1426,8 @@
             <word-chars-list-warning-end value=" 在你的單字字元集中。"/>
             <backup-select-folder value="選擇一個你要設定為備份資料夾的資料夾"/>
             <cloud-invalid-warning value="無效的路徑。"/>
-            <cloud-restart-warning value="請重新啟動 Notepad++ 以使變更生效。"/>
-            <cloud-select-folder value="選擇一個資料夾，以便 Notepad++ 從中讀取/寫入其設定。"/>
+            <cloud-restart-warning value="請重新啟動 NotepadFree 以使變更生效。"/>
+            <cloud-select-folder value="選擇一個資料夾，以便 NotepadFree 從中讀取/寫入其設定。"/>
             <default-open-save-select-folder value="選擇一個你要設定為內定資料夾的資料夾"/>
             <shift-change-direction-tip value="使用「Shift + Enter」以相反方向進行搜尋"/>
             <two-find-buttons-tip value="顯示「找上一個」按鈕"/>

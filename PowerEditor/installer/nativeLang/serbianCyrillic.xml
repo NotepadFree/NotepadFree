@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-	Serbian localization for Notepad++
+	Serbian localization for NotepadFree
 	Last modified Wednesday, Mart 11th 2010 18:06 GMT by Иван Старчевић.
 	Please e-mail errors, suggestions etc. to ivanstar61 at gmail.com.
 -->
@@ -220,13 +220,13 @@
 
                     <Item id="46001" name="Поставке стилова..."/>
                     <Item id="46180" name="Кориснички-одређен"/>
-                    <Item id="47000" name="О Notepad++-у..."/>
-                    <Item id="47001" name="Интернет страница Notepad++"/>
-                    <Item id="47002" name="Страница пројекта Notepad++"/>
+                    <Item id="47000" name="О NotepadFree-у..."/>
+                    <Item id="47001" name="Интернет страница NotepadFree"/>
+                    <Item id="47002" name="Страница пројекта NotepadFree"/>
                     <Item id="47003" name="Помоћ преко интернета"/>
                     <Item id="47004" name="Дискусиона група"/>
                     <Item id="47005" name="Преузми нове додатке"/>
-                    <Item id="47006" name="Ажурирај Notepad++"/>
+                    <Item id="47006" name="Ажурирај NotepadFree"/>
                     <Item id="47008" name="Садржај помоћи"/>
                     <Item id="48005" name="Увоз додатака ..."/>
                     <Item id="48006" name="Увоз тема ..."/>
@@ -563,7 +563,7 @@
                     <Item id="6319" name="Омогући"/>
                     <Item id="6320" name="Не подвлачи"/>
                     <Item id="6322" name="Наставак датотеке:"/>
-                    <Item id="6323" name="Омогући самоажурирање Notepad++"/>
+                    <Item id="6323" name="Омогући самоажурирање NotepadFree"/>
                     <Item id="6324" name="Бирање документа (Ctrl+TAB)"/>
                     <Item id="6326" name="Омогући паметно наглашавање"/>
                     <Item id="6329" name="Истакни подударне знакове"/>
@@ -625,14 +625,14 @@
             </ColumnEditor>
 		</Dialog>
 <MessageBox>
-			<ContextMenuXmlEditWarning title="Уређивање contextMenu" message="Уређивање contextMenu.xml вам омогућава да измените свој Notepad++ искачући додатни изборник.\rМорате препокренути ваш Notepad++ да би измене ступиле на снагу contextMenu.xml."/>
-			<NppHelpAbsentWarning title="Датотека не постоји" message="\rне постоји. Преузмите је са Notepad++ сајта."/>
+			<ContextMenuXmlEditWarning title="Уређивање contextMenu" message="Уређивање contextMenu.xml вам омогућава да измените свој NotepadFree искачући додатни изборник.\rМорате препокренути ваш NotepadFree да би измене ступиле на снагу contextMenu.xml."/>
+			<NppHelpAbsentWarning title="Датотека не постоји" message="\rне постоји. Преузмите је са NotepadFree сајта."/>
 			<SaveCurrentModifWarning title="Сачувај тренутну измену" message="Требало би да сачувате тренутну промену.\rСве сачуване измене се не могу опозвати.\r\rНастављате?"/>
 			<LoseUndoAbilityWarning title="Губи способност смањења опозива" message="Требало би да сачувате тренутну промену.\rСве сачуване измене се не могу опозвати.\r\rНастављате?"/>
-			<CannotMoveDoc title="Премести у нову Notepad++ инстанцу" message="Документ је измењен, сачувајте га а затим покушајте поново."/>
-			<DocReloadWarning title="Поново учитај" message="Желите да поново учутате тренутну датотеку и изгубите направљене промене у Notepad++?"/>
+			<CannotMoveDoc title="Премести у нову NotepadFree инстанцу" message="Документ је измењен, сачувајте га а затим покушајте поново."/>
+			<DocReloadWarning title="Поново учитај" message="Желите да поново учутате тренутну датотеку и изгубите направљене промене у NotepadFree?"/>
 			<FileLockedWarning title="Неуспешно чување" message="Проверите да ли је ова датотека отворена у другом програму"/>
-			<FileAlreadyOpenedInNpp title="" message="Датотека је већ отворена у Notepad++."/>
+			<FileAlreadyOpenedInNpp title="" message="Датотека је већ отворена у NotepadFree."/>
 			<DeleteFileFailed title="Избриши датотеку" message="Неуспешно брисање датотеке"/>
 
 			<!-- $INT_REPLACE$ is a place holder, don't translate it -->

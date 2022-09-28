@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 <!--
-    Italian translation for Notepad++ 8.4.6
+    Italian translation for NotepadFree 8.4.6
     Last modified Wed, Sep 21st, 2022.
     For updates, see https://github.com/notepad-plus-plus/notepad-plus-plus/tree/master/PowerEditor/installer/nativeLang
 -->
@@ -342,17 +342,17 @@
                     <Item id="46001" name="Configura gli stili..."/>
                     <Item id="46250" name="Definisci il tuo linguaggio..."/>
                     <Item id="46300" name="Apri cartella linguaggi definiti dall&apos;utente..."/>
-                    <Item id="46301" name="Personalizzazione Linguaggio Notepad++"/>
+                    <Item id="46301" name="Personalizzazione Linguaggio NotepadFree"/>
                     <Item id="46180" name="Definito dall&apos;utente"/>
-                    <Item id="47000" name="Informazioni su Notepad++"/>
+                    <Item id="47000" name="Informazioni su NotepadFree"/>
                     <Item id="47010" name="Argomenti riga di comando..."/>
-                    <Item id="47001" name="Sito web Notepad++"/>
-                    <Item id="47002" name="Progetto Notepad++"/>
-                    <Item id="47003" name="Documentazione Notepad++ online"/>
-                    <Item id="47004" name="Community Notepad++ (Forum)"/>
+                    <Item id="47001" name="Sito web NotepadFree"/>
+                    <Item id="47002" name="Progetto NotepadFree"/>
+                    <Item id="47003" name="Documentazione NotepadFree online"/>
+                    <Item id="47004" name="Community NotepadFree (Forum)"/>
                     <Item id="47012" name="Informazioni di debug..."/>
                     <Item id="47005" name="Ottieni altri plugin"/>
-                    <Item id="47006" name="Aggiorna Notepad++"/>
+                    <Item id="47006" name="Aggiorna NotepadFree"/>
                     <Item id="47009" name="Imposta proxy aggiornamento..."/>
                     <Item id="48005" name="Importa plugin..."/>
                     <Item id="48006" name="Importa tema..."/>
@@ -902,7 +902,7 @@
 
                     <Item id="6131" name="Menu"/>
                     <Item id="6122" name="Nascondi la barra dei menu (Alt o F10 per visualizzare)"/>
-                    <Item id="6132" name="Nascondi ＋ ▼ ✕ dalla barra dei menu (Necessita il riavvio di Notepad++)"/>
+                    <Item id="6132" name="Nascondi ＋ ▼ ✕ dalla barra dei menu (Necessita il riavvio di NotepadFree)"/>
                     <Item id="6123" name="Lingua"/>
 
                     <Item id="6128" name="Alterna icone"/>
@@ -1010,7 +1010,7 @@ Puoi indicare serie di delimitatori di colonna usando degli spazi per separare i
                 </DefaultDir>
 
                 <FileAssoc title="Associazione file">
-                    <Item id="4008" name="Chiudi e rilancia Notepad++ con privilegi di Amministratore per usare questa funzionalità"/>
+                    <Item id="4008" name="Chiudi e rilancia NotepadFree con privilegi di Amministratore per usare questa funzionalità"/>
                     <Item id="4009" name="Estensioni supportate:"/>
                     <Item id="4010" name="Estensioni registrate:"/>
                 </FileAssoc>
@@ -1083,7 +1083,7 @@ Puoi indicare serie di delimitatori di colonna usando degli spazi per separare i
                 </Print>
 
                 <Searching title="Ricerca">
-                    <Item id="6902" name="Usa carattere a spaziatura fissa nella finestra di ricerca (necessita il riavvio di Notepad++)"/>
+                    <Item id="6902" name="Usa carattere a spaziatura fissa nella finestra di ricerca (necessita il riavvio di NotepadFree)"/>
                     <Item id="6903" name="La finestra di ricerca rimane aperta dopo ricerche inviate alla finestra dei risultati"/>
                     <Item id="6904" name="Chiedi conferma prima di sostituire tutto in tutti i documenti"/>
                     <Item id="6905" name="Sostituisci: senza spostamento alla corrispondenza successiva"/>
@@ -1148,7 +1148,7 @@ Puoi indicare serie di delimitatori di colonna usando degli spazi per separare i
                     <Item id="6152" name="Apri sessioni in una nuova istanza (e salva automaticamente le sessioni all&apos;uscita)"/>
                     <Item id="6153" name="Sempre in modalità multi-istanza"/>
                     <Item id="6154" name="Predefinito (istanza unica)"/>
-                    <Item id="6155" name="* La modifica di queste impostazioni richiede il riavvio di Notepad++"/>
+                    <Item id="6155" name="* La modifica di queste impostazioni richiede il riavvio di NotepadFree"/>
                     <Item id="6171" name="Inserimento Data e ora personalizzata"/>
                     <Item id="6175" name="Inverti l&apos;ordinamento di date e ora predefinite (formato lungo &amp;&amp; corto)"/>
                     <Item id="6172" name="formati personalizzati:"/>
@@ -1198,11 +1198,11 @@ Puoi indicare serie di delimitatori di colonna usando degli spazi per separare i
                     <Item id="6313" name="Aggiorna senza notifica"/>
                     <Item id="6325" name="Vai all&apos;ultima riga dopo l&apos;aggiornamento"/>
                     <Item id="6322" name="Est. file di sessione:"/>
-                    <Item id="6323" name="Aggiorna automaticamente Notepad++"/>
+                    <Item id="6323" name="Aggiorna automaticamente NotepadFree"/>
                     <Item id="6324" name="Cambia Documento (Ctrl+TAB)"/>
                     <Item id="6331" name="Visualizza solo il nome file nella barra del titolo"/>
                     <Item id="6334" name="Rileva automaticamente codifica caratteri"/>
-                    <Item id="6349" name="Utilizza DirectWrite (può migliorare la visualizzazione dei caratteri speciali, necessita riavvio di Notepad++)"/>
+                    <Item id="6349" name="Utilizza DirectWrite (può migliorare la visualizzazione dei caratteri speciali, necessita riavvio di NotepadFree)"/>
                     <Item id="6337" name="Est. file workspace:"/>
                     <Item id="6114" name="Abilita"/>
                     <Item id="6117" name="Precedenza ai file più recenti"/>
@@ -1275,23 +1275,23 @@ Questo dialogo può essere riattivato in seguito da Preferenze."/>
             </DoSaveAll> <!-- HowToReproduce: Check the 'Enable Save All confirm dialog' checkbox in Preference->MISC, now click 'Save all' -->
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Modifica menu contestuale" message="La modifica del file contextMenu.xml permette di modificare il menu contestuale di Notepad++.
-È necessario riavviare Notepad++ affinché le modifiche apportate al file contextMenu.xml abbiano effetto."/>
+            <ContextMenuXmlEditWarning title="Modifica menu contestuale" message="La modifica del file contextMenu.xml permette di modificare il menu contestuale di NotepadFree.
+È necessario riavviare NotepadFree affinché le modifiche apportate al file contextMenu.xml abbiano effetto."/>
             <SaveCurrentModifWarning title="Salva modifiche correnti" message="Devi salvare le modifiche correnti.
 Tutte le modifiche salvate non possono essere ripristinate.
 Continuare?"/> <!-- HowToReproduce: when you openned file is modified but unsaved yet, and you are changing file encoding. -->
             <LoseUndoAbilityWarning title="Attenzione: Perdita della possibilità di ripristinare" message="Devi salvare le modifiche correnti.
 Tutte le modifiche salvate non possono essere ripristinate.
 Continuare?"/> <!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-            <CannotMoveDoc title="Invia a una nuova istanza di Notepad++" message="Il documento è stato modificato, salvarlo prima di continuare."/>
+            <CannotMoveDoc title="Invia a una nuova istanza di NotepadFree" message="Il documento è stato modificato, salvarlo prima di continuare."/>
             <DocReloadWarning title="Ricarica" message="Sei sicuro di voler ricaricare il file? Ogni modifica apportata andrà persa."/>
             <FileLockedWarning title="Salvataggio fallito" message="Verificare che il file non sia aperto con un altro programma."/>
-            <FileAlreadyOpenedInNpp title="" message="Il file è già aperto in Notepad++."/>
+            <FileAlreadyOpenedInNpp title="" message="Il file è già aperto in NotepadFree."/>
             <RenameTabTemporaryNameAlreadyInUse title="Rinomina fallita" message="Il file specificato è già in uso su un altro tab."/> <!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
             <DeleteFileFailed title="Eliminazione file" message="Eliminazione del file fallita."/>
 
             <NbFileToOpenImportantWarning title="Il numero di file da aprire è troppo grande" message="Si stanno aprendo $INT_REPLACE$ file.
-Sicuro di volerli aprire?"/>  <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+Sicuro di volerli aprire?"/>  <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into NotepadFree. -->
             <SettingsOnCloudError title="Impostazioni Cloud" message="Sembra che il percorso per le impostazioni nel Cloud sia impostato su una cartella in sola lettura,
 o in una cartella che necessita dei privilegi di scrittura per poterci accedere.
 Le tue impostazioni nel cloud saranno cancellate. Reimposta un valore coerente dalle impostazioni."/>
@@ -1315,14 +1315,14 @@ Questo file è stato modificato da un altro programma.
 Vuoi ricaricarlo?"/>
             <DoReloadOrNotAndLooseChange title="Ricarica" message="&quot;$STR_REPLACE$&quot;
 Questo file è stato modificato da un altro programma.
-Vuoi ricaricarlo e perdere tutte le modifiche apportate in Notepad++?"/>
+Vuoi ricaricarlo e perdere tutte le modifiche apportate in NotepadFree?"/>
             <PrehistoricSystemDetected title="Sistema preistorico trovato" message="Sembra tu stia usando un sistema preistorico. Questa funzionalità necessità di un sistema più moderno, scusaci."/>
-            <XpUpdaterProblem title="Aggiornamento Notepad++" message="L&apos;aggiornamento automatico di Notepad++ non è compatibile con XP a causa di un sistema di permessi obsoleto.
-Vuoi andare nella pagina di Notepad++ per scaricare l&apos;aggiornamento manualmente?"/>
-            <GUpProxyConfNeedAdminMode title="Impostazioni proxy" message="Rilancia Notepad++ con privilegi di amministratore per configurare il proxy."/>
+            <XpUpdaterProblem title="Aggiornamento NotepadFree" message="L&apos;aggiornamento automatico di NotepadFree non è compatibile con XP a causa di un sistema di permessi obsoleto.
+Vuoi andare nella pagina di NotepadFree per scaricare l&apos;aggiornamento manualmente?"/>
+            <GUpProxyConfNeedAdminMode title="Impostazioni proxy" message="Rilancia NotepadFree con privilegi di amministratore per configurare il proxy."/>
             <DocTooDirtyToMonitor title="Problema monitoraggio" message="Il documento è sporco. Salva le modifiche prima di avviare il monitoraggio."/>
             <DocNoExistToMonitor title="Problema monitoraggio" message="Il file deve esistere per essere monitorato."/>
-            <FileTooBigToOpen title="Problema dimensione file" message="Il file è troppo grande per essere aperto con Notepad++"/>
+            <FileTooBigToOpen title="Problema dimensione file" message="Il file è troppo grande per essere aperto con NotepadFree"/>
             <FileLoadingException title="Codice di eccezione: $STR_REPLACE$" message="Si è verificato un errore durante il caricamento del file!"/>
             <WantToOpenHugeFile title="Apertura file di grandi dimensioni" message="L&apos;apertura di file superiori a 2GB+ potrebbe impegare svariati minuti.
 Vuoi proseguire?"/>
@@ -1357,16 +1357,16 @@ usane un altro."/>
             <SCMapperDoDeleteOrNot title="Sei sicuro?" message="Sei sicuro di voler eliminare questa scorciatoia?"/>
             <FindCharRangeValueError title="Problema nell&apos;intervallo di valori" message="Devi inserire un valore tra 0 e 255."/>
             <OpenInAdminMode title="Salvataggio fallito" message="Il file non può essere salvato e potrebbe essere protetto.
-Vuoi avviare Notepad++ come amministratore?"/>
+Vuoi avviare NotepadFree come amministratore?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Salvataggio fallito" message="Il file non può essere salvato e potrebbe essere protetto.
-Vuoi avviare Notepad++ come amministratore?"/>
-            <OpenInAdminModeFailed title="Apertura come amministratore fallita" message="Notepad++ non può essere aperto come amministratore."/>
+Vuoi avviare NotepadFree come amministratore?"/>
+            <OpenInAdminModeFailed title="Apertura come amministratore fallita" message="NotepadFree non può essere aperto come amministratore."/>
             <ViewInBrowser title="Visualizza file corrente nel browser" message="Applicazione non trovata nel sistema."/>
-            <ExitToUpdatePlugins title="Notepad++ sta per chiudersi" message="Se fai clic su &quot;Sì&quot;, uscirai da Notepad++ per continuare le operazioni.
-Notepad++ verrà riavviato dopo che le operazioni saranno state completate.
+            <ExitToUpdatePlugins title="NotepadFree sta per chiudersi" message="Se fai clic su &quot;Sì&quot;, uscirai da NotepadFree per continuare le operazioni.
+NotepadFree verrà riavviato dopo che le operazioni saranno state completate.
 Vuoi continuare?"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ deve essere riavviato" message="Notepad++ deve essere riavviato per caricare i plugin che hai installato."/>
-            <ChangeHistoryEnabledWarning title="Notepad++ deve essere riavviato" message="Notepad++ deve essere riavviato per abilitare elenco cambiamenti."/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+            <NeedToRestartToLoadPlugins title="NotepadFree deve essere riavviato" message="NotepadFree deve essere riavviato per caricare i plugin che hai installato."/>
+            <ChangeHistoryEnabledWarning title="NotepadFree deve essere riavviato" message="NotepadFree deve essere riavviato per abilitare elenco cambiamenti."/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Cronologia Appunti"/>
@@ -1483,8 +1483,8 @@ Vuoi continuare?"/>
             <word-chars-list-warning-end value=" nel tuo elenco caratteri delimitatori."/> <!-- HowToReproduce: In "Delimiter" section of Preferences dialog, check "Add your character as part of word\r(don't choose it unless you know what you're doing)", then type a white-space in the text field. -->
             <backup-select-folder value="Seleziona un percorso per la cartella di Backup"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
             <cloud-invalid-warning value="Percorso non valido."/>
-            <cloud-restart-warning value="Riavvia Notepad++ per applicare le modifiche."/>
-            <cloud-select-folder value="Seleziona una cartella da dove Notepad++ possa leggere o scrivere le proprie impostazioni"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
+            <cloud-restart-warning value="Riavvia NotepadFree per applicare le modifiche."/>
+            <cloud-select-folder value="Seleziona una cartella da dove NotepadFree possa leggere o scrivere le proprie impostazioni"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
             <default-open-save-select-folder value="Seleziona un percorso per la cartella di default"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
             <shift-change-direction-tip value="Utilizza Shift+Invio per cercare nella direzione opposta"/>
             <two-find-buttons-tip value="Modalità ricerca a 2 pulsanti"/>

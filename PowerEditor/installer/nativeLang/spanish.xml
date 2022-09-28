@@ -323,17 +323,17 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="46001" name="Configurador de estilo..."/>
 					<Item id="46250" name="Defina su lenguaje..."/>
 					<Item id="46300" name="Abrir carpeta de lenguaje definido por usuario..."/>
-					<Item id="46301" name="Lenguas definidas por el usuario de Notepad++"/>
+					<Item id="46301" name="Lenguas definidas por el usuario de NotepadFree"/>
 					<Item id="46180" name="Definido por el usuario"/>
-					<Item id="47000" name="Acerca de Notepad++..."/>
+					<Item id="47000" name="Acerca de NotepadFree..."/>
 					<Item id="47010" name="Argumentos línea de comandos..."/>
-					<Item id="47001" name="Sobre Notepad++"/>
-					<Item id="47002" name="Página de proyecto Notepad++"/>
+					<Item id="47001" name="Sobre NotepadFree"/>
+					<Item id="47002" name="Página de proyecto NotepadFree"/>
 					<Item id="47003" name="Documentación online"/>
-					<Item id="47004" name="Comunidad Notepad++ (Foro)"/>
+					<Item id="47004" name="Comunidad NotepadFree (Foro)"/>
 					<Item id="47012" name="Depuración..."/>
 					<Item id="47005" name="Obtener más Plugins"/>
-					<Item id="47006" name="Actualizar Notepad++"/>
+					<Item id="47006" name="Actualizar NotepadFree"/>
 					<Item id="47009" name="Establecer Proxy actualizador"/>
 					<Item id="48005" name="Importar Plugin(s)..."/>
 					<Item id="48006" name="Importar Tema(s)..."/>
@@ -931,7 +931,7 @@ Puedes definir varios marcadores de columna utilizando espacios en blanco para s
 					<Item id="6431" name="Abrir todos los archivos de la carpeta en lugar de usar la carpeta como área de trabajo"/>
 				</DefaultDir>
 				<FileAssoc title="Asociación de archivos">
-					<Item id="4008" name="Para usar esta función, reinicie Notepad++ en modo Administrador."/>
+					<Item id="4008" name="Para usar esta función, reinicie NotepadFree en modo Administrador."/>
 					<Item id="4009" name="Ext. soportadas:"/>
 					<Item id="4010" name="Ext. asociadas:"/>
 				</FileAssoc>
@@ -1002,7 +1002,7 @@ Puedes definir varios marcadores de columna utilizando espacios en blanco para s
 				</Print>
 				<Searching title="Buscando">
 					<Item id="6901" name="No llenar el campo de búsqueda en el cuadro de diálogo con la palabra seleccionada"/>
-					<Item id="6902" name="Utilizar una fuente monoespaciada en el cuadro de diálogo Buscar (es necesario reiniciar Notepad++)"/>
+					<Item id="6902" name="Utilizar una fuente monoespaciada en el cuadro de diálogo Buscar (es necesario reiniciar NotepadFree)"/>
 					<Item id="6903" name="El cuadro de diálogo permanece abierto después de la búsqueda que muestra la ventana de resultados"/>
 					<Item id="6904" name="Confirmar Reemplazar todo en todos los documentos abiertos"/>
 					<Item id="6905" name="Reemplazar: no mover a la siguiente ocurrencia"/>
@@ -1058,10 +1058,10 @@ Puedes definir varios marcadores de columna utilizando espacios en blanco para s
 				</AutoCompletion>
 				<MultiInstance title="Multi-Instancia">
 					<Item id="6151" name="Configuración de múltiples instancias"/>
-					<Item id="6152" name="Abrir sesión en nueva instancia de Notepad++"/>
+					<Item id="6152" name="Abrir sesión en nueva instancia de NotepadFree"/>
 					<Item id="6153" name="Usar siempre en modo multi-instancia"/>
 					<Item id="6154" name="Instancia única por defecto"/>
-					<Item id="6155" name="* La modificación de este ajuste necesita reiniciar Notepad++"/>
+					<Item id="6155" name="* La modificación de este ajuste necesita reiniciar NotepadFree"/>
 					<Item id="6171" name="Personalizar insertar fecha y hora"/>
 					<Item id="6175" name="Invertir el orden de fecha y hora predeterminado (formatos cortos y largos)"/>
 					<Item id="6172" name="Formato personalizado:"/>
@@ -1107,11 +1107,11 @@ Puedes definir varios marcadores de columna utilizando espacios en blanco para s
 					<Item id="6313" name="Actualizar sin notificar"/>
 					<Item id="6325" name="Desplazarse hasta la última línea después de la actualización "/>
 					<Item id="6322" name="Extensión del archivo de sesión:"/>
-					<Item id="6323" name="Actualizar automáticamente Notepad++"/>
+					<Item id="6323" name="Actualizar automáticamente NotepadFree"/>
 					<Item id="6324" name="Cambiar de documento (Ctrl+TAB)"/>
 					<Item id="6331" name="Mostrar sólo nombre de archivo en el título de la ventana"/>
 					<Item id="6334" name="Autodetectar codificación"/>
-					<Item id="6349" name="Usar DirectWrite (Puede mejorar la representación de caracteres especiales, es necesario reiniciar Notepad++)"/>
+					<Item id="6349" name="Usar DirectWrite (Puede mejorar la representación de caracteres especiales, es necesario reiniciar NotepadFree)"/>
 					<Item id="6337" name="Ext. del arch. área de trab.:"/>
 					<Item id="6114" name="Permitir"/>
 					<Item id="6117" name="Ordenar por el usado más reciente"/>
@@ -1186,8 +1186,8 @@ Puede reactivarlo después en Preferencias."/>
 		</Dialog>
 		<MessageBox>
 			<!-- $INT_REPLACE$ is a place holder, don't translate it -->
-			<ContextMenuXmlEditWarning title="Editar menú emergente" message="Editar 'contextMenu.xml' le permite modificar el menú contextual emergente de Notepad++.
-Tiene que reiniciar su Notepad++ para que surta efecto después de modificarlo."/>
+			<ContextMenuXmlEditWarning title="Editar menú emergente" message="Editar 'contextMenu.xml' le permite modificar el menú contextual emergente de NotepadFree.
+Tiene que reiniciar su NotepadFree para que surta efecto después de modificarlo."/>
 			<SaveCurrentModifWarning title="Guardar modificación actual" message="Debe guardar la modificación actual.
 Las modificaciones guardadas no se pueden deshacer.
 
@@ -1198,11 +1198,11 @@ Las modificaciones guardadas no se pueden deshacer.
 
 ¿Continuar?"/>
 			<!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-			<CannotMoveDoc title="Move to new Notepad++ Instance" message="El documento se modifica. Guárdelo y vuelva a intentarlo."/>
-			<!-- HowToReproduce: From your Notepad++ drag & drop a clean (not dirty) file to outside of Notepad++, another instance of Notepad++ will be created. Then from your first Notepad++ drag & drop an unsaved file to the new instance. -->
-			<DocReloadWarning title="Reload" message="¿Está seguro de que desea volver a cargar el archivo actual y perder los cambios realizados en Notepad++?"/>
+			<CannotMoveDoc title="Move to new NotepadFree Instance" message="El documento se modifica. Guárdelo y vuelva a intentarlo."/>
+			<!-- HowToReproduce: From your NotepadFree drag & drop a clean (not dirty) file to outside of NotepadFree, another instance of NotepadFree will be created. Then from your first NotepadFree drag & drop an unsaved file to the new instance. -->
+			<DocReloadWarning title="Reload" message="¿Está seguro de que desea volver a cargar el archivo actual y perder los cambios realizados en NotepadFree?"/>
 			<FileLockedWarning title="Save failed" message="Compruebe si este archivo está abierto en otro programa"/>
-			<FileAlreadyOpenedInNpp title="" message="El archivo ya está abierto en Notepad++."/>
+			<FileAlreadyOpenedInNpp title="" message="El archivo ya está abierto en NotepadFree."/>
 			<!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
 			<RenameTabTemporaryNameAlreadyInUse title="Rename failed" message="El nombre especificado ya está en uso en otra pestaña."/>
 			<!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
@@ -1210,7 +1210,7 @@ Las modificaciones guardadas no se pueden deshacer.
 			<!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<NbFileToOpenImportantWarning title="Amount of files to open is too large" message="Se abrirán $INT_REPLACE$ archivos.
 ¿Desea abrir todos estos archivos?"/>
-			<!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+			<!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into NotepadFree. -->
 			<SettingsOnCloudError title="Settings on Cloud" message="Parece que la ruta de la configuración en la nube se establece en una unidad de solo lectura, o en una carpeta que necesita derecho de acceso para escritura.
 
 Su configuración en la nube será cancelada. Reinicie con un valor coherente usando el cuadro de diálogo de Preferencias."/>
@@ -1240,16 +1240,16 @@ Este archivo ha sido modificado por otro programa.
 			<DoReloadOrNotAndLooseChange title="Reload" message="&quot;$STR_REPLACE$&quot;
 
 Este archivo ha sido modificado por otro programa.
-¿Desea volver a cargarlo y perder los cambios realizados en Notepad++?"/>
+¿Desea volver a cargarlo y perder los cambios realizados en NotepadFree?"/>
 			<PrehistoricSystemDetected title="Prehistoric system detected" message="Parece que todavía usa un sistema anticuado. Lamentablemente esta función solo funciona en un sistema moderno."/>
 			<!-- HowToReproduce: Launch "Document Map" under Windows XP. -->
-			<XpUpdaterProblem title="Notepad++ Updater" message="El actualizador de Notepad++ no es compatible con XP debido a la capa de seguridad obsoleta en XP.
-¿Desea ir a la página de Notepad++ para descargar la última versión?"/>
-			<!-- HowToReproduce: Run menu "? -> Update Notepad++" under Windows XP. -->
-			<GUpProxyConfNeedAdminMode title="Configuración del proxy" message="Para cambiar la configuración del proxy, reinicie Notepad++ en modo Administrador."/>
+			<XpUpdaterProblem title="NotepadFree Updater" message="El actualizador de NotepadFree no es compatible con XP debido a la capa de seguridad obsoleta en XP.
+¿Desea ir a la página de NotepadFree para descargar la última versión?"/>
+			<!-- HowToReproduce: Run menu "? -> Update NotepadFree" under Windows XP. -->
+			<GUpProxyConfNeedAdminMode title="Configuración del proxy" message="Para cambiar la configuración del proxy, reinicie NotepadFree en modo Administrador."/>
 			<DocTooDirtyToMonitor title="Monitoring problem" message="El documento está sucio. Guarde la modificación antes de monitorearlo."/>
 			<DocNoExistToMonitor title="Monitoring problem" message="El archivo debe existir para ser monitoreado."/>
-			<FileTooBigToOpen title="File size problem" message="El archivo es demasiado grande para abrirlo con Notepad++"/>
+			<FileTooBigToOpen title="File size problem" message="El archivo es demasiado grande para abrirlo con NotepadFree"/>
 			<!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
 			<FileLoadingException title="Código de excepción: $STR_REPLACE$" message="Ocurrió un error al cargar el archivo"/>
 			<WantToOpenHugeFile title="Advertencia al abrir archivo grande" message="Abrir un archivo de más de 2 GB puede llevar varios minutos. Indique si desea abrirlo"/>
@@ -1264,9 +1264,9 @@ Este archivo ha sido modificado por otro programa.
 			<LoadStylersFailed title="Load stylers.xml failed" message="La carga de &quot;$STR_REPLACE$&quot; ha fallado"/>
 			<LoadLangsFailed title="Configurator" message="Load langs.xml ha fallado
 ¿Desea recuperar su langs.xml?"/>
-			<!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
+			<!-- HowToReproduce: Close NotepadFree. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open NotepadFree. -->
 			<LoadLangsFailedFinal title="Configurator" message="Load langs.xml ha fallado"/>
-			<!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+			<!-- HowToReproduce: Close NotepadFree. Use another editor to make "langs.xml" an invalid xml file then save it. Open NotepadFree. -->
 			<FolderAsWorspaceSubfolderExists title="Folder as Workspace adding folder problem" message="Existe una subcarpeta de la carpeta que desea agregar.
 Elimine su raíz del panel antes de agregar la carpeta &quot;$STR_REPLACE$&quot;."/>
 			<!-- HowToReproduce: Add a folder like "c:\temp\aFolder\" into "Folder as Workspace" panel, then try to add "c:\temp\". -->
@@ -1290,16 +1290,16 @@ Es necesario darle otro."/>
 			<SCMapperDoDeleteOrNot title="Are you sure?" message="¿Está seguro de que desea eliminar este acceso directo?"/>
 			<FindCharRangeValueError title="Range Value problem" message="Debe escribir entre 0 y 255."/>
 			<OpenInAdminMode title="Save failed" message="El archivo no se puede guardar y puede estar protegido.
-¿Desea iniciar Notepad++ en modo Administrador?"/>
+¿Desea iniciar NotepadFree en modo Administrador?"/>
 			<OpenInAdminModeWithoutCloseCurrent title="Save failed" message="El archivo no se puede guardar y puede estar protegido.
-¿Desea iniciar Notepad++ en modo Administrador?"/>
-			<OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ no se puede abrir en el modo de Administrador."/>
+¿Desea iniciar NotepadFree en modo Administrador?"/>
+			<OpenInAdminModeFailed title="Open in Administrator mode failed" message="NotepadFree no se puede abrir en el modo de Administrador."/>
 			<!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
 			<ViewInBrowser title="View Current File in Browser" message="No se puede encontrar la aplicación en su sistema."/>
-			<ExitToUpdatePlugins title="Notepad++ is about to exit" message="Si hace clic en SÍ, saldrá de Notepad++ para continuar con las operaciones.
-Notepad++ se reiniciará después de que finalicen todas las operaciones.
+			<ExitToUpdatePlugins title="NotepadFree is about to exit" message="Si hace clic en SÍ, saldrá de NotepadFree para continuar con las operaciones.
+NotepadFree se reiniciará después de que finalicen todas las operaciones.
 ¿Continuar?"/>
-			<NeedToRestartToLoadPlugins title="Notepad++ need to be relaunched" message="Debe reiniciar Notepad++ para cargar los complementos que instaló."/>
+			<NeedToRestartToLoadPlugins title="NotepadFree need to be relaunched" message="Debe reiniciar NotepadFree para cargar los complementos que instaló."/>
 			<!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
 		</MessageBox>
 		<ClipboardHistory>
@@ -1416,8 +1416,8 @@ Notepad++ se reiniciará después de que finalicen todas las operaciones.
 			<backup-select-folder value="Seleccione una carpeta como directorio de copia de seguridad"/>
 			<!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
 			<cloud-invalid-warning value="Ruta inválida."/>
-			<cloud-restart-warning value="Reinicie Notepad++ para que tome efecto."/>
-			<cloud-select-folder value="Seleccione una carpeta en la que Notepad++ lea o escriba sus configuraciones"/>
+			<cloud-restart-warning value="Reinicie NotepadFree para que tome efecto."/>
+			<cloud-select-folder value="Seleccione una carpeta en la que NotepadFree lea o escriba sus configuraciones"/>
 			<!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
 			<default-open-save-select-folder value="Seleccione una carpeta como directorio predeterminado"/>
 			<!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->

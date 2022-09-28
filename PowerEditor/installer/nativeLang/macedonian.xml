@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-	Macedonian localization for Notepad++
+	Macedonian localization for NotepadFree
 	Last modified Wednesday, November 11th 2009 18:06 GMT by Kiril Sardjoski.
 	Please e-mail errors, suggestions etc. to kiril.sardjoski(at)gmail(dot)com.
 -->
@@ -168,9 +168,9 @@
 
 
                     <Item id = "46001" name = "Прилагодување на стилови..."/>
-                    <Item id = "47000" name = "Околу Notepad++..."/>
-                    <Item id = "47001" name = "Notepad++ Дома"/>
-                    <Item id = "47002" name = "Страна на Notepad++ Проектот"/>
+                    <Item id = "47000" name = "Околу NotepadFree..."/>
+                    <Item id = "47001" name = "NotepadFree Дома"/>
+                    <Item id = "47002" name = "Страна на NotepadFree Проектот"/>
                     <Item id = "47003" name = "NpWiki++ (Помош преку Интернет)"/>
                     <Item id = "47004" name = "Форум"/>
                     <Item id = "47005" name = "Набави повеќе Plugin-ови"/>

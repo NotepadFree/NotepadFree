@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-	Slovak localization for Notepad++
+	Slovak localization for NotepadFree
 -->
 <NotepadPlus>
     <Native-Langue name="Slovenčina" filename="slovak.xml" version="8.4.6">
@@ -332,17 +332,17 @@
                     <Item id="46001" name="Nastavenie štýlov..."/>
                     <Item id="46250" name="Definovať vlastný jazyk..."/>
                     <Item id="46300" name="Otvoriť priečinok Užívateľom definovaný jazyk..."/>
-                    <Item id="46301" name="Zbierka používateľom definovaných jazykov programu Notepad++"/>
+                    <Item id="46301" name="Zbierka používateľom definovaných jazykov programu NotepadFree"/>
                     <Item id="46180" name="Definovaný používateľom"/>
                     <Item id="47000" name="O Notepade++…"/>
                     <Item id="47010" name="Parametre príkazového riadka..."/>
-                    <Item id="47001" name="Domovská stránka Notepad++"/>
-                    <Item id="47002" name="Stránka projektu Notepad++"/>
-                    <Item id="47003" name="Notepad++ online používateľská príručka"/>
-                    <Item id="47004" name="Notepad++ komunita (Fórum)"/>
+                    <Item id="47001" name="Domovská stránka NotepadFree"/>
+                    <Item id="47002" name="Stránka projektu NotepadFree"/>
+                    <Item id="47003" name="NotepadFree online používateľská príručka"/>
+                    <Item id="47004" name="NotepadFree komunita (Fórum)"/>
                     <Item id="47012" name="Informácie pre ladenie..."/>
                     <Item id="47005" name="Získať viac doplnkov"/>
-                    <Item id="47006" name="Aktualizovať Notepad++"/>
+                    <Item id="47006" name="Aktualizovať NotepadFree"/>
                     <Item id="47009" name="Nastaviť proxy server pre aktualizáciu..."/>
                     <Item id="48005" name="Importovať doplnky..."/>
                     <Item id="48006" name="Importovať témy..."/>
@@ -893,7 +893,7 @@
 
                     <Item id="6131" name="Ponuka"/>
                     <Item id="6122" name="Skryť panel ponuky (Prepínanie klávesom Alt alebo F10)"/>
-                    <Item id="6132" name="Skryť ovládacie prvky ＋ ▼ ✕ z panela ponuky (Vyžaduje reštart Notepad++)"/>
+                    <Item id="6132" name="Skryť ovládacie prvky ＋ ▼ ✕ z panela ponuky (Vyžaduje reštart NotepadFree)"/>
                     <Item id="6123" name="Lokalizácia"/>
 
                     <Item id="6128" name="Alternatívne ikony"/>
@@ -1001,7 +1001,7 @@ Zadať môžete viacero značiek pomocou medzery na oddelenie rôznych čísel."
                 </DefaultDir>
 
                 <FileAssoc title="Asociácia súborov">
-                    <Item id="4008" name="Ak chcete použiť túto funkciu , ukončite, prosím, Notepad++ a znova ho spustite v režime správcu."/>
+                    <Item id="4008" name="Ak chcete použiť túto funkciu , ukončite, prosím, NotepadFree a znova ho spustite v režime správcu."/>
                     <Item id="4009" name="Podporované prípony:"/>
                     <Item id="4010" name="Registrované prípony:"/>
                 </FileAssoc>
@@ -1074,7 +1074,7 @@ Zadať môžete viacero značiek pomocou medzery na oddelenie rôznych čísel."
                 </Print>
 
                 <Searching title="Vyhľadávanie">
-                    <Item id="6902" name="Použiť neproporcionálne písmo v dialógovom okne Hľadať (Vyžaduje reštart Notepad++)"/>
+                    <Item id="6902" name="Použiť neproporcionálne písmo v dialógovom okne Hľadať (Vyžaduje reštart NotepadFree)"/>
                     <Item id="6903" name="Dialógové okno Hľadať zostáva otvorené po vyhľadaní s výstupom do okna s výsledkami hľadania"/>
                     <Item id="6904" name="Potvrdiť Nahradiť všetko vo všetkých otvorených dokumentoch"/>
                     <Item id="6905" name="Nahradiť: Neprechádzať na nasledujúci výskyt"/>
@@ -1189,11 +1189,11 @@ Zadať môžete viacero značiek pomocou medzery na oddelenie rôznych čísel."
                     <Item id="6313" name="Tichá aktualizácia"/>
                     <Item id="6325" name="Skočiť po aktualizácii na posledný riadok"/>
                     <Item id="6322" name="Prípona súboru relácie:"/>
-                    <Item id="6323" name="Povoliť automatické aktualizácie programu Notepad++"/>
+                    <Item id="6323" name="Povoliť automatické aktualizácie programu NotepadFree"/>
                     <Item id="6324" name="Prepínanie dokumentov (Ctrl+Tab)"/>
                     <Item id="6331" name="Zobrazovať v záhlaví okna iba názov súboru"/>
                     <Item id="6334" name="Automatické zisťovanie kódovania znakov"/>
-                    <Item id="6349" name="Použiť DirectWrite (Môže ovplyvniť renderovanie špeciálnych znakov, vyžaduje sa reštart Notepad++)"/>
+                    <Item id="6349" name="Použiť DirectWrite (Môže ovplyvniť renderovanie špeciálnych znakov, vyžaduje sa reštart NotepadFree)"/>
                     <Item id="6337" name="Prípona súboru prac. priestoru:"/>
                     <Item id="6114" name="Povoliť"/>
                     <Item id="6117" name="Povoliť MRU správanie"/>
@@ -1267,7 +1267,7 @@ Toto dialógové okno môžete neskôr znovu aktivovať v Preferenciách."/>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <ContextMenuXmlEditWarning title="Úprava kontextovej ponuky" message="Úpravou súboru contextMenu.xml zmeníte kontextovú ponuku programu.
-Bude potrebné reštartovať Notepad++, aby sa zmeny v súbore  prejavili."/>
+Bude potrebné reštartovať NotepadFree, aby sa zmeny v súbore  prejavili."/>
             <SaveCurrentModifWarning title="Uložiť zmeny" message="Mali by ste uložiť aktuálne zmeny.
 Uložené zmeny nie je možné vrátiť.
 
@@ -1276,10 +1276,10 @@ Pokračovať?"/>
 Uložené zmeny nie je možné vrátiť.
 
 Pokračovať?"/>
-            <CannotMoveDoc title="Presunúť do novej inštancie programu Notepad++" message="Dokument bol zmenený. Uložte zmeny a skúste to znova."/>
-            <DocReloadWarning title="Obnoviť" message="Ste si istý, že chcete obnoviť aktuálny súbor a stratiť tak zmeny vykonané v programe Notepad++?"/>
+            <CannotMoveDoc title="Presunúť do novej inštancie programu NotepadFree" message="Dokument bol zmenený. Uložte zmeny a skúste to znova."/>
+            <DocReloadWarning title="Obnoviť" message="Ste si istý, že chcete obnoviť aktuálny súbor a stratiť tak zmeny vykonané v programe NotepadFree?"/>
             <FileLockedWarning title="Uloženie zlyhalo" message="Skontrolujte, prosím, či súbor nie je otvorený v inom programe."/>
-            <FileAlreadyOpenedInNpp title="" message="Súbor je už otvorený v programe Notepad++."/>
+            <FileAlreadyOpenedInNpp title="" message="Súbor je už otvorený v programe NotepadFree."/>
             <RenameTabTemporaryNameAlreadyInUse title="Premenovanie zlyhalo" message="Tento názov je už použitý pre inú kartu."/>
             <DeleteFileFailed title="Odstrániť súbor" message="Odstránenie súboru zlyhalo."/>
 
@@ -1310,14 +1310,14 @@ Chcete ho obnoviť?"/>
             <DoReloadOrNotAndLooseChange title="Obnoviť" message="Súbor &quot;$STR_REPLACE$&quot;
 
 bol zmenený inou aplikáciou.
-Chcete ho obnoviť a prísť tak o zmeny vykonané v programe Notepad++?"/>
+Chcete ho obnoviť a prísť tak o zmeny vykonané v programe NotepadFree?"/>
             <PrehistoricSystemDetected title="Zistený príliš starý systém" message="Zdá sa, že používate príliš starý systém. Ospravedlňujeme sa, ale táto funkcia je podporovaná len na novších systémoch."/>
-            <XpUpdaterProblem title="Aktualizácia programu Notepad++" message="Aktualizácia programu Notepad++ nie je kompatibilná s Windows XP z dôvodu zastaralej bezpečnostnej vrstvy tohto systému.
-Prejsť na domovskú stránku programu Notepad++, odkiaľ si môžete stiahnuť najnovšiu verziu?"/>
-            <GUpProxyConfNeedAdminMode title="Nastavenia proxy" message="Pre nastavenie proxy, spustite, prosím, Notepad++ v režime správcu."/>
+            <XpUpdaterProblem title="Aktualizácia programu NotepadFree" message="Aktualizácia programu NotepadFree nie je kompatibilná s Windows XP z dôvodu zastaralej bezpečnostnej vrstvy tohto systému.
+Prejsť na domovskú stránku programu NotepadFree, odkiaľ si môžete stiahnuť najnovšiu verziu?"/>
+            <GUpProxyConfNeedAdminMode title="Nastavenia proxy" message="Pre nastavenie proxy, spustite, prosím, NotepadFree v režime správcu."/>
             <DocTooDirtyToMonitor title="Problém so sledovaním zmien" message="Dokument bol pozmenený. Pred sledovaním zmien, uložte všetky zmeny v dokumente."/>
             <DocNoExistToMonitor title="Problém so sledovaním zmien" message="Súbor musí najprv existovať, aby v ňom bolo možné sledovať zmeny."/>
-            <FileTooBigToOpen title="Problém s veľkosťou súboru" message="Súbor je príliš veľký, aby mohol byť otvorený v programe Notepad++."/>
+            <FileTooBigToOpen title="Problém s veľkosťou súboru" message="Súbor je príliš veľký, aby mohol byť otvorený v programe NotepadFree."/>
             <FileLoadingException title="Kód výnimky: $STR_REPLACE$" message="Pri načítavaní súboru došlo k chybe!"/>
             <WantToOpenHugeFile title="Upozornenie na otvorenie príliš veľkého súboru" message="Otvorenie príliš veľkého súboru s veľkosťou viac ako 2 GB môže trvať niekoľko minút.
 Chcete ho otvoriť?"/>
@@ -1353,16 +1353,16 @@ Zvoľte, prosím, iný."/>
             <SCMapperDoDeleteOrNot title="Ste si istý?" message="Naozaj chcete odstrániť túto klávesovú skratku?"/>
             <FindCharRangeValueError title="Problém s rozsahom hodnoty" message="Zadajte hodnotu v rozsahu 0 až 255."/>
             <OpenInAdminMode title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený.
-Chcete spustiť Notepad++ v režime správcu?"/>
+Chcete spustiť NotepadFree v režime správcu?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený.
-Chcete spustiť Notepad++ v režime správcu?"/>
-            <OpenInAdminModeFailed title="Otvorenie v režime správcu zlyhalo" message="Notepad++ nie je možné spustiť v režime správcu."/>
+Chcete spustiť NotepadFree v režime správcu?"/>
+            <OpenInAdminModeFailed title="Otvorenie v režime správcu zlyhalo" message="NotepadFree nie je možné spustiť v režime správcu."/>
             <ViewInBrowser title="Zobrazenie aktuálneho súboru v prehliadači" message="Aplikácia sa v systéme nenašla."/>
-            <ExitToUpdatePlugins title="Notepad++ sa chystá ukončiť" message="Ak kliknete na ÁNO, ukončíte Notepad++ a budete môcť pokračovať v operáciách.
-Notepad++ sa reštartuje po ukončení všetkých operácií.
+            <ExitToUpdatePlugins title="NotepadFree sa chystá ukončiť" message="Ak kliknete na ÁNO, ukončíte NotepadFree a budete môcť pokračovať v operáciách.
+NotepadFree sa reštartuje po ukončení všetkých operácií.
 Pokračovať?"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ je potrebné znovu spustiť" message="Na načítanie nainštalovaných pluginov je potrebné Notepad++ reštartovať."/>
-            <ChangeHistoryEnabledWarning title="Notepad++  je potrebné znovu spustiť" message="Ak chcete povoliť históriu zmien, musíte reštartovať Notepad++."/>
+            <NeedToRestartToLoadPlugins title="NotepadFree je potrebné znovu spustiť" message="Na načítanie nainštalovaných pluginov je potrebné NotepadFree reštartovať."/>
+            <ChangeHistoryEnabledWarning title="NotepadFree  je potrebné znovu spustiť" message="Ak chcete povoliť históriu zmien, musíte reštartovať NotepadFree."/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="História schránky"/>
@@ -1479,8 +1479,8 @@ Pokračovať?"/>
             <word-chars-list-warning-end value="  vo vašom zozname znakov."/>
             <backup-select-folder value="Vyberte priečinok na zálohovanie"/>
             <cloud-invalid-warning value="Neplatná cesta"/>
-            <cloud-restart-warning value="Aby sa zmeny prejavili, reštartujte, prosím, Notepad++."/>
-            <cloud-select-folder value="Vyberte priečinok pre načítanie/uloženie nastavení programu Notepad++"/>
+            <cloud-restart-warning value="Aby sa zmeny prejavili, reštartujte, prosím, NotepadFree."/>
+            <cloud-select-folder value="Vyberte priečinok pre načítanie/uloženie nastavení programu NotepadFree"/>
             <default-open-save-select-folder value="Vyberte predvolený priečinok"/>
             <shift-change-direction-tip value="Pre vyhľadávanie v opačnom smere použite Shift+Enter"/>
             <two-find-buttons-tip value="Režim dvoch tlačidiel"/>

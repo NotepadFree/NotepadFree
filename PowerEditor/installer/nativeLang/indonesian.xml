@@ -279,15 +279,15 @@
                     <Item id="46001" name="Konfigurator Gaya..."/>
                     <Item id="46250" name="Definisikan bahasa anda..."/>
                     <Item id="46180" name="Definisi-Pengguna"/>
-                    <Item id="47000" name="Ihwal Notepad++..."/>
+                    <Item id="47000" name="Ihwal NotepadFree..."/>
                     <Item id="47010" name="Argumen Baris Perintah..."/>
-                    <Item id="47001" name="Beranda Notepad++"/>
-                    <Item id="47002" name="Laman Proyek Notepad++"/>
+                    <Item id="47001" name="Beranda NotepadFree"/>
+                    <Item id="47002" name="Laman Proyek NotepadFree"/>
                     <Item id="47003" name="Dokumentasi Daring"/>
                     <Item id="47004" name="Forum"/>
                     <Item id="47012" name="Info Debug..."/>
                     <Item id="47005" name="Dapatkan Plugin Lain"/>
-                    <Item id="47006" name="Perbarui Notepad++"/>
+                    <Item id="47006" name="Perbarui NotepadFree"/>
                     <Item id="47009" name="Atur Proksi..."/>
                     <Item id="48005" name="Impor Plugin ..."/>
                     <Item id="48006" name="Impor Tema ..."/>
@@ -847,7 +847,7 @@
 
                 <MultiInstance title="Multi-Jendela">
                     <Item id="6151" name="Pengaturan multi-jendela"/>
-                    <Item id="6152" name="Buka sesi di jendela baru Notepad++"/>
+                    <Item id="6152" name="Buka sesi di jendela baru NotepadFree"/>
                     <Item id="6153" name="Selalu dalam mode multi-jendela"/>
                     <Item id="6154" name="Bawaan (satu-jendela)"/>
                     <Item id="6155" name="* Mengubah pengaturan ini perlu memulai ulang Notepad ++"/>
@@ -891,7 +891,7 @@
                     <Item id="6319" name="Aktifkan"/>
                     <Item id="6320" name="Tanpa garis bawah"/>
                     <Item id="6322" name="Ekst. berkas sesi:"/>
-                    <Item id="6323" name="Aktifkan pembaru otomatis Notepad++"/>
+                    <Item id="6323" name="Aktifkan pembaru otomatis NotepadFree"/>
                     <Item id="6324" name="Penukar Dokumen (Ctrl+TAB)"/>
                     <Item id="6331" name="Tampilkan nama berkas saja di bilah judul"/>
                     <Item id="6334" name="Otomatis deteksi pengodean karakter"/>
@@ -1048,8 +1048,8 @@
             <word-chars-list-tab-warning value="$INT_REPLACE$ TAB"/>
             <word-chars-list-warning-end value="  dalam daftar karakter anda."/>
             <cloud-invalid-warning value="Jalur tidak valid."/>
-            <cloud-restart-warning value="Silakan mulai ulang Notepad++ agar diterapkan."/>
-            <cloud-select-folder value="Pilih folder dari/ke tempat Notepad++ membaca/menulis pengaturannya"/>
+            <cloud-restart-warning value="Silakan mulai ulang NotepadFree agar diterapkan."/>
+            <cloud-select-folder value="Pilih folder dari/ke tempat NotepadFree membaca/menulis pengaturannya"/>
             <shift-change-direction-tip value="Gunakan Shift+Enter untuk mencari dalam arah berlawanan"/>
             <two-find-buttons-tip value="mode 2 tombol cari"/>
             <find-status-top-reached value="Cari: Menemukan kejadian pertama dari bawah. Awal dokumen telah tercapai."/>

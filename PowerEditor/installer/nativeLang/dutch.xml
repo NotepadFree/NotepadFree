@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Dutch localization for Notepad++
+Dutch localization for NotepadFree
 Modifications until 2018-03-26 by Klaas Nekeman (knekeman(at)gmail.com).
 Modifications until 2020-05-26 by xylographe <wr86420@gmail.com>.
 Modifications from 2021-01-28 and onwards by Thomas De Rocker (RockyTDR, notepadplusplus(at)rockytdr.33mail.com)
@@ -331,17 +331,17 @@ Last modified on 2022-06-01 by Thomas De Rocker (RockyTDR).
                     <Item id="46001" name="Stijlconfigurator..."/>
                     <Item id="46250" name="Aangepaste syntaxismarkering ontwerpen..."/>
                     <Item id="46300" name="Map met aangepaste syntaxissen openen..."/>
-                    <Item id="46301" name="Notepad++-collectie van aangepaste syntaxissen"/>
+                    <Item id="46301" name="NotepadFree-collectie van aangepaste syntaxissen"/>
                     <Item id="46180" name="Aangepast"/>
-                    <Item id="47000" name="Over Notepad++"/>
+                    <Item id="47000" name="Over NotepadFree"/>
                     <Item id="47010" name="Opdrachtregel-argumenten..."/>
-                    <Item id="47001" name="Notepad++ website"/>
-                    <Item id="47002" name="Notepad++ projectpagina"/>
-                    <Item id="47003" name="Notepad++ online gebruikershandleiding"/>
-                    <Item id="47004" name="Notepad++ gemeenschap (forum)"/>
+                    <Item id="47001" name="NotepadFree website"/>
+                    <Item id="47002" name="NotepadFree projectpagina"/>
+                    <Item id="47003" name="NotepadFree online gebruikershandleiding"/>
+                    <Item id="47004" name="NotepadFree gemeenschap (forum)"/>
                     <Item id="47012" name="Foutopsporingsinformatie..."/>
                     <Item id="47005" name="Meer plugins zoeken"/>
-                    <Item id="47006" name="Notepad++ bijwerken"/>
+                    <Item id="47006" name="NotepadFree bijwerken"/>
                     <Item id="47009" name="Proxy instellen voor bijwerken..."/>
                     <Item id="48005" name="Plugins importeren..."/>
                     <Item id="48006" name="Stijlthema's importeren..."/>
@@ -871,7 +871,7 @@ Last modified on 2022-06-01 by Thomas De Rocker (RockyTDR).
 
                     <Item id="6131" name="Menu"/>
                     <Item id="6122" name="Menubalk verbergen (tonen met Alt of F10)"/>
-                    <Item id="6132" name="Snelkoppelingen ＋ ▼ ✕ rechts in menubalk verbergen (Notepad++ moet opnieuw worden gestart)"/>
+                    <Item id="6132" name="Snelkoppelingen ＋ ▼ ✕ rechts in menubalk verbergen (NotepadFree moet opnieuw worden gestart)"/>
                     <Item id="6123" name="Taal"/>
 
                     <Item id="6128" name="Alternatieve pictogrammen"/>
@@ -978,7 +978,7 @@ U kunt verschillende kolommarkeringen vastleggen door gebruik te maken van spati
                 </DefaultDir>
 
                 <FileAssoc title="Bestandsassociaties">
-                    <Item id="4008" name="Herstart Notepad++ in de beheerdersmodus om deze functie te kunnen gebruiken."/>
+                    <Item id="4008" name="Herstart NotepadFree in de beheerdersmodus om deze functie te kunnen gebruiken."/>
                     <Item id="4009" name="Ondersteund:"/>
                     <Item id="4010" name="Geregistreerd:"/>
                 </FileAssoc>
@@ -1052,7 +1052,7 @@ U kunt verschillende kolommarkeringen vastleggen door gebruik te maken van spati
 
                 <Searching title="Zoeken">
                     <Item id="6901" name="Het zoekveld in het zoekvenster niet invullen met het geselecteerde woord"/>
-                    <Item id="6902" name="Monospace-lettertype gebruiken in het zoekvenster (Notepad++ moet opnieuw worden opgestart)"/>
+                    <Item id="6902" name="Monospace-lettertype gebruiken in het zoekvenster (NotepadFree moet opnieuw worden opgestart)"/>
                     <Item id="6903" name="Zoekvenster blijft open na zoekopdracht die naar het resultaatvenster uitvoert"/>
                     <Item id="6904" name="Alles vervangen in alle geopende documenten bevestigen"/>
                     <Item id="6905" name="Vervangen: niet naar de volgende overeenkomst gaan"/>
@@ -1114,7 +1114,7 @@ U kunt verschillende kolommarkeringen vastleggen door gebruik te maken van spati
                     <Item id="6152" name="Sessie openen in een nieuwe instantie (en sessie automatisch opslaan bij afsluiten)"/>
                     <Item id="6153" name="Altijd in modus meerdere instanties"/>
                     <Item id="6154" name="Standaard (enkele instantie)"/>
-                    <Item id="6155" name="* Wijziging van deze instelling vereist een herstart van Notepad++"/>
+                    <Item id="6155" name="* Wijziging van deze instelling vereist een herstart van NotepadFree"/>
                     <Item id="6171" name="Datum/tijd invoegen aanpassen"/>
                     <Item id="6175" name="Standaardvolgorde datum/tijd omkeren (korte en lange formaten)"/>
                     <Item id="6172" name="Aangepast formaat:"/>
@@ -1164,11 +1164,11 @@ U kunt verschillende kolommarkeringen vastleggen door gebruik te maken van spati
                     <Item id="6313" name="In stilte bijwerken"/>
                     <Item id="6325" name="Na bijwerken naar de laatste regel gaan"/>
                     <Item id="6322" name="Bestandsextensie sessie:"/>
-                    <Item id="6323" name="Notepad++ automatisch bijwerken"/>
+                    <Item id="6323" name="NotepadFree automatisch bijwerken"/>
                     <Item id="6324" name="Wisselen tussen documenten (Ctrl+Tab)"/>
                     <Item id="6331" name="Alleen de bestandsnaam in de titelbalk weergeven"/>
                     <Item id="6334" name="Tekenset automatisch detecteren"/>
-                    <Item id="6349" name="DirectWrite gebruiken (kan weergave van speciale tekens verbeteren. Notepad++ moet opnieuw gestart worden)"/>
+                    <Item id="6349" name="DirectWrite gebruiken (kan weergave van speciale tekens verbeteren. NotepadFree moet opnieuw gestart worden)"/>
                     <Item id="6337" name="Bestandsextensie werkruimte:"/>
                     <Item id="6114" name="Inschakelen"/>
                     <Item id="6117" name="Volgorde van wisselen onthouden"/>
@@ -1241,8 +1241,8 @@ U kunt dit dialoogvenster later terug inschakelen via voorkeuren."/>
             </DoSaveAll> <!-- HowToReproduce: Check the 'Enable Save All confirm dialog' checkbox in Preference->MISC, now click 'Save all' -->
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Contextmenu wijzigen" message="Met het wijzigen van het contextmenu kunt u Notepad++ aan uw persoonlijke voorkeur aanpassen.
-Wijzigingen worden zichtbaar na het opnieuw starten van Notepad++."/>
+            <ContextMenuXmlEditWarning title="Contextmenu wijzigen" message="Met het wijzigen van het contextmenu kunt u NotepadFree aan uw persoonlijke voorkeur aanpassen.
+Wijzigingen worden zichtbaar na het opnieuw starten van NotepadFree."/>
             <SaveCurrentModifWarning title="Huidige wijziging opslaan" message="U moet de huidige wijziging opslaan.
 Alle opgeslagen wijzigingen kunnen niet ongedaan worden gemaakt.
 
@@ -1251,15 +1251,15 @@ Doorgaan?"/> <!-- HowToReproduce: when you openned file is modified but unsaved 
 Alle opgeslagen wijzigingen kunnen niet ongedaan worden gemaakt.
 
 Doorgaan?"/> <!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-            <CannotMoveDoc title="Verplaatsen naar nieuwe instantie van Notepad++" message="Document is gewijzigd. Sla het op en probeer het dan opnieuw."/> <!-- HowToReproduce: From your Notepad++ drag & drop a clean (not dirty) file to outside of Notepad++, another instance of Notepad++ will be created. Then from your first Notepad++ drag & drop an unsaved file to the new instance. -->
-            <DocReloadWarning title="Opnieuw laden" message="Weet u zeker dat u het huidige bestand opnieuw wilt laden en de wijzigingen die u in Notepad++ hebt gemaakt wilt verliezen?"/>
+            <CannotMoveDoc title="Verplaatsen naar nieuwe instantie van NotepadFree" message="Document is gewijzigd. Sla het op en probeer het dan opnieuw."/> <!-- HowToReproduce: From your NotepadFree drag & drop a clean (not dirty) file to outside of NotepadFree, another instance of NotepadFree will be created. Then from your first NotepadFree drag & drop an unsaved file to the new instance. -->
+            <DocReloadWarning title="Opnieuw laden" message="Weet u zeker dat u het huidige bestand opnieuw wilt laden en de wijzigingen die u in NotepadFree hebt gemaakt wilt verliezen?"/>
             <FileLockedWarning title="Opslaan mislukt" message="Controleer of dit bestand in een ander programma is geopend"/>
-            <FileAlreadyOpenedInNpp title="" message="Het bestand is al geopend in Notepad++."/> <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
+            <FileAlreadyOpenedInNpp title="" message="Het bestand is al geopend in NotepadFree."/> <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
             <RenameTabTemporaryNameAlreadyInUse title="Naam wijzigen mislukt" message="De opgegeven naam is al in gebruik op een ander tabblad."/> <!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
             <DeleteFileFailed title="Bestand verwijderen" message="Verwijderen van bestand mislukt"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 
             <NbFileToOpenImportantWarning title="Het aantal geopende bestanden is te groot" message="U staat op het punt om $INT_REPLACE$ bestanden te openen.
-Weet u zeker dat u ze wilt openen?"/> <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+Weet u zeker dat u ze wilt openen?"/> <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into NotepadFree. -->
             <SettingsOnCloudError title="Online instellingen" message="Het lijkt erop dat het pad van de online instellingen is ingesteld op een alleen-lezen-schijf,
 of op een map waarvoor privilege-rechten nodig zijn voor schrijftoegang.
 Uw online instellingen zullen geannuleerd worden. Stel een coherente waarde in via het voorkeurenvenster."/>
@@ -1285,14 +1285,14 @@ Wilt u het opnieuw laden?"/>
             <DoReloadOrNotAndLooseChange title="Opnieuw laden" message="&quot;$STR_REPLACE$&quot;
 
 Dit bestand is gewijzigd door een ander programma.
-Wilt u het opnieuw laden en de wijzigingen gemaakt in Notepad++ verliezen?"/>
+Wilt u het opnieuw laden en de wijzigingen gemaakt in NotepadFree verliezen?"/>
             <PrehistoricSystemDetected title="Prehistorisch systeem gedetecteerd" message="Het lijkt erop dat u nog steeds een prehistorisch systeem gebruikt.Deze functie werkt alleen op een modern systeem, sorry."/> <!-- HowToReproduce: Launch "Document Map" under Windows XP. -->
-            <XpUpdaterProblem title="Notepad++ updater" message="Notepad++ updater is niet compatibel met XP vanwege de verouderde beveiligingslaag onder XP.
-Wilt u naar de Notepad++-pagina gaan om de laatste versie te downloaden?"/> <!-- HowToReproduce: Run menu "? -> Update Notepad++" under Windows XP. -->
-            <GUpProxyConfNeedAdminMode title="Proxy-instellingen" message="Start Notepad++ opnieuw in beheerdersmodus om de proxy te configureren."/>
+            <XpUpdaterProblem title="NotepadFree updater" message="NotepadFree updater is niet compatibel met XP vanwege de verouderde beveiligingslaag onder XP.
+Wilt u naar de NotepadFree-pagina gaan om de laatste versie te downloaden?"/> <!-- HowToReproduce: Run menu "? -> Update NotepadFree" under Windows XP. -->
+            <GUpProxyConfNeedAdminMode title="Proxy-instellingen" message="Start NotepadFree opnieuw in beheerdersmodus om de proxy te configureren."/>
             <DocTooDirtyToMonitor title="Monitoring-probleem" message="Het document is vervuild. Sla de wijziging op voordat u het monitort."/>
             <DocNoExistToMonitor title="Monitoring-probleem" message="Het bestand moet bestaan om gemonitord te worden."/>
-            <FileTooBigToOpen title="Probleem met bestandsgrootte" message="Het bestand is te groot om te worden geopend met Notepad++"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
+            <FileTooBigToOpen title="Probleem met bestandsgrootte" message="Het bestand is te groot om te worden geopend met NotepadFree"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
             <FileLoadingException title="Uitzonderingscode: $STR_REPLACE$" message="Er is een fout opgetreden bij het laden van het bestand!"/>
             <WantToOpenHugeFile title="Waarschuwing bij openen van groot bestand" message="Het openen van een groot bestand van meer dan 2 GB kan enkele minuten duren.
 Wilt u het openen?"/>
@@ -1304,8 +1304,8 @@ Wilt u het openen?"/>
 Wilt u het huidige bestand toch opslaan?"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
             <LoadStylersFailed title="Laden van stylers.xml mislukt" message="Laden van &quot;$STR_REPLACE$&quot; mislukt!"/>
             <LoadLangsFailed title="Configurator" message="Laden van langs.xml mislukt!
-Wilt u uw langs.xml herstellen?"/> <!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
-            <LoadLangsFailedFinal title="Configurator" message="Laden van langs.xml mislukt!"/> <!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+Wilt u uw langs.xml herstellen?"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open NotepadFree. -->
+            <LoadLangsFailedFinal title="Configurator" message="Laden van langs.xml mislukt!"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to make "langs.xml" an invalid xml file then save it. Open NotepadFree. -->
             <FolderAsWorspaceSubfolderExists title="Probleem met toevoegen van map bij map als werkruimte" message="Er bestaat een submap van de map die u wilt toevoegen.
 Verwijder zijn hoofdmap van het venster voordat u map &quot;$STR_REPLACE$&quot; toevoegt."/> <!-- HowToReproduce: Add a folder like "c:\temp\aFolder\" into "Folder as Workspace" panel, then try to add "c:\temp\". -->
 
@@ -1328,15 +1328,15 @@ Geef een andere naam op."/>
             <SCMapperDoDeleteOrNot title="Weet u het zeker?" message="Weet u zeker dat u deze snelkoppeling wilt verwijderen?"/>
             <FindCharRangeValueError title="Probleem met bereik van waarde" message="U moet een waarde opgeven tussen 0 en 255."/>
             <OpenInAdminMode title="Opslaan mislukt" message="Het bestand kan niet opgeslagen worden en kan beveiligd zijn.
-Wilt u Notepad++ starten in beheerdersmodus?"/>
+Wilt u NotepadFree starten in beheerdersmodus?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Opslaan mislukt" message="Het bestand kan niet opgeslagen worden en kan beveiligd zijn.
-Wilt u Notepad++ starten in beheerdersmodus?"/>
-            <OpenInAdminModeFailed title="Openen in beheerdersmodus mislukt" message="Notepad++ kan niet geopend worden in beheerdersmodus."/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
+Wilt u NotepadFree starten in beheerdersmodus?"/>
+            <OpenInAdminModeFailed title="Openen in beheerdersmodus mislukt" message="NotepadFree kan niet geopend worden in beheerdersmodus."/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
             <ViewInBrowser title="Huidig bestand in browser weergeven" message="Toepassing kan niet op uw systeem worden teruggevonden."/>
-            <ExitToUpdatePlugins title="Notepad++ staat op het punt om af te sluiten" message="Als u op 'ja' klikt, zal u Notepad++ afsluiten om de acties verder te zetten.
-Notepad++ zal opnieuw starten nadat alle acties afgewerkt zijn.
+            <ExitToUpdatePlugins title="NotepadFree staat op het punt om af te sluiten" message="Als u op 'ja' klikt, zal u NotepadFree afsluiten om de acties verder te zetten.
+NotepadFree zal opnieuw starten nadat alle acties afgewerkt zijn.
 Doorgaan?"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ moet opnieuw gestart worden" message="U moet Notepad++ opnieuw starten om de geïnstalleerde plug-ins te laden."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
+            <NeedToRestartToLoadPlugins title="NotepadFree moet opnieuw gestart worden" message="U moet NotepadFree opnieuw starten om de geïnstalleerde plug-ins te laden."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Geschiedenis van klembord"/>
@@ -1453,8 +1453,8 @@ Doorgaan?"/>
             <word-chars-list-warning-end value="  in de woordtekenlijst."/> <!-- HowToReproduce: In "Delimiter" section of Preferences dialog, check "Add your character as part of word\r(don't choose it unless you know what you're doing)", then type a white-space in the text field. -->
             <backup-select-folder value="Een map selecteren als back-upmap"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
             <cloud-invalid-warning value="Ongeldig pad."/>
-            <cloud-restart-warning value="Start Notepad++ opnieuw op om de instellingen door te voeren."/>
-            <cloud-select-folder value="Een map selecteren waar Notepad++ instellingen leest en opslaat"/><!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
+            <cloud-restart-warning value="Start NotepadFree opnieuw op om de instellingen door te voeren."/>
+            <cloud-select-folder value="Een map selecteren waar NotepadFree instellingen leest en opslaat"/><!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
             <default-open-save-select-folder value="Een map selecteren als standaardmap"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
             <shift-change-direction-tip value="Gebruik Shift + Enter om in omgekeerde richting te zoeken"/>
             <two-find-buttons-tip value="modus met 2-zoekknoppen"/>

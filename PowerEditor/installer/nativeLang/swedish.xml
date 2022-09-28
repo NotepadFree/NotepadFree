@@ -326,17 +326,17 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item id="46001" name="Stilkonfigurering..."/>
 					<Item id="46250" name="Definiera ditt språk..."/>
 					<Item id="46300" name="Öppna mapp för användardefinierade språk..."/>
-					<Item id="46301" name="Samling av användardefinierade språk för Notepad++"/>
+					<Item id="46301" name="Samling av användardefinierade språk för NotepadFree"/>
 					<Item id="46180" name="Användardefinierat"/>
-					<Item id="47000" name="Om Notepad++"/>
+					<Item id="47000" name="Om NotepadFree"/>
 					<Item id="47010" name="Kommandoradsargument"/>
-					<Item id="47001" name="Officiell hemsida för Notepad++"/>
-					<Item id="47002" name="Projekthemsida för Notepad++"/>
-					<Item id="47003" name="Internetmanual för Notepad++"/>
-					<Item id="47004" name="Gemenskapsforum för Notepad++"/>
+					<Item id="47001" name="Officiell hemsida för NotepadFree"/>
+					<Item id="47002" name="Projekthemsida för NotepadFree"/>
+					<Item id="47003" name="Internetmanual för NotepadFree"/>
+					<Item id="47004" name="Gemenskapsforum för NotepadFree"/>
 					<Item id="47012" name="Felsökningsinformation..."/>
 					<Item id="47005" name="Hämta fler insticksprogram"/>
-					<Item id="47006" name="Uppdatera Notepad++"/>
+					<Item id="47006" name="Uppdatera NotepadFree"/>
 					<Item id="47009" name="Ange uppdateringsproxy..."/>
 					<Item id="48005" name="Importera insticksprogram..."/>
 					<Item id="48006" name="Importera teman..."/>
@@ -966,7 +966,7 @@ Ange flera kolumnmarkörer genom att separera talen med blanksteg."/>
 				</DefaultDir>
 
 				<FileAssoc title="Filassociering">
-					<Item id="4008" name="Var god avsluta och starta Notepad++ som administratör för att använda denna funktion."/>
+					<Item id="4008" name="Var god avsluta och starta NotepadFree som administratör för att använda denna funktion."/>
 					<Item id="4009" name="Kompatibla filändelser:"/>
 					<Item id="4010" name="Registrerade filändelser:"/>
 				</FileAssoc>
@@ -1040,7 +1040,7 @@ Ange flera kolumnmarkörer genom att separera talen med blanksteg."/>
 
 				<Searching title="Sökning">
 					<Item id="6901" name="Fyll inte sökdialogens sökfält med markerade ord"/>
-					<Item id="6902" name="Använd typsnitt med fast bredd i sökdialogen (kräver omstart av Notepad++)"/>
+					<Item id="6902" name="Använd typsnitt med fast bredd i sökdialogen (kräver omstart av NotepadFree)"/>
 					<Item id="6903" name="Sökdialogen stannar öppen efter sökningar som matar ut till resultatfönstret"/>
 					<Item id="6904" name="Visa bekräftelsedialog för &quot;Ersätt alla i alla öppna dokument&quot;"/>
 					<Item id="6905" name="Ersätt: Hoppa inte till nästa förekomst"/>
@@ -1101,7 +1101,7 @@ Ange flera kolumnmarkörer genom att separera talen med blanksteg."/>
 					<Item id="6152" name="Öppna session i en ny instans (och spara sessionen automatiskt vid avslut)"/>
 					<Item id="6153" name="Alltid flera instanser"/>
 					<Item id="6154" name="Standard (en enda instans)"/>
-					<Item id="6155" name="* En omstart av Notepad++ krävs om denna inställning ändras"/>
+					<Item id="6155" name="* En omstart av NotepadFree krävs om denna inställning ändras"/>
 					<Item id="6171" name="Anpassa datum och tid att infoga"/>
 					<Item id="6175" name="Omvänd standardordning av datum och tid (kort och lång format)"/>
 					<Item id="6172" name="Anpassat format:"/>
@@ -1151,11 +1151,11 @@ Ange flera kolumnmarkörer genom att separera talen med blanksteg."/>
 					<Item id="6313" name="Tyst uppdatering"/>
 					<Item id="6325" name="Gå till den sista raden efter uppdatering"/>
 					<Item id="6322" name="Filändelse för sessionsfil:"/>
-					<Item id="6323" name="Uppdatera Notepad++ automatiskt"/>
+					<Item id="6323" name="Uppdatera NotepadFree automatiskt"/>
 					<Item id="6324" name="Byt dokument (Ctrl + tabb)"/>
 					<Item id="6331" name="Visa endast filnamnet i namnlisten"/>
 					<Item id="6334" name="Identifiera teckenkodning automatiskt"/>
-					<Item id="6349" name="Använd DirectWrite (kan förbättra renderingen av specialtecken, kräver omstart av Notepad++)"/>
+					<Item id="6349" name="Använd DirectWrite (kan förbättra renderingen av specialtecken, kräver omstart av NotepadFree)"/>
 					<Item id="6337" name="Filändelse för arbetsytafil:"/>
 					<Item id="6114" name="Aktivera"/>
 					<Item id="6117" name="Kom ihåg senast öppnade filer"/>
@@ -1228,8 +1228,8 @@ Du kan aktivera denna dialogruta i inställningarna senare."/>
 			</DoSaveAll> <!-- HowToReproduce: Check the 'Enable Save All confirm dialog' checkbox in Preference->MISC, now click 'Save all' -->
 		</Dialog>
 		<MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-			<ContextMenuXmlEditWarning title="Redigera högerklicksmenyn" message="Genom att redigera contextMenu.xml kan du anpassa högerklicksmenyn i Notepad++.
-Du måste starta om Notepad++ för att ändringarna i contextMenu.xml ska gälla."/>
+			<ContextMenuXmlEditWarning title="Redigera högerklicksmenyn" message="Genom att redigera contextMenu.xml kan du anpassa högerklicksmenyn i NotepadFree.
+Du måste starta om NotepadFree för att ändringarna i contextMenu.xml ska gälla."/>
 			<SaveCurrentModifWarning title="Spara aktuella ändringar" message="Du bör spara dina aktuella ändringar.
 Det går inte att ångra ändringar som har sparats.
 
@@ -1238,15 +1238,15 @@ Vill du fortsätta?"/> <!-- HowToReproduce: when you openned file is modified bu
 Det går inte att ångra ändringar som har sparats.
 
 Vill du fortsätta?"/> <!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-			<CannotMoveDoc title="Flytta till en ny instans av Notepad++" message="Dokumentet har ändrats. Spara det och försök igen."/> <!-- HowToReproduce: From your Notepad++ drag & drop a clean (not dirty) file to outside of Notepad++, another instance of Notepad++ will be created. Then from your first Notepad++ drag & drop an unsaved file to the new instance. -->
-			<DocReloadWarning title="Ladda om" message="Är du säker på att du vill ladda om aktuell fil och förlora de ändringar som gjorts i Notepad++?"/>
+			<CannotMoveDoc title="Flytta till en ny instans av NotepadFree" message="Dokumentet har ändrats. Spara det och försök igen."/> <!-- HowToReproduce: From your NotepadFree drag & drop a clean (not dirty) file to outside of NotepadFree, another instance of NotepadFree will be created. Then from your first NotepadFree drag & drop an unsaved file to the new instance. -->
+			<DocReloadWarning title="Ladda om" message="Är du säker på att du vill ladda om aktuell fil och förlora de ändringar som gjorts i NotepadFree?"/>
 			<FileLockedWarning title="Misslyckades att spara" message="Kontrollera om denna fil är öppen i ett annat program"/>
-			<FileAlreadyOpenedInNpp title="" message="Filen är redan öppen i Notepad++."/>  <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
+			<FileAlreadyOpenedInNpp title="" message="Filen är redan öppen i NotepadFree."/>  <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
 			<RenameTabTemporaryNameAlreadyInUse title="Misslyckades att byta namn" message="Det angivna filnamnet används redan i en annan flik."/> <!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
 			<DeleteFileFailed title="Radera fil" message="Misslyckades att radera filen"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 
 			<NbFileToOpenImportantWarning title="För många filer att öppna" message="$INT_REPLACE$ filer håller på att öppnas.
-Är du säker på att du vill öppna dem?"/>  <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+Är du säker på att du vill öppna dem?"/>  <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into NotepadFree. -->
 			<SettingsOnCloudError title="Molninställningar" message="Det ser ut som att sökvägen för molnet leder till en skrivskyddad hårddisk
 eller en mapp som kräver rättigheter för skrivåtkomst.
 Dina inställningar för molnet kommer att avbrytas. Återställ värdet i inställningarna."/>
@@ -1258,7 +1258,7 @@ Du måste aktivera &quot;Öppna alla filer inuti mappar som släpps istället f�
 			<ColumnModeTip title="Tips för kolumnläge" message="Använd &quot;Alt + musmarkering&quot; eller &quot;Alt + Shift + Piltangent&quot; för att växla till kolumnläge."/>
 			<BufferInvalidWarning title="Misslyckades att spara" message="Kan inte spara: Bufferten är felaktig."/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<DoCloseOrNot title="Behålla fil som inte längre finns" message="Filen &quot;$STR_REPLACE$&quot; finns inte längre.
-Ska filen behållas i Notepad++?"/>
+Ska filen behållas i NotepadFree?"/>
 			<DoDeleteOrNot title="Radera fil" message="Filen &quot;$STR_REPLACE$&quot;
 kommer att flyttas till papperskorgen och detta dokument kommer att stängas.
 Vill du fortsätta?"/>
@@ -1272,14 +1272,14 @@ Vill du ladda om den?"/>
 			<DoReloadOrNotAndLooseChange title="Ladda om" message="&quot;$STR_REPLACE$&quot;
 
 Denna fil har ändrats av ett annat program.
-Vill du ladda om den och förlora ändringarna som gjordes i Notepad++?"/>
+Vill du ladda om den och förlora ändringarna som gjordes i NotepadFree?"/>
 			<PrehistoricSystemDetected title="Förhistoriskt system upptäcktes" message="Det verkar som om du fortfarande använder ett uråldrigt system. Tyvärr fungerar endast denna funktion på ett modernt system."/> <!-- HowToReproduce: Launch "Document Map" under Windows XP. -->
-			<XpUpdaterProblem title="Uppdateringsprogram för Notepad++" message="Uppdateringsprogrammet för Notepad++ är inte kompatibelt med XP på grund av ett föråldrat säkerhetslager i XP.
-Vill du gå till hemsidan för Notepad++ för att ladda ned den senaste versionen?"/>  <!-- HowToReproduce: Run menu "? -> Update Notepad++" under Windows XP. -->
-			<GUpProxyConfNeedAdminMode title="Proxyinställningar" message="Var god starta om Notepad++ som administratör för att konfigurera proxyn."/>
+			<XpUpdaterProblem title="Uppdateringsprogram för NotepadFree" message="Uppdateringsprogrammet för NotepadFree är inte kompatibelt med XP på grund av ett föråldrat säkerhetslager i XP.
+Vill du gå till hemsidan för NotepadFree för att ladda ned den senaste versionen?"/>  <!-- HowToReproduce: Run menu "? -> Update NotepadFree" under Windows XP. -->
+			<GUpProxyConfNeedAdminMode title="Proxyinställningar" message="Var god starta om NotepadFree som administratör för att konfigurera proxyn."/>
 			<DocTooDirtyToMonitor title="Övervakningsproblem" message="Dokumentet har ändrats. Spara ändringarna innan du övervakar den."/>
 			<DocNoExistToMonitor title="Övervakningsproblem" message="Filen måste finnas för att kunna övervakas."/>
-			<FileTooBigToOpen title="Problem med filstorleken" message="Filen är för stor för att öppnas med Notepad++"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
+			<FileTooBigToOpen title="Problem med filstorleken" message="Filen är för stor för att öppnas med NotepadFree"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
 			<FileLoadingException title="Felkod: $STR_REPLACE$" message="Ett fel uppstod när filen lästes in!"/>
 			<WantToOpenHugeFile title="Varning om att öppna stor fil" message="Det kan ta flera minuter att öppna en stor fil på över 2GB.
 Vill du öppna den?"/>
@@ -1291,8 +1291,8 @@ Vill du öppna den?"/>
 Vill du spara aktuell fil ändå?"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<LoadStylersFailed title="Misslyckades att läsa in stylers.xml" message="Misslyckades att läsa in &quot;$STR_REPLACE$&quot;!"/>
 			<LoadLangsFailed title="Konfigurering" message="Misslyckades att läsa in langs.xml!
-Vill du återskapa din langs.xml?"/> <!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
-			<LoadLangsFailedFinal title="Konfigurering" message="Misslyckades att läsa in langs.xml!"/> <!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+Vill du återskapa din langs.xml?"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open NotepadFree. -->
+			<LoadLangsFailedFinal title="Konfigurering" message="Misslyckades att läsa in langs.xml!"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to make "langs.xml" an invalid xml file then save it. Open NotepadFree. -->
 			<FolderAsWorspaceSubfolderExists title="Problem med att lägga till mappen i Mapp som arbetsyta" message="En undermapp av mappen du vill lägga till finns redan där.
 Ta bort dess rot från panelen innan du lägger till mappen &quot;$STR_REPLACE$&quot;."/> <!-- HowToReproduce: Add a folder like "c:\temp\aFolder\" into "Folder as Workspace" panel, then try to add "c:\temp\". -->
 
@@ -1315,15 +1315,15 @@ Använd ett annat namn."/>
 			<SCMapperDoDeleteOrNot title="Är du säker?" message="Är du säker på att du vill radera detta kortkommando?"/>
 			<FindCharRangeValueError title="Felaktigt intervall" message="Du måste ange ett värde mellan 0 och 255."/>
 			<OpenInAdminMode title="Misslyckades att spara" message="Filen kunde inte sparas och kan vara skrivskyddad.
-Vill du starta Notepad++ som administratör?"/>
+Vill du starta NotepadFree som administratör?"/>
 			<OpenInAdminModeWithoutCloseCurrent title="Misslyckades att spara" message="Filen kunde inte sparas och kan vara skrivskyddad.
-Vill du starta Notepad++ som administratör?"/>
-			<OpenInAdminModeFailed title="Misslyckades att starta som administratör" message="Notepad++ kan inte öppnas som administratör."/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
+Vill du starta NotepadFree som administratör?"/>
+			<OpenInAdminModeFailed title="Misslyckades att starta som administratör" message="NotepadFree kan inte öppnas som administratör."/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
 			<ViewInBrowser title="Visa aktuell fil i webbläsaren" message="Programmet hittas inte på din dator."/>
-			<ExitToUpdatePlugins title="Notepad++ håller på att avslutas" message="Om du klickar på &quot;Ja&quot; kommer Notepad++ avslutas för att slutföra åtgärderna.
-Notepad++ kommer att startas om när alla åtgärder är avslutade.
+			<ExitToUpdatePlugins title="NotepadFree håller på att avslutas" message="Om du klickar på &quot;Ja&quot; kommer NotepadFree avslutas för att slutföra åtgärderna.
+NotepadFree kommer att startas om när alla åtgärder är avslutade.
 Vill du fortsätta?"/>
-			<NeedToRestartToLoadPlugins title="Notepad++ behöver startas om" message="Du måste starta om Notepad++ för att läsa in de insticksprogram du har installerat."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
+			<NeedToRestartToLoadPlugins title="NotepadFree behöver startas om" message="Du måste starta om NotepadFree för att läsa in de insticksprogram du har installerat."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="Urklippshistorik"/>
@@ -1437,8 +1437,8 @@ Vill du fortsätta?"/>
 			<word-chars-list-warning-end value="  i din teckenlista."/> <!-- HowToReproduce: In "Delimiter" section of Preferences dialog, check "Add your character as part of word\r(don't choose it unless you know what you're doing)", then type a white-space in the text field. -->
 			<backup-select-folder value="Välj en mapp för säkerhetskopior"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
 			<cloud-invalid-warning value="Felaktig sökväg."/>
-			<cloud-restart-warning value="Starta om Notepad++ för att ändringarna ska börja gälla."/>
-			<cloud-select-folder value="Välj en mapp som Notepad++ ska läsa/skriva sina inställningar"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
+			<cloud-restart-warning value="Starta om NotepadFree för att ändringarna ska börja gälla."/>
+			<cloud-select-folder value="Välj en mapp som NotepadFree ska läsa/skriva sina inställningar"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
 			<default-open-save-select-folder value="Välj en standardmapp"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
 			<shift-change-direction-tip value="Använd Shift + Enter för att söka i omvänd riktning"/>
 			<two-find-buttons-tip value="Sök med två knappar"/>

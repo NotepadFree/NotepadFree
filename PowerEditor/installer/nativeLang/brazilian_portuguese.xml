@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Brazilian Portuguese by Hélio de Souza and Luxy -->
 <!-- Updated: Jul 2021 -->
-<!-- For Notepad++ 8.1.2 -->
+<!-- For NotepadFree 8.1.2 -->
 <!-- Brazilian Portuguese updated by Marcello -->
-<!-- Updated: Sep 2022, for Notepad++ 8.4.6 -->
+<!-- Updated: Sep 2022, for NotepadFree 8.4.6 -->
 <NotepadPlus>
     <Native-Langue name="Brazilian Portuguese" filename="brazilian_portuguese.xml" version="8.4.5">
         <Menu>
@@ -336,15 +336,15 @@
                     <Item id="46300" name="Pasta de Linguagens definidas pelo usuário..."/>
                     <Item id="46301" name="Lista de Linguagens definidas pelo usuário"/>
                     <Item id="46180" name="Definida pelo usuário"/>
-                    <Item id="47000" name="Sobre o Notepad++"/>
+                    <Item id="47000" name="Sobre o NotepadFree"/>
                     <Item id="47010" name="Argumentos de Linha de Comando..."/>
-                    <Item id="47001" name="Página inicial do Notepad++"/>
-                    <Item id="47002" name="Página de projeto do Notepad++"/>
-                    <Item id="47003" name="Manual do usuário online do Notepad++"/>
-                    <Item id="47004" name="Comunidade do Notepad++ (Fórum)"/>
+                    <Item id="47001" name="Página inicial do NotepadFree"/>
+                    <Item id="47002" name="Página de projeto do NotepadFree"/>
+                    <Item id="47003" name="Manual do usuário online do NotepadFree"/>
+                    <Item id="47004" name="Comunidade do NotepadFree (Fórum)"/>
                     <Item id="47012" name="Informações de depuração..."/>
                     <Item id="47005" name="Obter mais plugins"/>
-                    <Item id="47006" name="Atualizar Notepad++"/>
+                    <Item id="47006" name="Atualizar NotepadFree"/>
                     <Item id="47009" name="Configurar Atualizador Proxy..."/>
                     <Item id="48005" name="Importar plugin(s)..."/>
                     <Item id="48006" name="Importar tema(s) de estilo..."/>
@@ -895,7 +895,7 @@
                     
                     <Item id="6131" name="Menu"/>
                     <Item id="6122" name="Ocultar (use Alt ou F10 para alternar)"/>
-                    <Item id="6132" name="Esconder atalhos à direita ＋ ▼ ✕ da barra de menus (é necessário reiniciar o Notepad++)"/>
+                    <Item id="6132" name="Esconder atalhos à direita ＋ ▼ ✕ da barra de menus (é necessário reiniciar o NotepadFree)"/>
                     <Item id="6123" name="Idioma"/>
 
                     <Item id="6125" name="Painel da lista de documentos"/>
@@ -1008,7 +1008,7 @@ Você pode definir vários marcadores de coluna usando espaço em branco para se
                 </DefaultDir>
 
                 <FileAssoc title="Tipos de arquivos">
-                    <Item id="4008" name="Por favor, saia do Notepad++ e reinicie o Notepad++ no modo Administrador para usar esse recurso."/>
+                    <Item id="4008" name="Por favor, saia do NotepadFree e reinicie o NotepadFree no modo Administrador para usar esse recurso."/>
                     <Item id="4009" name="Extensões suportadas:"/>
                     <Item id="4010" name="Extensões registradas:"/>
                 </FileAssoc>
@@ -1081,7 +1081,7 @@ Você pode definir vários marcadores de coluna usando espaço em branco para se
                 </Print>
 
                 <Searching title="Pesquisa">
-                    <Item id="6902" name="Usar fonte monoespaçada na caixa de diálogo Localizar (é necessário reiniciar o Notepad++)"/>
+                    <Item id="6902" name="Usar fonte monoespaçada na caixa de diálogo Localizar (é necessário reiniciar o NotepadFree)"/>
                     <Item id="6903" name="A caixa de diálogo Localizar permanece aberta após a pesquisa que resulta na janela de resultados"/>
                     <Item id="6904" name="Confirmar Substituir todos em todos os documentos abertos"/>
                     <Item id="6905" name="Substituir: não mova para a ocorrência seguinte"/>
@@ -1143,10 +1143,10 @@ Você pode definir vários marcadores de coluna usando espaço em branco para se
 
                 <MultiInstance title="Múltiplas instâncias">
                     <Item id="6151" name="Configurações de múltiplas instâncias"/>
-                    <Item id="6152" name="Abrir sessão em uma nova instância do Notepad++"/>
+                    <Item id="6152" name="Abrir sessão em uma nova instância do NotepadFree"/>
                     <Item id="6153" name="Sempre usar o modo múltipla instância"/>
                     <Item id="6154" name="Padrão (somente uma instância)"/>
-                    <Item id="6155" name="* Após alterar estas configurações será necessário reiniciar o Notepad++."/>
+                    <Item id="6155" name="* Após alterar estas configurações será necessário reiniciar o NotepadFree."/>
                     <Item id="6171" name="Configurar inserção de Data e Hora"/>
                     <Item id="6175" name="Inverter formato padrão de data e hora (formatos curto &amp;&amp; longo)"/>
                     <Item id="6172" name="Formato customizado:"/>
@@ -1196,11 +1196,11 @@ Você pode definir vários marcadores de coluna usando espaço em branco para se
                     <Item id="6313" name="Atualizar silenciosamente"/>
                     <Item id="6325" name="Ir para a última linha depois de atualizar"/>
                     <Item id="6322" name="Extensão do arquivo de sessão:"/>
-                    <Item id="6323" name="Habilitar auto-atualização do Notepad++"/>
+                    <Item id="6323" name="Habilitar auto-atualização do NotepadFree"/>
                     <Item id="6324" name="Alternador de documentos (Ctrl+TAB)"/>
                     <Item id="6331" name="Exibir somente o nome do arquivo no título"/>
                     <Item id="6334" name="Autodetectar codificação do caractere"/>
-                    <Item id="6349" name="Usar DirectWrite (Pode melhorar a renderização de caracteres especiais, é necessário reiniciar o Notepad++)"/>
+                    <Item id="6349" name="Usar DirectWrite (Pode melhorar a renderização de caracteres especiais, é necessário reiniciar o NotepadFree)"/>
                     <Item id="6337" name="Extensão do arquivo de espaço de trabalho:"/>
                     <Item id="6114" name="Habilitar"/>
                     <Item id="6117" name="Habilitar comportamento MRU"/>
@@ -1274,7 +1274,7 @@ Você pode reativar esta janela de confirmação em Preferências depois."/>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <ContextMenuXmlEditWarning title="Editar contextMenu" message="Editar o arquivo contextMenu.xml permite que você modifique as mensagens do menu de contexto.
-Reinicie o Notepad++ para que as modificações tenham efeito."/>
+Reinicie o NotepadFree para que as modificações tenham efeito."/>
             <SaveCurrentModifWarning title="Salvar modificações atuais" message="Você deve salvar a modificação atual.
 As modificações salvas não poderão ser desfeitas.
 
@@ -1283,10 +1283,10 @@ Deseja continuar?"/>
 As modificações salvas não poderão ser desfeitas.
 
 Deseja continuar?"/>
-            <CannotMoveDoc title="Mover para nova instância do Notepad++" message="Documento alterado, salve-o e tente novamente."/>
-            <DocReloadWarning title="Recarregar" message="Deseja recarregar o arquivo atual e perder as modificações feitas no Notepad++?"/>
+            <CannotMoveDoc title="Mover para nova instância do NotepadFree" message="Documento alterado, salve-o e tente novamente."/>
+            <DocReloadWarning title="Recarregar" message="Deseja recarregar o arquivo atual e perder as modificações feitas no NotepadFree?"/>
             <FileLockedWarning title="Falha ao salvar" message="Por favor, verifique se este arquivo está aberto em outro programa"/>
-            <FileAlreadyOpenedInNpp title="" message="O arquivo já está aberto no Notepad++."/>
+            <FileAlreadyOpenedInNpp title="" message="O arquivo já está aberto no NotepadFree."/>
             <RenameTabTemporaryNameAlreadyInUse title="Falha ao renomear" message="O nome especificado já está em uso em outra aba."/>
             <DeleteFileFailed title="Excluir Arquivo" message="Falha ao excluir arquivo"/>
 
@@ -1317,14 +1317,14 @@ Deseja recarregá-lo?"/>
             <DoReloadOrNotAndLooseChange title="Recarregar" message="&quot;$STR_REPLACE$&quot;
 
 Este arquivo foi modificado por outro programa.
-Deseja recarregá-lo e perder as alterações feitas no Notepad++?"/>
+Deseja recarregá-lo e perder as alterações feitas no NotepadFree?"/>
             <PrehistoricSystemDetected title="Sistema pré-histórico detectado" message="Parece que você ainda usa um sistema pré-histórico. Esse recurso funciona apenas em um sistema moderno. Desculpe."/>
-            <XpUpdaterProblem title="Atualizador do Notepad++" message="O atualizador do Notepad++ não é compatível com o Windows XP devido à camada de segurança obsoleta dele.
-Deseja ir para a página do Notepad++ e baixar a última versão?"/>
-            <GUpProxyConfNeedAdminMode title="Proxy Settings" message="Reinicie o Notepad++ como Admin para configurar o proxy."/>
+            <XpUpdaterProblem title="Atualizador do NotepadFree" message="O atualizador do NotepadFree não é compatível com o Windows XP devido à camada de segurança obsoleta dele.
+Deseja ir para a página do NotepadFree e baixar a última versão?"/>
+            <GUpProxyConfNeedAdminMode title="Proxy Settings" message="Reinicie o NotepadFree como Admin para configurar o proxy."/>
             <DocTooDirtyToMonitor title="Problema de monitoramento" message="O documento está sujo. Por favor, salve a modificação antes de monitorá-lo."/>
             <DocNoExistToMonitor title="Problema de monitoramento" message="O arquivo deve existir para ser monitorado."/>
-            <FileTooBigToOpen title="Problema no tamanho do arquivo" message="Arquivo é muito grande para ser aberto pelo Notepad++"/>
+            <FileTooBigToOpen title="Problema no tamanho do arquivo" message="Arquivo é muito grande para ser aberto pelo NotepadFree"/>
             <FileLoadingException title="Código de exceção: $STR_REPLACE$" message="Ocorreu um erro na carga do arquivo!"/>
             <WantToOpenHugeFile title="Aviso de abertura de arquivo muito grande" message="Abrir um arquivo enorme, de mais de 2GB+, pode demorar vários minutos.
 Deseja mesmo abrir?"/>
@@ -1360,16 +1360,16 @@ Por favor, dê outro."/>
             <SCMapperDoDeleteOrNot title="Você tem certeza?" message="Tem certeza de que deseja excluir este atalho?"/>
             <FindCharRangeValueError title="Problema do Valor do intervalo" message="Você deve digitar entre 0 e 255."/>
             <OpenInAdminMode title="Falha ao salvar" message="O arquivo não pode ser salvo e pode estar protegido.
-Deseja iniciar o Notepad++ no modo Administrador?"/>
+Deseja iniciar o NotepadFree no modo Administrador?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Falha ao salvar" message="O arquivo não pode ser salvo e pode estar protegido.
-Deseja iniciar o Notepad++ no modo Administrador?"/>
-            <OpenInAdminModeFailed title="Falha ao abrir no modo Administrador" message="O Notepad++ não pode ser aberto no modo Administrador."/>
+Deseja iniciar o NotepadFree no modo Administrador?"/>
+            <OpenInAdminModeFailed title="Falha ao abrir no modo Administrador" message="O NotepadFree não pode ser aberto no modo Administrador."/>
             <ViewInBrowser title="Visualizar o arquivo atual no navegador" message="O aplicativo não pode ser encontrado em seu sistema."/>
-            <ExitToUpdatePlugins title="O Notepad++ será encerrado" message="Se você clicar em Sim, o Notepad++ será encerrado para continuar as operações.
-O Notepad++ será reiniciado depois que todas as operações forem concluídas.
+            <ExitToUpdatePlugins title="O NotepadFree será encerrado" message="Se você clicar em Sim, o NotepadFree será encerrado para continuar as operações.
+O NotepadFree será reiniciado depois que todas as operações forem concluídas.
 Deseja continuar?"/>
-            <NeedToRestartToLoadPlugins title="O Notepad++ precisa ser reiniciado" message="Reinicie o Notepad++ para carregar os plugins instalados."/>
-	    <ChangeHistoryEnabledWarning title="O Notepad++ precisa ser reiniciado" message="Reinicie o Notepad++ para habilitar o Hisórico de Modificações."/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+            <NeedToRestartToLoadPlugins title="O NotepadFree precisa ser reiniciado" message="Reinicie o NotepadFree para carregar os plugins instalados."/>
+	    <ChangeHistoryEnabledWarning title="O NotepadFree precisa ser reiniciado" message="Reinicie o NotepadFree para habilitar o Hisórico de Modificações."/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
             <SaveAllConfirm title="Confirmação de Salvar todos" message="Tem certeza de que deseja salvar todos os documentos?
 
 Escolha &quot;Cancelar&quot; se sua resposta sempre for &quot;Sim&quot; e essa pergunta não será feita novamente.
@@ -1490,8 +1490,8 @@ Você pode reabilitar esta caixa de diálogo na caixa de diálogo Preferências 
             <word-chars-list-warning-end value="  em sua lista de caracteres."/>
             <backup-select-folder value="Selecione uma pasta para diretório de backup"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
             <cloud-invalid-warning value="Caminho inválido."/>
-            <cloud-restart-warning value="Favor reiniciar o Notepad++ para entrar em vigor."/>
-            <cloud-select-folder value="Selecione uma pasta de/para onde o Notepad++ lê/grava suas configurações"/>
+            <cloud-restart-warning value="Favor reiniciar o NotepadFree para entrar em vigor."/>
+            <cloud-select-folder value="Selecione uma pasta de/para onde o NotepadFree lê/grava suas configurações"/>
             <default-open-save-select-folder value="Selecione uma pasta como padta padrão"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
             <shift-change-direction-tip value="Usar Shift+Enter para pesquisar na direção oposta."/>
             <two-find-buttons-tip value="Modo 2 botões"/>

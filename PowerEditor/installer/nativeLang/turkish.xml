@@ -329,14 +329,14 @@
 					<Item id="46001" name="&amp;Stil Yapılandırıcı…"/>
 					<Item id="46250" name="Dil &amp;Tanımla"/>
 					<Item id="46300" name="Kullanıcı Tanımlı Dil Klasörünü Aç..."/>
-					<Item id="46301" name="Notepad++ Kullanıcı Tanımlı Diller Koleksiyonu"/>
+					<Item id="46301" name="NotepadFree Kullanıcı Tanımlı Diller Koleksiyonu"/>
 					<Item id="46180" name="Tanımlı Dili &amp;Kullan"/>
-					<Item id="47000" name="Notepad++ &amp;Hakkında"/>
+					<Item id="47000" name="NotepadFree &amp;Hakkında"/>
 					<Item id="47010" name="Komut Satırı Değişkenleri…"/>
-					<Item id="47001" name="Notepad++ &amp;Ana Sayfası"/>
-					<Item id="47002" name="Notepad++ Proje Sayfası"/>
-					<Item id="47003" name="Notepad++ Çevrimiçi Kullanıcı Kılavuzu"/>
-					<Item id="47004" name="Notepad++ Topluluğu (Forum)"/>
+					<Item id="47001" name="NotepadFree &amp;Ana Sayfası"/>
+					<Item id="47002" name="NotepadFree Proje Sayfası"/>
+					<Item id="47003" name="NotepadFree Çevrimiçi Kullanıcı Kılavuzu"/>
+					<Item id="47004" name="NotepadFree Topluluğu (Forum)"/>
 					<Item id="47012" name="Derleme Bilgileri…"/>
 					<Item id="47005" name="Eklenti Merkezi"/>
 					<Item id="47006" name="&amp;Güncellemeleri Denetle"/>
@@ -893,7 +893,7 @@
 
 					<Item id="6131" name="Menü"/>
 					<Item id="6122" name="Menü çubuğunu gizle (Alt veya F10 tuşlarıyla göster/gizle)"/>
-					<Item id="6132" name="Sağdaki ＋ ▼ ✕ kısayolları menü çubuğundan gizle (Notepad++ yeniden başlatılmalıdır)"/>
+					<Item id="6132" name="Sağdaki ＋ ▼ ✕ kısayolları menü çubuğundan gizle (NotepadFree yeniden başlatılmalıdır)"/>
 					<Item id="6123" name="Yerelleştir"/>
 					
 					<Item id="6128" name="Alternatif Simgeler"/>
@@ -1003,7 +1003,7 @@ Birden fazla sütun işaretçisi belirleyebilmek için, farklı sayılar arasın
 				</DefaultDir>
 
 				<FileAssoc title="Dosya İlişkilendirmeleri">
-					<Item id="4008" name="Bu özelliği kullanmak için, Notepad++'ı kapatıp yönetici olarak tekrar açın."/>
+					<Item id="4008" name="Bu özelliği kullanmak için, NotepadFree'ı kapatıp yönetici olarak tekrar açın."/>
 					<Item id="4009" name="Desteklenen uzantılar:"/>
 					<Item id="4010" name="Kaydedilen uzantılar:"/>
 				</FileAssoc>
@@ -1076,7 +1076,7 @@ Birden fazla sütun işaretçisi belirleyebilmek için, farklı sayılar arasın
 				</Print>
 				
                 <Searching title="Arama">
-                    <Item id="6902" name="Bul penceresinde sabit genişlikli yazıtipi kullan (Notepad++ yeniden başlatılmalıdır)"/>
+                    <Item id="6902" name="Bul penceresinde sabit genişlikli yazıtipi kullan (NotepadFree yeniden başlatılmalıdır)"/>
                     <Item id="6903" name="Bul penceresi, arama sonuçlar penceresine yönlendirdiğinde açık kalsın"/>
                     <Item id="6904" name="Tüm Açılmış Pencerelerde Tümünü Değiştirmeyi Onayla"/>
                     <Item id="6905" name="Değiştir: Sonraki eşleşmeye geçme"/>
@@ -1141,7 +1141,7 @@ Birden fazla sütun işaretçisi belirleyebilmek için, farklı sayılar arasın
 					<Item id="6152" name="Yeni bir örnekte oturum aç (ve kapanınca oturumu otomatik kaydet)"/>
 					<Item id="6153" name="Her zaman çoklu örnek modunda"/>
 					<Item id="6154" name="Varsayılan (tekli örnek)"/>
-					<Item id="6155" name="* Bu ayarın değiştirilmesi Notepad++'ın yeniden başlatılmasını gerektirir."/>
+					<Item id="6155" name="* Bu ayarın değiştirilmesi NotepadFree'ın yeniden başlatılmasını gerektirir."/>
 					<Item id="6171" name="Özel Tarih Zamanı Yerleştir"/>
 					<Item id="6175" name="Varsayılan tarih zaman sıralamasını ters çevir (kısa &amp;&amp; uzun format)"/>
 					<Item id="6172" name="Özel Format:"/>
@@ -1191,11 +1191,11 @@ Birden fazla sütun işaretçisi belirleyebilmek için, farklı sayılar arasın
 					<Item id="6313" name="Sessiz güncelle"/>
 					<Item id="6325" name="Güncellemeden sonra son satıra kaydır"/>
 					<Item id="6322" name="Oturumun dosya uzantısı:"/>
-					<Item id="6323" name="Notepad++'ı otomatik güncelle"/>
+					<Item id="6323" name="NotepadFree'ı otomatik güncelle"/>
 					<Item id="6324" name="Belge Değiştirici (Ctrl + Tab)"/>
 					<Item id="6331" name="Başlık çubuğunda sadece dosya adını göster"/>
 					<Item id="6334" name="Karakter kodlamasını otomatik olarak algıla"/>
-					<Item id="6349" name="DirectWrite Kullan (Özel karakterlerin gösterilmesini iyileştirebilir, Notepad++ yeniden başlatılmalıdır)"/>
+					<Item id="6349" name="DirectWrite Kullan (Özel karakterlerin gösterilmesini iyileştirebilir, NotepadFree yeniden başlatılmalıdır)"/>
 					<Item id="6350" name="Tam Çerçeve Modunu Etkinleştir"/>
 					<Item id="6337" name="Çalışma alanı dosya uzantısı:"/>
 					<Item id="6114" name="Etkin"/>
@@ -1268,8 +1268,8 @@ Bu pencereyi Tercihler içinden tekrar aktif edebilirsiniz."/>
             </DoSaveAll> <!-- NasılTekrarlanır: Tercihler->Çeşitli penceresinde 'Tümünü Kaydet onaylama penceresi' kutucuğunu işaretleyin, şimdi 'Tümünü Kaydet' seçeneğine tıklayın -->
 		</Dialog>
 		<MessageBox><!-- $INT_REPLACE$ bir yer tutucudur, çevirmeyin -->
-			<ContextMenuXmlEditWarning title="contextMenu.xml Dosyasını Düzenle" message="contextMenu.xml dosyasını düzenleyerek Notepad++ sağ tık bağlam menüsü değiştirilebilir.
-Değişikliklerin etkin olması için Notepad++ yeniden başlatılmalıdır."/>
+			<ContextMenuXmlEditWarning title="contextMenu.xml Dosyasını Düzenle" message="contextMenu.xml dosyasını düzenleyerek NotepadFree sağ tık bağlam menüsü değiştirilebilir.
+Değişikliklerin etkin olması için NotepadFree yeniden başlatılmalıdır."/>
 			<SaveCurrentModifWarning title="Geçerli Düzenlemeyi Kaydet" message="Yaptığınız değişiklikleri kaydetmelisiniz. 
 Kaydedilen değişiklikler geri alınamaz. 
 
@@ -1278,10 +1278,10 @@ Devam etmek istiyor musunuz?"/>
 Kaydedilen değişiklikler geri alınamaz. 
 
 Devam etmek istiyor musunuz?"/>
-			<CannotMoveDoc title="Yeni Notepad++ Penceresine Taşı" message="Belge değiştirilmiş, kaydedip yeniden deneyin."/>
+			<CannotMoveDoc title="Yeni NotepadFree Penceresine Taşı" message="Belge değiştirilmiş, kaydedip yeniden deneyin."/>
 			<DocReloadWarning title="Yeniden Yükle" message="Geçerli dosyayı yeniden yüklerseniz yaptığınız değişiklikler kaybolacak. Devam etmek istiyor musunuz?"/>
 			<FileLockedWarning title="Kaydedilemedi" message="Dosyanın başka bir yazılım tarafından kullanılmadığından emin olun."/>
-			<FileAlreadyOpenedInNpp title="Dosya Aç" message="Dosya zaten Notepad++ içinde açık."/>
+			<FileAlreadyOpenedInNpp title="Dosya Aç" message="Dosya zaten NotepadFree içinde açık."/>
 			<RenameTabTemporaryNameAlreadyInUse title="Yeniden Adlandırma Başarısız" message="Belirtilen isim başka bir sekmede kullanımda."/>
 			<DeleteFileFailed title="Dosya Sil" message="Dosya silinemedi"/>
 
@@ -1311,14 +1311,14 @@ Bu dosya başka bir program tarafından değiştirildi.
 Tekrar yüklemek ister misiniz?"/>
             <DoReloadOrNotAndLooseChange title="Tekrar Yükle" message="&quot;$STR_REPLACE$&quot;
 Bu dosya başka bir program tarafından değiştirildi.
-Tekrar yükleyerek Notepad++ içindeki değişiklerin kaybolmasını istiyor musunuz?"/>
+Tekrar yükleyerek NotepadFree içindeki değişiklerin kaybolmasını istiyor musunuz?"/>
             <PrehistoricSystemDetected title="Antik Sistem Bulundu" message="Görünüşe göre, halen antik bir sistem kullanıyorsunuz. Bu özellik sadece modern bir sistemde kullanılabilir, üzgünüm."/>
-            <XpUpdaterProblem title="Notepad++ Güncelleyici" message="Notepad++ güncelleyici XP ile uyumlu değil, çünkü XP güvenlik yapısı oldukça eski.
-Notepad++ sayfasına giderek en son sürümü indirmek ister misiniz?"/>
-            <GUpProxyConfNeedAdminMode title="Vekil Sunucu Ayarları" message="Vekil sunucuyu ayarlamak için, lütfen Notepad++'ı yönetici olarak tekrar başlatın."/>
+            <XpUpdaterProblem title="NotepadFree Güncelleyici" message="NotepadFree güncelleyici XP ile uyumlu değil, çünkü XP güvenlik yapısı oldukça eski.
+NotepadFree sayfasına giderek en son sürümü indirmek ister misiniz?"/>
+            <GUpProxyConfNeedAdminMode title="Vekil Sunucu Ayarları" message="Vekil sunucuyu ayarlamak için, lütfen NotepadFree'ı yönetici olarak tekrar başlatın."/>
             <DocTooDirtyToMonitor title="İzleme Sorunu" message="Belge kirli. İzlemeden önce lütfen değişikliği kaydedin."/>
             <DocNoExistToMonitor title="İzleme Sorunu" message="İzlenmesi için dosyanın mevcut olması gerekir."/>
-            <FileTooBigToOpen title="Dosya Boyutu Sorunu" message="Dosya, Notepad++ tarafından açılamayacak kadar büyük."/>
+            <FileTooBigToOpen title="Dosya Boyutu Sorunu" message="Dosya, NotepadFree tarafından açılamayacak kadar büyük."/>
             <FileLoadingException title="Exception code: $STR_REPLACE$" message="An error occurred while loading the file!"/>
             <CreateNewFileOrNot title="Yeni Dosya Oluştur" message="&quot;$INT_REPLACE$&quot; mevcut değil. Oluşturulsun mu?."/>
             <CreateNewFileError title="Yeni Dosya Oluştur" message="&quot;$INT_REPLACE$&quot; dosyası oluşturulamıyor."/>
@@ -1351,16 +1351,16 @@ lütfen yeni bir isim verin."/>
 			<SCMapperDoDeleteOrNot title="Emin misiniz?" message="Bu kısayolu silmek istediğinize emin misiniz?"/>
 			<FindCharRangeValueError title="Aralık Değeri Problemi" message="0 ile 255 arasında bir giriş yapmalısınız."/>
             <OpenInAdminMode title="Kayıt Başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
-Notepad++ı Yönetici olarak başlatmak ister misiniz?"/>
+NotepadFreeı Yönetici olarak başlatmak ister misiniz?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Kayıt Başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
-Notepad++ı Yönetici olarak başlatmak ister misiniz?"/>
-            <OpenInAdminModeFailed title="Yönetici Olarak Başlatma Başarısız" message="Notepad++ Yönetici olarak başlatılamaz."/>
+NotepadFreeı Yönetici olarak başlatmak ister misiniz?"/>
+            <OpenInAdminModeFailed title="Yönetici Olarak Başlatma Başarısız" message="NotepadFree Yönetici olarak başlatılamaz."/>
             <ViewInBrowser title="Şimdiki Dosyayı Tarayıcıda GÖrüntüle" message="Sisteminizde uygulama bulunamadı."/>
-            <ExitToUpdatePlugins title="Notepad++ kapanmak üzere" message="Eğer EVET düğmesine basarsanız, Notepad++ kapanacak ve işlemler devam edecek.
-Notepad++ tüm işlemler bitince yeniden başlatılacak.
+            <ExitToUpdatePlugins title="NotepadFree kapanmak üzere" message="Eğer EVET düğmesine basarsanız, NotepadFree kapanacak ve işlemler devam edecek.
+NotepadFree tüm işlemler bitince yeniden başlatılacak.
 Devam edilsin mi?"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ yeniden başlatılmalı" message="Kurduğunuz eklentilerin yüklenmesi için Notepad++ yeniden başlatılmalı."/>
-            <ChangeHistoryEnabledWarning title="Notepad++ yeniden başlatılmalı" message="Değişim Geçmişini etkinleştirmek için Notepad++'ı yeniden başlatılmanız gereklidir."/> <!-- NasılTekrarlanır: Tercihler penceresindeki "Boşluk/Sınır/Köşe" sekmesinde bulunan "Değişim Geçmişini Göster" seçeneğindeki işareti kaldırın. -->
+            <NeedToRestartToLoadPlugins title="NotepadFree yeniden başlatılmalı" message="Kurduğunuz eklentilerin yüklenmesi için NotepadFree yeniden başlatılmalı."/>
+            <ChangeHistoryEnabledWarning title="NotepadFree yeniden başlatılmalı" message="Değişim Geçmişini etkinleştirmek için NotepadFree'ı yeniden başlatılmanız gereklidir."/> <!-- NasılTekrarlanır: Tercihler penceresindeki "Boşluk/Sınır/Köşe" sekmesinde bulunan "Değişim Geçmişini Göster" seçeneğindeki işareti kaldırın. -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="Pano Geçmişi"/>
@@ -1478,8 +1478,8 @@ Devam edilsin mi?"/>
 			<word-chars-list-warning-end value="  karakter listenizde."/>
 			<backup-select-folder value="Yedekleme konumu için bir klasör seçin"/> <!-- NasılTekrarlanır: Ayarlar > Tercihler > Yedekleme > [...] -->
 			<cloud-invalid-warning value="Geçersiz yol."/>
-			<cloud-restart-warning value="Etkin olması için Notepad++'yı tekrar başlat."/>
-			<cloud-select-folder value="Notepad++'ın ayarlarını yazıp okuyabileceği bir klasör seçin"/>
+			<cloud-restart-warning value="Etkin olması için NotepadFree'yı tekrar başlat."/>
+			<cloud-select-folder value="NotepadFree'ın ayarlarını yazıp okuyabileceği bir klasör seçin"/>
 			<default-open-save-select-folder value="Varsayılan dizin için bir klasör seçin"/> <!-- NasılTekrarlanır: Ayarlar > Tercihler > Varsayılan Dizin > [...] -->
 			<shift-change-direction-tip value="Shift+Enter ile diğer yönde arama yapın."/>
 			<two-find-buttons-tip value="İkili Bulma Düğmesi Modu"/>

@@ -326,17 +326,17 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id="46001" name="Конфігуратор стилю..."/>
                     <Item id="46250" name="Визначити мову..."/>
                     <Item id="46300" name="Відкрити користувацьку теку мови..."/>
-                    <Item id="46301" name="Збірка мов Notepad++ визначених користувачем"/>
+                    <Item id="46301" name="Збірка мов NotepadFree визначених користувачем"/>
                     <Item id="46180" name="Визначено користувачем"/>
-                    <Item id="47000" name="Про Notepad++"/>
+                    <Item id="47000" name="Про NotepadFree"/>
                     <Item id="47010" name="Аргументи командного рядка..."/>
-                    <Item id="47001" name="Домівка Notepad++"/>
-                    <Item id="47002" name="Сторінка проєкту Notepad++"/>
-                    <Item id="47003" name="Посібник користувача Notepad++"/>
-                    <Item id="47004" name="Спільнота (Форум) Notepad++"/>
+                    <Item id="47001" name="Домівка NotepadFree"/>
+                    <Item id="47002" name="Сторінка проєкту NotepadFree"/>
+                    <Item id="47003" name="Посібник користувача NotepadFree"/>
+                    <Item id="47004" name="Спільнота (Форум) NotepadFree"/>
                     <Item id="47012" name="Інформація зневадження..."/>
                     <Item id="47005" name="Отримати більше плагінів"/>
-                    <Item id="47006" name="Оновити Notepad++"/>
+                    <Item id="47006" name="Оновити NotepadFree"/>
                     <Item id="47009" name="Встановити проксі оновлення..."/>
                     <Item id="48005" name="Імпорт плагінів..."/>
                     <Item id="48006" name="Імпорт тем стилів..."/>
@@ -970,7 +970,7 @@ The comments are here for explanation, it's not necessary to translate them.
                 </DefaultDir>
 
                 <FileAssoc title="Асоціації файлів">
-                    <Item id="4008" name="Щоб використовувати цю функцію, перезапустіть Notepad++ в режимі адміністратора."/>
+                    <Item id="4008" name="Щоб використовувати цю функцію, перезапустіть NotepadFree в режимі адміністратора."/>
                     <Item id="4009" name="Підтримувані:"/>
                     <Item id="4010" name="Зареєстровані:"/>
                 </FileAssoc>
@@ -1044,7 +1044,7 @@ The comments are here for explanation, it's not necessary to translate them.
 
                 <Searching title="Триває пошук">
                     <Item id="6901" name="Не заповнювати поле пошуку у вікні „Пошук“ виділеним словом"/>
-                    <Item id="6902" name="Моноширинний шрифт у вікні Знайти (Необхідний перезапуск Notepad++)"/>
+                    <Item id="6902" name="Моноширинний шрифт у вікні Знайти (Необхідний перезапуск NotepadFree)"/>
                     <Item id="6903" name="Вікно пошуку залишається відкритим після виведення результатів"/>
                     <Item id="6904" name="Підтвердити заміну всього в усіх відкритих документах"/>
                     <Item id="6905" name="Замінити: Не переходити до наступного входження"/>
@@ -1105,7 +1105,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id="6152" name="Відкрити сеанс у новому екземплярі (автоматично зберігати сеанс при виході)"/>
                     <Item id="6153" name="Завжди відкривати в новому вікні"/>
                     <Item id="6154" name="Все в одному вікні (типово)"/>
-                    <Item id="6155" name="* Зміна цих налаштувань потребує перезапуску Notepad++"/>
+                    <Item id="6155" name="* Зміна цих налаштувань потребує перезапуску NotepadFree"/>
                     <Item id="6171" name="Налаштувати вставлення дати й часу"/>
                     <Item id="6175" name="Зворотний порядок типової дати й часу (короткий і довгий формати)"/>
                     <Item id="6172" name="Власний формат:"/>
@@ -1154,11 +1154,11 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id="6313" name="Оновлювати без запиту"/>
                     <Item id="6325" name="Після оновлення прокрутити до останнього рядка"/>
                     <Item id="6322" name="Розширення файлу сеансу:"/>
-                    <Item id="6323" name="Автоматичне оновлення Notepad++"/>
+                    <Item id="6323" name="Автоматичне оновлення NotepadFree"/>
                     <Item id="6324" name="Перемикання документів (Ctrl+Tab)"/>
                     <Item id="6331" name="Показувати лише назву файлу в рядку заголовка"/>
                     <Item id="6334" name="Автовизначення кодування символів"/>
-                    <Item id="6349" name="Використовувати DirectWrite (Може вдосконалити візуалізацію спеціальних символів, необхідний перезапуск Notepad++)"/>
+                    <Item id="6349" name="Використовувати DirectWrite (Може вдосконалити візуалізацію спеціальних символів, необхідний перезапуск NotepadFree)"/>
                     <Item id="6337" name="Розш. файлу робочої області:"/>
                     <Item id="6114" name="Увімкнути"/>
                     <Item id="6117" name="Побудувати список в міру використання"/>
@@ -1231,8 +1231,8 @@ The comments are here for explanation, it's not necessary to translate them.
             </DoSaveAll> <!-- HowToReproduce: Check the 'Enable Save All confirm dialog' checkbox in Preference->MISC, now click 'Save all' -->
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Зміна contextMenu" message="Зміна contextMenu.xml дозволяє вам змінювати випадаюче меню Notepad++.
-Для застосування змін необхідно перезапустити Notepad++."/>
+            <ContextMenuXmlEditWarning title="Зміна contextMenu" message="Зміна contextMenu.xml дозволяє вам змінювати випадаюче меню NotepadFree.
+Для застосування змін необхідно перезапустити NotepadFree."/>
             <SaveCurrentModifWarning title="Зберегти поточну модифікацію" message="Ви повинні зберегти поточні зміни.
 Всі збережені зміни неможливо відмінити.
 
@@ -1241,15 +1241,15 @@ The comments are here for explanation, it's not necessary to translate them.
 Всі збережені зміни неможливо відмінити.
 
 Продовжити?"/> <!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-            <CannotMoveDoc title="Перемістити в новий екземпляр Notepad++" message="Документ змінений. Збережіть його і спробуйте знову."/> <!-- HowToReproduce: From your Notepad++ drag & drop a clean (not dirty) file to outside of Notepad++, another instance of Notepad++ will be created. Then from your first Notepad++ drag & drop an unsaved file to the new instance. -->
-            <DocReloadWarning title="Перезавантажити" message="Ви дійсно хочете перезавантажити поточний файл і втратити зміни, зроблені в Notepad++?"/>
+            <CannotMoveDoc title="Перемістити в новий екземпляр NotepadFree" message="Документ змінений. Збережіть його і спробуйте знову."/> <!-- HowToReproduce: From your NotepadFree drag & drop a clean (not dirty) file to outside of NotepadFree, another instance of NotepadFree will be created. Then from your first NotepadFree drag & drop an unsaved file to the new instance. -->
+            <DocReloadWarning title="Перезавантажити" message="Ви дійсно хочете перезавантажити поточний файл і втратити зміни, зроблені в NotepadFree?"/>
             <FileLockedWarning title="Збереження невдале" message="Перевірте, чи цей файл не відкритий в іншій програмі"/>
-            <FileAlreadyOpenedInNpp title="" message="Файл вже відкрито в Notepad++."/> <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
+            <FileAlreadyOpenedInNpp title="" message="Файл вже відкрито в NotepadFree."/> <!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
             <RenameTabTemporaryNameAlreadyInUse title="Не вдалося перейменувати" message="Вказана назва вже використовується в іншій вкладці."/> <!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
             <DeleteFileFailed title="Видалити файл" message="Не вдалося видалити файл"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 
             <NbFileToOpenImportantWarning title="Надто велика кількість файлів для відкриття" message="$INT_REPLACE$ файлів невдовзі будуть відкриті.
-Ви дійсно хочете відкрити їх?"/> <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+Ви дійсно хочете відкрити їх?"/> <!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into NotepadFree. -->
             <SettingsOnCloudError title="Налаштування хмарного сховища" message="Схоже, шлях налаштувань в хмарі встановлений на диск лише для читання,
 або в теку, яка потребує відповідних прав на запис.
 Ваші налаштування в хмарі будуть скасовані. Будь ласка, скиньте відповідні значення через діалог Налаштування."/>
@@ -1274,14 +1274,14 @@ The comments are here for explanation, it's not necessary to translate them.
             <DoReloadOrNotAndLooseChange title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;
 
 Цей файл був змінений іншою програмою.
-Хочете перезавантажити його і втратити всі зміни, зроблені в Notepad++?"/>
+Хочете перезавантажити його і втратити всі зміни, зроблені в NotepadFree?"/>
             <PrehistoricSystemDetected title="Виявлено застарілу систему" message="Схоже, ви все ще використовуєте застарілу систему. Шкода, але ця функція працює лише на сучасній системі."/> <!-- HowToReproduce: Launch "Document Map" under Windows XP. -->
-            <XpUpdaterProblem title="Система оновлення Notepad++" message="Система оновлення Notepad++ несумісна з XP, у зв'язку із застарілою системою безпеки XP.
-Хочете перейти на веб-сторінку Notepad++ для завантаження найновішої версії?"/> <!-- HowToReproduce: Run menu "? -> Update Notepad++" under Windows XP. -->
-            <GUpProxyConfNeedAdminMode title="Параметри проксі" message="Перезапустіть Notepad++ в режимі Адміністратора для налаштування проксі."/>
+            <XpUpdaterProblem title="Система оновлення NotepadFree" message="Система оновлення NotepadFree несумісна з XP, у зв'язку із застарілою системою безпеки XP.
+Хочете перейти на веб-сторінку NotepadFree для завантаження найновішої версії?"/> <!-- HowToReproduce: Run menu "? -> Update NotepadFree" under Windows XP. -->
+            <GUpProxyConfNeedAdminMode title="Параметри проксі" message="Перезапустіть NotepadFree в режимі Адміністратора для налаштування проксі."/>
             <DocTooDirtyToMonitor title="Проблема моніторингу" message="Документ змінено. Будь ласка, збережіть зміни перед його моніторингом."/>
             <DocNoExistToMonitor title="Проблема моніторингу" message="Файл повинен існувати для його моніторингу."/>
-            <FileTooBigToOpen title="Проблема розміру файлу" message="Файл завеликий для відкриття в Notepad++"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
+            <FileTooBigToOpen title="Проблема розміру файлу" message="Файл завеликий для відкриття в NotepadFree"/> <!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
             <FileLoadingException title="Код винятку: $STR_REPLACE$" message="Сталася помилка при завантаженні файлу!"/>
             <WantToOpenHugeFile title="Попередження при відкритті великих файлів" message="Відкриття файлів розміром 2 ГБ та більше може тривати декілька хвилин.
 Хочете відкрити?"/>
@@ -1291,8 +1291,8 @@ The comments are here for explanation, it's not necessary to translate them.
             <FileBackupFailed title="Збій резервного копіювання файлу" message="Попередня версія файлу може бути не збережена в каталозі для резервного копіювання &quot;$STR_REPLACE$&quot;. Ви все ще хочете зберегти поточний файл?"/> <!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
             <LoadStylersFailed title="Збій завантаження stylers.xml" message="Не вдалося завантажити &quot;$STR_REPLACE$&amp;quot!"/>
             <LoadLangsFailed title="Конфігуратор" message="Збій завантаження langs.xml!
-Хочете відновити langs.xml?"/> <!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
-            <LoadLangsFailedFinal title="Конфігуратор" message="Збій завантаження langs.xml!"/> <!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+Хочете відновити langs.xml?"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open NotepadFree. -->
+            <LoadLangsFailedFinal title="Конфігуратор" message="Збій завантаження langs.xml!"/> <!-- HowToReproduce: Close NotepadFree. Use another editor to make "langs.xml" an invalid xml file then save it. Open NotepadFree. -->
             <FolderAsWorspaceSubfolderExists title="Проблема з додаванням теки як робочої області" message="Підтека, яку ви хочете додати, вже існує.
 Вилучіть її корінь з панелі перш, ніж додавати теку &quot;$STR_REPLACE$&quot;."/> <!-- HowToReproduce: Add a folder like "c:\temp\aFolder\" into "Folder as Workspace" panel, then try to add "c:\temp\". -->
 
@@ -1314,15 +1314,15 @@ The comments are here for explanation, it's not necessary to translate them.
             <SCMapperDoDeleteOrNot title="Ви впевнені?" message="Ви дійсно бажаєте видалити цю комбінацію клавіш?"/>
             <FindCharRangeValueError title="Проблема з діапазоном значень" message="Необхідно ввести значення від 0 до 255."/>
             <OpenInAdminMode title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним.
-Хочете запустити Notepad++ в режимі адміністратора?"/>
+Хочете запустити NotepadFree в режимі адміністратора?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним.
-Хочете запустити Notepad++ в режимі адміністратора?"/>
-            <OpenInAdminModeFailed title="Не вдалося запустити в режимі адміністратора" message="Notepad++ не може бути відкритий в режимі адміністратора."/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
+Хочете запустити NotepadFree в режимі адміністратора?"/>
+            <OpenInAdminModeFailed title="Не вдалося запустити в режимі адміністратора" message="NotepadFree не може бути відкритий в режимі адміністратора."/> <!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
             <ViewInBrowser title="Перегляд поточного файлу в браузері" message="У вашій системі не вдалося знайти програму."/>
-            <ExitToUpdatePlugins title="Ви збираєтеся закрити Notepad++" message="Якщо ви оберете ТАК, ви вийдете з Notepad++ для продовження операцій.
-Notepad++ перезапуститься після завершення всіх операцій.
+            <ExitToUpdatePlugins title="Ви збираєтеся закрити NotepadFree" message="Якщо ви оберете ТАК, ви вийдете з NotepadFree для продовження операцій.
+NotepadFree перезапуститься після завершення всіх операцій.
 Продовжити?"/>
-            <NeedToRestartToLoadPlugins title="Необхідно перезапустити Notepad++" message="Необхідно перезапустити Notepad++ для завантаження встановлених плагінів."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
+            <NeedToRestartToLoadPlugins title="Необхідно перезапустити NotepadFree" message="Необхідно перезапустити NotepadFree для завантаження встановлених плагінів."/> <!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Історія буфера"/>
@@ -1439,8 +1439,8 @@ Notepad++ перезапуститься після завершення всі�
             <word-chars-list-warning-end value="  у вашому списку символів."/> <!-- HowToReproduce: In "Delimiter" section of Preferences dialog, check "Add your character as part of word\r(don't choose it unless you know what you're doing)", then type a white-space in the text field. -->
             <backup-select-folder value="Виберіть теку для резервного копіювання"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
             <cloud-invalid-warning value="Неправильний шлях."/>
-            <cloud-restart-warning value="Перезапустіть Notepad++ для застосування змін."/>
-            <cloud-select-folder value="Виберіть теку, звідки/куди в Notepad++ читати/записувати свої параметри"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
+            <cloud-restart-warning value="Перезапустіть NotepadFree для застосування змін."/>
+            <cloud-select-folder value="Виберіть теку, звідки/куди в NotepadFree читати/записувати свої параметри"/> <!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
             <default-open-save-select-folder value="Виберіть типову теку"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
             <shift-change-direction-tip value="Використовуйте Shift+Enter для пошуку у зворотному напрямку"/>
             <two-find-buttons-tip value="2-кнопковий режим пошуку"/>

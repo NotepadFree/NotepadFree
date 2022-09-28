@@ -207,9 +207,9 @@
 
                     <Item id="46001" name="Stilin konfiqurasiyası..."/>
                     <Item id="46180" name="İstifadəçinin nizamları"/>
-                    <Item id="47000" name="Notepad++ haqqında"/>
-                    <Item id="47001" name="Notepad++ vebsaytı"/>
-                    <Item id="47002" name="Notepad++ layihə-səhifəsi"/>
+                    <Item id="47000" name="NotepadFree haqqında"/>
+                    <Item id="47001" name="NotepadFree vebsaytı"/>
+                    <Item id="47002" name="NotepadFree layihə-səhifəsi"/>
                     <Item id="47003" name="Onlayn kömək"/>
                     <Item id="47004" name="Forum"/>
                     <Item id="47005" name="Plaginləri yüklə"/>
@@ -542,7 +542,7 @@
                     <Item id="6319" name="İcazə ver"/>
                     <Item id="6320" name="Altınnan xətt çəkmə"/>
                     <Item id="6322" name="Sessiya faylın tipi:"/>
-                    <Item id="6323" name="Notepad++ avtomatik yenilə"/>
+                    <Item id="6323" name="NotepadFree avtomatik yenilə"/>
                     <Item id="6324" name="Sənədlərin komutasiyası (Ctrl+TAB)"/>
                     <Item id="6326" name="İntellektual işıqlandırma"/>
                     <Item id="6329" name="Uyğun olan teqləri işıqlandır"/>

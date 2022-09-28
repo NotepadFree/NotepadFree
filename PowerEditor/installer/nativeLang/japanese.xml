@@ -335,17 +335,17 @@
                     <Item id="46001" name="スタイル設定..."/>
                     <Item id="46250" name="言語を定義..."/>
                     <Item id="46300" name="言語定義のフォルダーを開く..."/>
-                    <Item id="46301" name="Notepad++ ユーザー言語定義コレクション"/>
+                    <Item id="46301" name="NotepadFree ユーザー言語定義コレクション"/>
                     <Item id="46180" name="ユーザー定義"/>
-                    <Item id="47000" name="Notepad++について"/>
+                    <Item id="47000" name="NotepadFreeについて"/>
                     <Item id="47010" name="コマンドライン引数..."/>
-                    <Item id="47001" name="Notepad++のサイト"/>
-                    <Item id="47002" name="Notepad++のプロジェクトページ"/>
-                    <Item id="47003" name="Notepad++のオンラインマニュアル"/>
-                    <Item id="47004" name="Notepad++のコミュニティ(フォーラム)"/>
+                    <Item id="47001" name="NotepadFreeのサイト"/>
+                    <Item id="47002" name="NotepadFreeのプロジェクトページ"/>
+                    <Item id="47003" name="NotepadFreeのオンラインマニュアル"/>
+                    <Item id="47004" name="NotepadFreeのコミュニティ(フォーラム)"/>
                     <Item id="47012" name="デバッグ情報..."/>
                     <Item id="47005" name="プラグインを探す"/>
-                    <Item id="47006" name="Notepad++をアップデート"/>
+                    <Item id="47006" name="NotepadFreeをアップデート"/>
                     <Item id="47009" name="アップデーターのプロキシを設定..."/>
                     <Item id="48005" name="プラグインをインポート..."/>
                     <Item id="48006" name="テーマをインポート..."/>
@@ -897,7 +897,7 @@
 
                     <Item id="6131" name="メニュー"/>
                     <Item id="6122" name="メインメニューを隠す(表示するには Alt か F10 を押す)"/>
-                    <Item id="6132" name="メインメニュー右端の ＋ ▼ ✕ ボタンを非表示にする(Notepad++ の再起動が必要)"/>
+                    <Item id="6132" name="メインメニュー右端の ＋ ▼ ✕ ボタンを非表示にする(NotepadFree の再起動が必要)"/>
                     <Item id="6123" name="言語"/>
 
                     <Item id="6128" name="別デザインのアイコンを使用する"/>
@@ -1005,7 +1005,7 @@
                 </DefaultDir>
 
                 <FileAssoc title="ファイルの関連付け">
-                    <Item id="4008" name="この機能を使うには、Notepad++ をいったん終了し、管理者権限で起動し直してください。"/>
+                    <Item id="4008" name="この機能を使うには、NotepadFree をいったん終了し、管理者権限で起動し直してください。"/>
                     <Item id="4009" name="サポート形式:"/>
                     <Item id="4010" name="登録済み形式:"/>
                 </FileAssoc>
@@ -1078,7 +1078,7 @@
                 </Print>
                 
                 <Searching title="検索">
-                    <Item id="6902" name="検索画面で固定幅フォントを使用する（Notepad++ の再起動が必要）"/>
+                    <Item id="6902" name="検索画面で固定幅フォントを使用する（NotepadFree の再起動が必要）"/>
                     <Item id="6903" name="検索結果を結果ウィンドウに表示する時に、検索画面を自動で閉じないようにする"/>
                     <Item id="6904" name="「すべての文書で置換」を実行する前に、確認する"/>
                     <Item id="6905" name="置換時に、次の出現箇所に移動しない"/>
@@ -1144,7 +1144,7 @@
                     <Item id="6152" name="セッションを新しいインスタンスで開く（セッションは終了時に自動保存）"/>
                     <Item id="6153" name="常にマルチインスタンスモードとする"/>
                     <Item id="6154" name="デフォルト（1つのインスタンス）"/>
-                    <Item id="6155" name="* この変更を有効にするにはNotepad++の再起動が必要です"/>
+                    <Item id="6155" name="* この変更を有効にするにはNotepadFreeの再起動が必要です"/>
                     <Item id="6171" name="挿入する日時の書式設定"/>
                     <Item id="6175" name="日付と時刻の順序を逆にする（短い形式、長い形式の場合）"/>
                     <Item id="6172" name="カスタム書式:"/>
@@ -1194,11 +1194,11 @@
                     <Item id="6313" name="自動で最新状態に更新"/>
                     <Item id="6325" name="更新後最後の行にスクロール"/>
                     <Item id="6322" name="セッションファイルの拡張子:"/>
-                    <Item id="6323" name="Notepad++の自動アップデートを有効にする"/>
+                    <Item id="6323" name="NotepadFreeの自動アップデートを有効にする"/>
                     <Item id="6324" name="ビューの切り替え(Ctrl+Tab)"/>
                     <Item id="6331" name="タイトルバーにファイル名のみ表示"/>
                     <Item id="6334" name="文字コードを自動判別"/>
-                    <Item id="6349" name="DirectWriteを使用する（特殊な文字の描画が改善されます。Notepad++ の再起動が必要）"/>
+                    <Item id="6349" name="DirectWriteを使用する（特殊な文字の描画が改善されます。NotepadFree の再起動が必要）"/>
                     <Item id="6337" name="ワークスペースファイルの拡張子:"/>
                     <Item id="6114" name="有効"/>
                     <Item id="6117" name="最近使用した順で切り替える"/>
@@ -1271,8 +1271,8 @@
             </DoSaveAll> <!-- HowToReproduce: Check the 'Enable Save All confirm dialog' checkbox in Preference->MISC, now click 'Save all' -->
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="コンテキストメニューの編集" message="これから開く contextMenu.xml を編集することで、Notepad++のポップアップメニューを変更できます。
-変更を適用するには、保存後、Notepad++を再起動して下さい。"/>
+            <ContextMenuXmlEditWarning title="コンテキストメニューの編集" message="これから開く contextMenu.xml を編集することで、NotepadFreeのポップアップメニューを変更できます。
+変更を適用するには、保存後、NotepadFreeを再起動して下さい。"/>
             <SaveCurrentModifWarning title="警告: 現在の変更を保存" message="現在の変更を保存する必要があります。
 保存したすべての変更は取り消すことはできません。
 
@@ -1284,7 +1284,7 @@
             <CannotMoveDoc title="新しいウィンドウに移動" message="ドキュメントが変更されました。保存してやり直してください。"/>
             <DocReloadWarning title="再読み込み" message="変更が失われますが、このドキュメントを本当に開き直しますか?"/>
             <FileLockedWarning title="警告: 保存失敗" message="このファイルを別のプログラムで開いていないか確認してください。"/>
-            <FileAlreadyOpenedInNpp title="" message="そのファイルは既にNotepad++で開かれています。"/>
+            <FileAlreadyOpenedInNpp title="" message="そのファイルは既にNotepadFreeで開かれています。"/>
             <RenameTabTemporaryNameAlreadyInUse title="名前の変更に失敗" message="指定された名前は、ほかのタブで使用されています。"/> <!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
             <DeleteFileFailed title="削除失敗" message="ファイルの削除に失敗しました。"/>
 
@@ -1315,14 +1315,14 @@
             <DoReloadOrNotAndLooseChange title="再読み込み" message="&quot;$STR_REPLACE$&quot;
 
 このファイルは他のプログラムによって変更されました。
-Notepad++ で行った変更は破棄されますが、再読み込みしますか？"/>
+NotepadFree で行った変更は破棄されますが、再読み込みしますか？"/>
             <PrehistoricSystemDetected title="古いシステムです" message="システムが古いため、この機能は利用できません。"/>
-            <XpUpdaterProblem title="Notepad++ アップデーター" message="Notepad++ アップデーターは XP では利用できません。これは XP のセキュリティー機能が古いためです。
-Notepad++ のダウンロードページを開きますか？"/>
-            <GUpProxyConfNeedAdminMode title="プロキシ設定" message="プロキシ設定を変更するには、Notepad++ を管理者権限で実行してください。"/>
+            <XpUpdaterProblem title="NotepadFree アップデーター" message="NotepadFree アップデーターは XP では利用できません。これは XP のセキュリティー機能が古いためです。
+NotepadFree のダウンロードページを開きますか？"/>
+            <GUpProxyConfNeedAdminMode title="プロキシ設定" message="プロキシ設定を変更するには、NotepadFree を管理者権限で実行してください。"/>
             <DocTooDirtyToMonitor title="ファイル監視" message="この文書は変更されています。監視を始める前に保存をして下さい。"/>
             <DocNoExistToMonitor title="ファイル監視" message="監視対象のファイルが存在しません。"/>
-            <FileTooBigToOpen title="ファイルサイズ" message="ファイルサイズが大きいため Notepad++ で開けません。"/>
+            <FileTooBigToOpen title="ファイルサイズ" message="ファイルサイズが大きいため NotepadFree で開けません。"/>
             <FileLoadingException title="例外コード：$STR_REPLACE$" message="ファイルの読み込み中にエラーが発生しました。"/>
             <WantToOpenHugeFile title="大きなファイルを開こうとしています" message="2GBより大きなファイルを開くには何分かかかるかもしれません。
 ファイルを開きますか？"/>
@@ -1358,16 +1358,16 @@ langs.xml を復元しますか？"/>
             <SCMapperDoDeleteOrNot title="よろしいですか？" message="このショートカットを削除してよろしいですか？"/>
             <FindCharRangeValueError title="数値範囲" message="0 から 255 の値を入力して下さい。"/>
             <OpenInAdminMode title="保存に失敗" message="ファイルを保存できませんでした。保護されたファイルのようです。
-Notepad++ を管理者権限で立ち上げますか？"/>
+NotepadFree を管理者権限で立ち上げますか？"/>
             <OpenInAdminModeWithoutCloseCurrent title="保存に失敗" message="ファイルを保存できませんでした。保護されたファイルのようです。
-Notepad++ を管理者権限で立ち上げますか？"/>
-            <OpenInAdminModeFailed title="管理者権限で立ち上げることに失敗" message="Notepad++ を管理者権限で立ち上げられませんでした。"/>
+NotepadFree を管理者権限で立ち上げますか？"/>
+            <OpenInAdminModeFailed title="管理者権限で立ち上げることに失敗" message="NotepadFree を管理者権限で立ち上げられませんでした。"/>
             <ViewInBrowser title="ブラウザーで開く" message="アプリケーションが見つかりませんでした。"/>
-            <ExitToUpdatePlugins title="Notepad++ を終了しようとしています" message="「はい」を選択すると、Notepad++ を終了して更新作業を行います。
-すべての作業が完了すると Notepad++ は再起動します。
+            <ExitToUpdatePlugins title="NotepadFree を終了しようとしています" message="「はい」を選択すると、NotepadFree を終了して更新作業を行います。
+すべての作業が完了すると NotepadFree は再起動します。
 処理を続けますか？"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ を再起動してください" message="インストールしたプラグインを読み込むには、Notepad++ を再起動してください。"/>
-            <ChangeHistoryEnabledWarning title="Notepad++ を再起動してください" message="編集履歴マーカーを有効にするには、Notepad++ を再起動してください。"/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+            <NeedToRestartToLoadPlugins title="NotepadFree を再起動してください" message="インストールしたプラグインを読み込むには、NotepadFree を再起動してください。"/>
+            <ChangeHistoryEnabledWarning title="NotepadFree を再起動してください" message="編集履歴マーカーを有効にするには、NotepadFree を再起動してください。"/> <!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="クリップボード履歴"/>
@@ -1483,7 +1483,7 @@ Notepad++ を管理者権限で立ち上げますか？"/>
             <backup-select-folder value="バックアップ先を選択してください"/>
             <cloud-invalid-warning value="無効なパスです。"/>
             <cloud-restart-warning value="変更を有効にするには再起動が必要です。"/>
-            <cloud-select-folder value="Notepad++ が設定を読み書きするフォルダーを選択してください。"/>
+            <cloud-select-folder value="NotepadFree が設定を読み書きするフォルダーを選択してください。"/>
             <default-open-save-select-folder value="既定のディレクトリを選択してください"/>
             <shift-change-direction-tip value="Shift+Enter で逆方向に検索します"/>
             <two-find-buttons-tip value="検索ボタンを2個に分ける"/>

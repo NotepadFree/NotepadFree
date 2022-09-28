@@ -364,19 +364,19 @@
                     <!-- type: Language menu -->
                     <Item id="46250" name="定義你嘅程式語言..."/>
                     <Item id="46300" name="打開自訂程式語言嘅資料夾..."/>
-                    <Item id="46301" name="Notepad++ 自訂程式語言收藏庫"/> <!-- #new v8.1.9.3 -->
+                    <Item id="46301" name="NotepadFree 自訂程式語言收藏庫"/> <!-- #new v8.1.9.3 -->
                     <Item id="46180" name="通用使用者設定"/>
 
                     <!-- type: Help menu -->
-                    <Item id="47000" name="關於 Notepad++"/>
+                    <Item id="47000" name="關於 NotepadFree"/>
                     <Item id="47010" name="Command line 參數..."/>
-                    <Item id="47001" name="Notepad++ 官方網站"/>
-                    <Item id="47002" name="Notepad++ 開發源碼網站"/>
-                    <Item id="47003" name="Notepad++ 網上用戶手冊"/>
-                    <Item id="47004" name="Notepad++ 社群論壇"/>
+                    <Item id="47001" name="NotepadFree 官方網站"/>
+                    <Item id="47002" name="NotepadFree 開發源碼網站"/>
+                    <Item id="47003" name="NotepadFree 網上用戶手冊"/>
+                    <Item id="47004" name="NotepadFree 社群論壇"/>
                     <Item id="47012" name="除錯資訊 (debug info)..."/>
                     <Item id="47005" name="搵外掛"/>
-                    <Item id="47006" name="更新 Notepad++"/>
+                    <Item id="47006" name="更新 NotepadFree"/>
                     <Item id="47009" name="設定更新程式嘅代理伺服器..."/>
 
                     <!-- type: Settings menu (cont'd) -->
@@ -936,7 +936,7 @@
                     <Item id="6121" name="閂最後份文件嗰陣順便閂埋個程式"/>
                     <Item id="6131" name="Menu"/> <!-- #new v8.4.5 -->
                     <Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/>
-                    <Item id="6132" name="隱藏 menu bar 右邊嗰啲快捷鍵 ＋ ▼ ✕（需要重開 Notepad++）"/> <!-- #new v8.4.5 -->
+                    <Item id="6132" name="隱藏 menu bar 右邊嗰啲快捷鍵 ＋ ▼ ✕（需要重開 NotepadFree）"/> <!-- #new v8.4.5 -->
                     <Item id="6123" name="本土化"/>
                     <Item id="6128" name="另類圖示"/> <!-- #new v7.9.1 -->
                 </Global>
@@ -1044,7 +1044,7 @@
                 </DefaultDir>
 
                 <FileAssoc title="檔案關聯">
-                    <Item id="4008" name="想改下面啲設定，麻煩你閂咗個 Notepad++，然後「以系統管理員身份執行」重新打開 Notepad++。"/>
+                    <Item id="4008" name="想改下面啲設定，麻煩你閂咗個 NotepadFree，然後「以系統管理員身份執行」重新打開 NotepadFree。"/>
                     <Item id="4009" name="支援嘅副檔名："/>
                     <Item id="4010" name="登記咗嘅副檔名："/>
                 </FileAssoc>
@@ -1119,7 +1119,7 @@
 
                 <Searching title="搵嘢">
                     <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #legacy v8.4.4 -->
-                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
+                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 NotepadFree）"/>
                     <Item id="6903" name="搵完嘢，保持開著個對話框"/>
                     <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要先做確認"/>
                     <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new v7.9.6 -->
@@ -1184,7 +1184,7 @@
                     <Item id="6152" name="打開工作階段嗰陣時，開新嘅程式個體（閂佢會自動 save）"/>
                     <Item id="6153" name="幾時都以多重程式個體模式運作"/>
                     <Item id="6154" name="預設（單一程式個體）"/>
-                    <Item id="6155" name="* 改過上面嘅設定，要重開 Notepad++ 先至會生效"/>
+                    <Item id="6155" name="* 改過上面嘅設定，要重開 NotepadFree 先至會生效"/>
                     <Item id="6171" name="自訂日期時間插入功能"/> <!-- #new v8.1.5 -->
                     <Item id="6175" name="將日期同埋時間調轉（插入完整/簡短日期時間功能）"/> <!-- #new v8.1.5 -->
                     <Item id="6172" name="自訂格式："/> <!-- #new v8.1.5 -->
@@ -1234,11 +1234,11 @@
                     <Item id="6313" name="靜靜雞喺背景更新"/>
                     <Item id="6325" name="更新後轆去最後一行"/>
                     <Item id="6322" name="工作階段檔案副檔名："/>
-                    <Item id="6323" name="自動更新 Notepad++"/>
+                    <Item id="6323" name="自動更新 NotepadFree"/>
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
-                    <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
+                    <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 NotepadFree）"/>
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
                     <Item id="6114" name="啟用"/>
                     <Item id="6117" name="啟用 MRU 行為功能"/>
@@ -1318,8 +1318,8 @@
         </Dialog>
 
         <MessageBox> <!-- $INT_REPLACE$ 係 placeholder 嚟，唔好改啊嗱 -->
-            <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
-改完記得重新啟動 Notepad++，咁先至會生效。"/>
+            <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 NotepadFree 嘅快顯功能表。
+改完記得重新啟動 NotepadFree，咁先至會生效。"/>
             <SaveCurrentModifWarning title="Save 而家嘅改動" message="你必須要 save 低而家嘅改動。
 留意返，save 咗就冇得復原。
 
@@ -1328,10 +1328,10 @@
 留意返，save 咗就冇得復原。
 
 仲繼唔繼續？"/>
-            <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有嘢改過，save 咗佢再試吓啦。"/>
+            <CannotMoveDoc title="搬去新嘅 NotepadFree 個體" message="份文件有嘢改過，save 咗佢再試吓啦。"/>
             <DocReloadWarning title="喺磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
             <FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
-            <FileAlreadyOpenedInNpp title="" message="已經喺 Notepad++ 度開咗呢個檔案。"/>
+            <FileAlreadyOpenedInNpp title="" message="已經喺 NotepadFree 度開咗呢個檔案。"/>
             <RenameTabTemporaryNameAlreadyInUse title="Rename failed" message="你改呢個名已經用緊喺另一個 tab 度。"/> <!-- #new v7.9.2 -->
             <DeleteFileFailed title="掉去垃圾桶" message="剷唔走個檔案。"/>
 
@@ -1362,11 +1362,11 @@ $STR_REPLACE$
             <DoReloadOrNotAndLooseChange title="Reload" message="「$STR_REPLACE$」
 
 已經畀另一個程式改過嘢。
-Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
+Reload 會放棄你喺 NotepadFree 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <PrehistoricSystemDetected title="系統太舊" message="似乎你個系統太舊啦喂，呢個功能唔 work，真係唔好意思。"/>
-            <XpUpdaterProblem title="更新 Notepad++" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
-要唔要去 Notepad++ 網站，下載最新嘅版本呢？"/>
-            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩「以系統管理員身份執行」Notepad++，再設定代理伺服器。"/>
+            <XpUpdaterProblem title="更新 NotepadFree" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
+要唔要去 NotepadFree 網站，下載最新嘅版本呢？"/>
+            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩「以系統管理員身份執行」NotepadFree，再設定代理伺服器。"/>
             <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/>
             <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/>
@@ -1404,15 +1404,15 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <SCMapperDoDeleteOrNot title="剷除快捷鍵" message="係咪真係要咁做"/>
             <FindCharRangeValueError title="輸入值範圍錯誤" message="你輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/>
             <OpenInAdminMode title="Save 唔到" message="Save 唔到，可能係因為個檔案喺保護狀態。
-想唔想用系統管理員身份重新打開 Notepad++？"/>
+想唔想用系統管理員身份重新打開 NotepadFree？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案喺保護狀態。
-想唔想用系統管理員身份重新打開 Notepad++？"/>
-            <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/>
+想唔想用系統管理員身份重新打開 NotepadFree？"/>
+            <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="NotepadFree 冇法子用系統管理員身份打開"/>
             <ViewInBrowser title="喺瀏覽器度睇呢個檔案" message="喺系統裏面搵唔到應用程式"/>
-            <ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新或者剷走 plugin(s)。
-搞掂晒安裝程序，Notepad++ 就會重新啟動。
+            <ExitToUpdatePlugins title="即將會閂 NotepadFree" message="係嘅話，NotepadFree 會自己摺埋，然後安裝更新或者剷走 plugin(s)。
+搞掂晒安裝程序，NotepadFree 就會重新啟動。
 係咪繼續？"/>
-            <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/>
+            <NeedToRestartToLoadPlugins title="重新啟動 NotepadFree" message="你必須重新啟動 NotepadFree 先至可以 load 啲外掛。"/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1529,8 +1529,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <word-chars-list-warning-end value="。"/>
             <backup-select-folder value="揀個備份資料夾"/> <!-- #new v8.2.1 -->
             <cloud-invalid-warning value="路徑無效。"/>
-            <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/>
-            <cloud-select-folder value="揀返個資料夾，畀 Notepad++ 讀取/寫入設定。"/>
+            <cloud-restart-warning value="麻煩重新啟動 NotepadFree 令改動嘅嘢生效。"/>
+            <cloud-select-folder value="揀返個資料夾，畀 NotepadFree 讀取/寫入設定。"/>
             <default-open-save-select-folder value="揀個預設資料夾"/> <!-- #new v8.2.1 -->
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上、落兩個掣代替「搵下一個」"/>
