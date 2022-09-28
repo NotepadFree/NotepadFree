@@ -1,4 +1,4 @@
-Notepad++ v8.4.5 crash/regression-fixes and new features:
+NotepadFree v8.4.5 crash/regression-fixes and new features:
 
 1.  Add reduce mode in Find/Replace dialog.
 2.  Update to Scintilla 5.2.4 and Lexilla 5.1.8.
@@ -7,18 +7,13 @@ Notepad++ v8.4.5 crash/regression-fixes and new features:
 5.  Fix drag n drop documents crash between 2 instances.
 6.  Improve performance for "Find in Files" and ""Find all in...".
 7.  Add option to turn off selecting text when Field dialog is invoked.
-8.  Fix Notepad++ crash due to calling NPPM_GETLANGUAGENAME with -1 (WPARAM).
+8.  Fix NotepadFree crash due to calling NPPM_GETLANGUAGENAME with -1 (WPARAM).
 9.  Fix erasing part of content make hanging issue.
 10. Fix detected language not being applied if Default languge is set in Document settings.
 11. Add cycling function hints ability by ALT-UP/DOWN shortcuts.
 12. Add carret block after option.
 13. Add an option for hiding the ＋ ▼ ✕ from the menu bar.
 14. Fix dark mode visual glichy in explorer panel under Windows 8.1.
-
-
-Get more info on
-https://notepad-plus-plus.org/downloads/v8.4.5/
-
 
 Included plugins:
 
@@ -29,4 +24,4 @@ Included plugins:
 
 Updater (Installer only):
 
-* WinGup (for Notepad++) v5.2.3
+* WinGup (for NotepadFree) v5.2.3
