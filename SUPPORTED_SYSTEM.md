@@ -1,25 +1,21 @@
+## 支持的操作系统
 
-## Supported OS Table
+* NotepadFree的版本号和Notepad++同步。
+* 下表中如`v6.6.9`版本在NotepadFree中不存在，而存在于Notepad++。
 
-* The column **OS** is the list of different MS Windows generations.
-* The column **can be run (version can be run)** is for the status of the latest release to be run under the OS. If the latest version cannot be run under the specific OS (with the status "NO"), then the last version number which can be run will be indicated in the parentheses.
-* The column **supported** contains the status of Notepad++ team supporting Notepad++ under the specific OS. It means if a bug is present under an OS no more supported but not under supported OS, then this issue won't be treated by the team.
-
-|           OS            | can be run (version can be run) |      supported            |
+|           OS            | 是否可运行  (可以运行的版本)      |      是否受支持            |
 |-------------------------|---------------------------------|---------------------------|
-| **Windows 95**          | NO (unknown)                    |          NO               |
-| **Windows 98**          | NO (unknown)                    |          NO               |
-| **Windows ME**          | NO (unknown)                    |          NO               |
-| **Windows NT**          | NO (unknown)                    |          NO               |
-| **Windows 2000**        | NO (v6.6.9 & previous versions) |          NO               |
-| **Windows XP**          | NO (v7.9.2 & previous versions) |          NO               |
-| **Windows Server 2003** | NO (v7.9.2 & previous versions) |          NO               |
-| **Windows Vista**       | YES                             |          NO               |
-| **Windows Server 2008** | YES                             |          NO               |
-| **Windows 7**           | YES                             |          NO               |
-| **Windows 8**           | YES                             |          No               |
-| **Windows 8.1**         | YES                             |          YES              |
-| **Windows 10**          | YES                             |          YES              |
-| **Windows 11**          | YES                             |          YES              |
-
-*Note that the list is meant for the last SP of each version*
+| **Windows 95**          | 否 (未知)                        |          否               |
+| **Windows 98**          | 否 (未知)                        |          否               |
+| **Windows ME**          | 否 (未知)                        |          否               |
+| **Windows NT**          | 否 (未知)                        |          否               |
+| **Windows 2000**        | 否 (v6.6.9 & 之前的版本)         |          否               |
+| **Windows XP**          | 否 (v7.9.2 & 之前的版本)         |          否               |
+| **Windows Server 2003** | 否 (v7.9.2 & 之前的版本)         |          否               |
+| **Windows Vista**       | 是                              |          否               |
+| **Windows Server 2008** | 是                              |          否               |
+| **Windows 7**           | 是                              |          否               |
+| **Windows 8**           | 是                              |          否               |
+| **Windows 8.1**         | 是                              |          是               |
+| **Windows 10**          | 是                              |          是               |
+| **Windows 11**          | 是                              |          是               |
