@@ -61,6 +61,15 @@ OutFile ".\build\ntf.${APPVERSION}.Installer.exe"
 !define MUI_ICON ".\images\ntf.ico"
 !define MUI_UNICON ".\images\ntf.ico"
 
+!define MUI_WELCOMEFINISHPAGE_BITMAP ".\images\welcome.bmp"
+
+!define MUI_HEADERIMAGE
+!define MUI_HEADERIMAGE_BITMAP ".\images\head.bmp" ; optional
+!define MUI_HEADERIMAGE_BITMAP_RTL ".\images\head_rlt.bmp" ; Header for RTL languages
+!define MUI_ABORTWARNING
+!define MUI_UNABORTWARNING
+!define MUI_COMPONENTSPAGE_SMALLDESC ;Show components page with a small description and big box for components
+
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "..\..\LICENSE"
 !insertmacro MUI_PAGE_DIRECTORY
