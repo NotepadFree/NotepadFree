@@ -2,7 +2,7 @@
 
 **前置要求:**
 
- - Microsoft Visual Studio 2019 (C/C++ Compiler, v142 toolset for win32, x64, arm64)
+ - Microsoft Visual Studio 2022 (C/C++ Compiler, v143 toolset for win32, x64, arm64)
 
 由一个 Visual Studio 解决方案构建的三个组件：
 
