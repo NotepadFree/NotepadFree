@@ -56,13 +56,13 @@ struct FuncItem
 
 typedef FuncItem * (__cdecl * PFUNCGETFUNCSARRAY)(int *);
 
-// You should implement (or define an empty function body) those functions which are called by Notepad++ plugin manager
+// You should implement (or define an empty function body) those functions which are called by NotepadFree plugin manager
 extern "C" __declspec(dllexport) void setInfo(NppData);
 extern "C" __declspec(dllexport) const TCHAR * getName();
 extern "C" __declspec(dllexport) FuncItem * getFuncsArray(int *);
 extern "C" __declspec(dllexport) void beNotified(SCNotification *);
 extern "C" __declspec(dllexport) LRESULT messageProc(UINT Message, WPARAM wParam, LPARAM lParam);
 
-// This API return always true now, since Notepad++ isn't compiled in ANSI mode anymore
+// This API return always true now, since NotepadFree isn't compiled in ANSI mode anymore
 extern "C" __declspec(dllexport) BOOL isUnicode();
 

@@ -96,7 +96,7 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 		#define NPPPLUGINMENU 0
 		#define NPPMAINMENU 1
 	// INT NPPM_GETMENUHANDLE(INT menuChoice, 0)
-	// Return: menu handle (HMENU) of choice (plugin menu handle or Notepad++ main menu handle)
+	// Return: menu handle (HMENU) of choice (plugin menu handle or NotepadFree main menu handle)
 
 	#define NPPM_ENCODESCI (NPPMSG + 26)
 	//ascii file to unicode
@@ -191,14 +191,14 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 	//void NPPM_MENUCOMMAND(0, int cmdID)
 	// uncomment //#include "menuCmdID.h"
 	// in the beginning of this file then use the command symbols defined in "menuCmdID.h" file
-	// to access all the Notepad++ menu command items
+	// to access all the NotepadFree menu command items
 
 	#define NPPM_TRIGGERTABBARCONTEXTMENU (NPPMSG + 49)
 	//void NPPM_TRIGGERTABBARCONTEXTMENU(int view, int index2Activate)
 
 	#define NPPM_GETNPPVERSION (NPPMSG + 50)
 	// int NPPM_GETNPPVERSION(BOOL ADD_ZERO_PADDING, 0)
-	// Get Notepad++ version
+	// Get NotepadFree version
 	// HIWORD(returned_value) is major part of version: the 1st number
 	// LOWORD(returned_value) is minor part of version: the 3 last numbers
 	// 
@@ -368,7 +368,7 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 	#define NPPM_ALLOCATEMARKER  (NPPMSG + 82)
     // BOOL NPPM_ALLOCATEMARKER(int numberRequested, int* startNumber)
     // sets startNumber to the initial command ID if successful
-    // Allocates a marker number to a plugin: if a plugin need to add a marker on Notepad++'s Scintilla marker margin,
+    // Allocates a marker number to a plugin: if a plugin need to add a marker on NotepadFree's Scintilla marker margin,
 	// it has to use this message to get marker number, in order to prevent from the conflict with the other plugins.
     // Returns: TRUE if successful, FALSE otherwise. startNumber will also be set to 0 if unsuccessful
 
@@ -399,11 +399,11 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 
 	#define NPPM_GETAPPDATAPLUGINSALLOWED    (NPPMSG + 87)
 	// BOOL NPPM_GETAPPDATAPLUGINSALLOWED(0, 0)
-	// Check to see if loading plugins from "%APPDATA%\..\Local\Notepad++\plugins" is allowed.
+	// Check to see if loading plugins from "%APPDATA%\..\Local\NotepadFree\plugins" is allowed.
 
 	#define NPPM_GETCURRENTVIEW    (NPPMSG + 88)
 	// INT NPPM_GETCURRENTVIEW(0, 0)
-	// Return: current edit view of Notepad++. Only 2 possible values: 0 = Main, 1 = Secondary
+	// Return: current edit view of NotepadFree. Only 2 possible values: 0 = Main, 1 = Secondary
 
 	#define NPPM_DOCLISTDISABLEEXTCOLUMN    (NPPMSG + 89)
 	// VOID NPPM_DOCLISTDISABLEEXTCOLUMN(0, BOOL disableOrNot)
@@ -458,7 +458,7 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 		#define LINENUMWIDTH_CONSTANT    1
 	// BOOL NPPM_SETLINENUMBERWIDTHMODE(0, INT widthMode)
 	// Set line number margin width in dynamic width mode (LINENUMWIDTH_DYNAMIC) or constant width mode (LINENUMWIDTH_CONSTANT)
-	// It may help some plugins to disable non-dynamic line number margins width to have a smoothly visual effect while vertical scrolling the content in Notepad++
+	// It may help some plugins to disable non-dynamic line number margins width to have a smoothly visual effect while vertical scrolling the content in NotepadFree
 	// If calling is successful return TRUE, otherwise return FALSE.
 
 	#define NPPM_GETLINENUMBERWIDTHMODE    (NPPMSG + 100)
@@ -479,22 +479,22 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 	#define NPPM_GETEXTERNALLEXERAUTOINDENTMODE  (NPPMSG + 103)
 	// BOOL NPPM_GETEXTERNALLEXERAUTOINDENTMODE(const TCHAR *languageName, ExternalLexerAutoIndentMode &autoIndentMode)
 	// Get ExternalLexerAutoIndentMode for an installed external programming language.
-	// - Standard means Notepad++ will keep the same TAB indentation between lines;
-	// - C_Like means Notepad++ will perform a C-Language style indentation for the selected external language;
+	// - Standard means NotepadFree will keep the same TAB indentation between lines;
+	// - C_Like means NotepadFree will perform a C-Language style indentation for the selected external language;
 	// - Custom means a Plugin will be controlling auto-indentation for the current language.
 	// returned values: TRUE for successful searches, otherwise FALSE.
 
 	#define NPPM_SETEXTERNALLEXERAUTOINDENTMODE  (NPPMSG + 104)
 	// BOOL NPPM_SETEXTERNALLEXERAUTOINDENTMODE(const TCHAR *languageName, ExternalLexerAutoIndentMode autoIndentMode)
 	// Set ExternalLexerAutoIndentMode for an installed external programming language.
-	// - Standard means Notepad++ will keep the same TAB indentation between lines;
-	// - C_Like means Notepad++ will perform a C-Language style indentation for the selected external language;
+	// - Standard means NotepadFree will keep the same TAB indentation between lines;
+	// - C_Like means NotepadFree will perform a C-Language style indentation for the selected external language;
 	// - Custom means a Plugin will be controlling auto-indentation for the current language.
 	// returned value: TRUE if function call was successful, otherwise FALSE.
 
 	#define NPPM_ISAUTOINDENTON  (NPPMSG + 105)
 	// BOOL NPPM_ISAUTOINDENTON(0, 0)
-	// Returns the current Use Auto-Indentation setting in Notepad++ Preferences.
+	// Returns the current Use Auto-Indentation setting in NotepadFree Preferences.
 
 	#define NPPM_GETCURRENTMACROSTATUS (NPPMSG + 106)
 	// MacroStatus NPPM_GETCURRENTMACROSTATUS(0, 0)
@@ -502,7 +502,7 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 
 	#define NPPM_ISDARKMODEENABLED (NPPMSG + 107)
 	// bool NPPM_ISDARKMODEENABLED(0, 0)
-	// Returns true when Notepad++ Dark Mode is enable, false when it is not.
+	// Returns true when NotepadFree Dark Mode is enable, false when it is not.
 
 	#define NPPM_GETDARKMODECOLORS (NPPMSG + 108)
 	// bool NPPM_GETDARKMODECOLORS (size_t cbSize, NppDarkMode::Colors* returnColors)
@@ -626,7 +626,7 @@ enum Platform { PF_UNKNOWN, PF_X86, PF_X64, PF_IA64, PF_ARM64 };
 	//scnNotification->nmhdr.hwndFrom = hwndNpp;
 	//scnNotification->nmhdr.idFrom = BufferID;
 
-	#define NPPN_SHUTDOWN (NPPN_FIRST + 9) // To notify plugins that Notepad++ is about to be shutdowned.
+	#define NPPN_SHUTDOWN (NPPN_FIRST + 9) // To notify plugins that NotepadFree is about to be shutdowned.
 	//scnNotification->nmhdr.code = NPPN_SHUTDOWN;
 	//scnNotification->nmhdr.hwndFrom = hwndNpp;
 	//scnNotification->nmhdr.idFrom = 0;

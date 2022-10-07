@@ -2950,7 +2950,7 @@ void Notepad_plus::command(int id)
             const TCHAR *extFilter = TEXT(".dll");
             vector<generic_string> copiedFiles = addNppPlugins(extFilterName, extFilter);
 
-            // Tell users to restart Notepad++ to load plugin
+            // Tell users to restart NotepadFree to load plugin
 			if (copiedFiles.size())
 			{
 				NativeLangSpeaker *pNativeSpeaker = (NppParameters::getInstance()).getNativeLangSpeaker();

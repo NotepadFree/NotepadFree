@@ -2365,7 +2365,7 @@ bool FindReplaceDlg::processFindNext(const TCHAR *txt2find, const FindOption *op
 				msg = stringReplace(msg, TEXT("$STR_REPLACE$"), newTxt2find);
 				setStatusbarMessage(msg, FSNotFound);
 
-				// if the dialog is not shown, pass the focus to his parent(ie. Notepad++)
+				// if the dialog is not shown, pass the focus to his parent(ie. NotepadFree)
 				if (!::IsWindowVisible(_hSelf))
 				{
 					(*_ppEditView)->getFocus();

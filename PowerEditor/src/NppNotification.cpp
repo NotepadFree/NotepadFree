@@ -113,7 +113,7 @@ BOOL Notepad_plus::notify(SCNotification *notification)
 					isDirty = true;
 			}
 
-			if (buf->isUnsync()) // buffer in Notepad++ is not syncronized with the file on disk - in this case the buffer is always dirty 
+			if (buf->isUnsync()) // buffer in NotepadFree is not syncronized with the file on disk - in this case the buffer is always dirty 
 				isDirty = true;
 
 			if (buf->isSavePointDirty())
@@ -275,7 +275,7 @@ BOOL Notepad_plus::notify(SCNotification *notification)
 					const rsize_t classNameBufferSize = MAX_PATH;
 					TCHAR className[classNameBufferSize];
 					::GetClassName(hWinParent,className, classNameBufferSize);
-					if (lstrcmp(className, _pPublicInterface->getClassName()) == 0 && hWinParent != _pPublicInterface->getHSelf()) // another Notepad++
+					if (lstrcmp(className, _pPublicInterface->getClassName()) == 0 && hWinParent != _pPublicInterface->getHSelf()) // another NotepadFree
 					{
 						int index = _pDocTab->getCurrentTabIndex();
 						BufferID bufferToClose = notifyDocTab->getBufferByIndex(index);
@@ -302,7 +302,7 @@ BOOL Notepad_plus::notify(SCNotification *notification)
 							}
 						}
 					}
-					else // Not Notepad++, we open it here
+					else // Not NotepadFree, we open it here
 					{
 						docOpenInNewInstance(isInCtrlStat?TransferClone:TransferMove, p.x, p.y);
 					}

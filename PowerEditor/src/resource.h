@@ -17,7 +17,7 @@
 #pragma once
 
 //
-// Notepad++ version: begin
+// NotepadFree version: begin
 //
 #define NOTEPAD_PLUS_VERSION TEXT("NotepadFree v8.4.5")
 
@@ -26,7 +26,7 @@
 #define VERSION_VALUE TEXT("8.45\0")
 #define VERSION_DIGITALVALUE 8, 4, 5, 0
 
-// Notepad++ version: end
+// NotepadFree version: end
 
 
 #ifndef IDC_STATIC

@@ -38,7 +38,7 @@ void allowWmCopydataMessages(Notepad_plus_Window& notepad_plus_plus, const NppPa
 	const DWORD MSGFLT_ALLOW = 1;
 	#endif
 	// Tell UAC that lower integrity processes are allowed to send WM_COPYDATA messages to this process (or window)
-	// This allows opening new files to already opened elevated Notepad++ process via explorer context menu.
+	// This allows opening new files to already opened elevated NotepadFree process via explorer context menu.
 	if (ver >= WV_VISTA || ver == WV_UNKNOWN)
 	{
 		HMODULE hDll = GetModuleHandle(TEXT("user32.dll"));
@@ -531,7 +531,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int)
 	bool doUpdateNpp = nppGui._autoUpdateOpt._doAutoUpdate;
 	bool doUpdatePluginList = nppGui._autoUpdateOpt._doAutoUpdate;
 
-	if (doFunctionListExport || doPrintAndQuit) // export functionlist feature will serialize fuctionlist on the disk, then exit Notepad++. So it's important to not launch into existing instance, and keep it silent.
+	if (doFunctionListExport || doPrintAndQuit) // export functionlist feature will serialize fuctionlist on the disk, then exit NotepadFree. So it's important to not launch into existing instance, and keep it silent.
 	{
 		isMultiInst = true;
 		doUpdateNpp = doUpdatePluginList = false;

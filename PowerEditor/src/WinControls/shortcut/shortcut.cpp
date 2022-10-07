@@ -893,7 +893,7 @@ void recordedMacroStep::PlayBack(Window* pNotepad, ScintillaEditView *pEditView)
 		}
 
 		// If text content has been modified in Scintilla,
-		// then notify Notepad++
+		// then notify NotepadFree
 		if ( (_message == SCI_SETTEXT)
 			|| (_message == SCI_REPLACESEL) 
 			|| (_message == SCI_ADDTEXT) 

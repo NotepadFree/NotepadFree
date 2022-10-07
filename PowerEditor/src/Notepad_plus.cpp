@@ -2051,7 +2051,7 @@ void Notepad_plus::filePrint(bool showDialog)
 
 int Notepad_plus::doSaveOrNot(const TCHAR* fn, bool isMulti)
 {
-	// In case Notepad++ is iconized into notification zone
+	// In case NotepadFree is iconized into notification zone
 	if (!::IsWindowVisible(_pPublicInterface->getHSelf()))
 	{
 		::ShowWindow(_pPublicInterface->getHSelf(), SW_SHOW);
@@ -2086,7 +2086,7 @@ int Notepad_plus::doSaveOrNot(const TCHAR* fn, bool isMulti)
 
 int Notepad_plus::doSaveAll()
 {
-	// In case Notepad++ is iconized into notification zone
+	// In case NotepadFree is iconized into notification zone
 	if (!::IsWindowVisible(_pPublicInterface->getHSelf()))
 	{
 		::ShowWindow(_pPublicInterface->getHSelf(), SW_SHOW);
@@ -3965,7 +3965,7 @@ void Notepad_plus::dropFiles(HDROP hdrop)
 
 void Notepad_plus::checkModifiedDocument(bool bCheckOnlyCurrentBuffer)
 {
-	//this will trigger buffer updates. If the status changes, Notepad++ will be informed and can do its magic
+	//this will trigger buffer updates. If the status changes, NotepadFree will be informed and can do its magic
 	MainFileManager.checkFilesystemChanges(bCheckOnlyCurrentBuffer);
 }
 
@@ -5977,7 +5977,7 @@ void Notepad_plus::notifyBufferChanged(Buffer * buffer, int mask)
 						// Since the file content has changed but the user doesn't want to reload it, set state to dirty
 						buffer->setDirty(true);
 
-						// buffer in Notepad++ is not syncronized anymore with the file on disk
+						// buffer in NotepadFree is not syncronized anymore with the file on disk
 						buffer->setUnsync(true);
 
 						break;	//abort
@@ -5986,7 +5986,7 @@ void Notepad_plus::notifyBufferChanged(Buffer * buffer, int mask)
 				// Set _isLoadedDirty false so when the document clean state is reached the icon will be set to blue
 				buffer->setLoadedDirty(false);
 
-				// buffer in Notepad++ is syncronized with the file on disk
+				// buffer in NotepadFree is syncronized with the file on disk
 				buffer->setUnsync(false);
 
 				doReload(buffer->getID(), false);
@@ -6036,7 +6036,7 @@ void Notepad_plus::notifyBufferChanged(Buffer * buffer, int mask)
 				}
 				else
 				{
-					// buffer in Notepad++ is not syncronized anymore with the file on disk
+					// buffer in NotepadFree is not syncronized anymore with the file on disk
 					buffer->setUnsync(true);
 				}
 
@@ -6673,7 +6673,7 @@ void Notepad_plus::launchClipboardHistoryPanel()
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = IDM_EDIT_CLIPBOARDHISTORY_PANEL;
 
 		generic_string title_temp = pNativeSpeaker->getAttrNameStr(CH_PROJECTPANELTITLE, "ClipboardHistory", "PanelTitle");
@@ -6726,7 +6726,7 @@ void Notepad_plus::launchDocumentListPanel()
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = IDM_VIEW_DOCLIST;
 
 		generic_string title_temp = pNativeSpeaker->getAttrNameStr(FS_PROJECTPANELTITLE, "DocList", "PanelTitle");
@@ -6777,7 +6777,7 @@ void Notepad_plus::launchAnsiCharPanel()
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = IDM_EDIT_CHAR_PANEL;
 
 		generic_string title_temp = pNativeSpeaker->getAttrNameStr(AI_PROJECTPANELTITLE, "AsciiInsertion", "PanelTitle");
@@ -6827,7 +6827,7 @@ void Notepad_plus::launchFileBrowser(const vector<generic_string> & folders, con
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = IDM_VIEW_FILEBROWSER;
 
 		NativeLangSpeaker *pNativeSpeaker = nppParams.getNativeLangSpeaker();
@@ -6934,7 +6934,7 @@ void Notepad_plus::launchProjectPanel(int cmdID, ProjectPanel ** pProjPanel, int
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = cmdID;
 
 		generic_string title_no = to_wstring (panelID + 1);
@@ -6998,7 +6998,7 @@ void Notepad_plus::launchDocMap()
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = IDM_VIEW_DOC_MAP;
 
 		NativeLangSpeaker *pNativeSpeaker = nppParam.getNativeLangSpeaker();
@@ -7047,7 +7047,7 @@ void Notepad_plus::launchFunctionList()
 
 		// the dlgDlg should be the index of funcItem where the current function pointer is
 		// in this case is DOCKABLE_DEMO_INDEX
-		// In the case of Notepad++ internal function, it'll be the command ID which triggers this dialog
+		// In the case of NotepadFree internal function, it'll be the command ID which triggers this dialog
 		data.dlgID = IDM_VIEW_FUNC_LIST;
 
 		NativeLangSpeaker *pNativeSpeaker = nppParam.getNativeLangSpeaker();

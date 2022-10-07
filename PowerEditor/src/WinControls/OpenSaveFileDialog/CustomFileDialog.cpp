@@ -1,5 +1,5 @@
 // This file is part of NotepadFree project
-// Copyright (C) 2021 The Notepad++ Contributors.
+// Copyright (C) 2021 The NotepadFree Contributors.
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by

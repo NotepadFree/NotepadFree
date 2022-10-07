@@ -153,8 +153,8 @@ public:
 
 private:
 	ScintillaEditView **_ppEditView = nullptr;
-	generic_string _xmlDirPath; // The 1st place to load function list files. Usually it's "%APPDATA%\Notepad++\functionList\"
-	generic_string _xmlDirInstalledPath; // Where Notepad++ is installed. The 2nd place to load function list files. Usually it's "%PROGRAMFILES%\Notepad++\functionList\" 
+	generic_string _xmlDirPath; // The 1st place to load function list files. Usually it's "%APPDATA%\NotepadFree\functionList\"
+	generic_string _xmlDirInstalledPath; // Where NotepadFree is installed. The 2nd place to load function list files. Usually it's "%PROGRAMFILES%\NotepadFree\functionList\" 
 
 	ParserInfo* _parsers[L_EXTERNAL + nbMaxUserDefined] = {nullptr};
 	int _currentUDIndex = L_EXTERNAL;

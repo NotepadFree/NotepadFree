@@ -55,7 +55,7 @@ struct ScintillaKeyDefinition
 	bool isAlt;
 	bool isShift;
 	int vKey;
-	int redirFunctionId;	//this gets set  when a function is being redirected through Notepad++ if Scintilla doesnt do it properly :)
+	int redirFunctionId;	//this gets set  when a function is being redirected through NotepadFree if Scintilla doesnt do it properly :)
 };
 
 
@@ -983,7 +983,7 @@ bool NppParameters::load()
 	_isLocal = (PathFileExists(localConfPath.c_str()) == TRUE);
 
 	// Under vista and windows 7, the usage of doLocalConf.xml is not allowed
-	// if Notepad++ is installed in "program files" directory, because of UAC
+	// if NotepadFree is installed in "program files" directory, because of UAC
 	if (_isLocal)
 	{
 		// We check if OS is Vista or greater version
@@ -1282,7 +1282,7 @@ bool NppParameters::load()
 	//----------------------------------------------//
 	// nativeLang.xml : for per user				//
 	// In case of absence of user's nativeLang.xml, //
-	// We'll look in the Notepad++ Dir.			 //
+	// We'll look in the NotepadFree Dir.			 //
 	//----------------------------------------------//
 
 	generic_string nativeLangPath;
@@ -7668,7 +7668,7 @@ void NppParameters::setUdlXmlDirtyFromXmlDoc(const TiXmlDocument* xmlDoc)
 
 Date::Date(const TCHAR *dateStr)
 {
-	// timeStr should be Notepad++ date format : YYYYMMDD
+	// timeStr should be NotepadFree date format : YYYYMMDD
 	assert(dateStr);
 	int D = lstrlen(dateStr);
 

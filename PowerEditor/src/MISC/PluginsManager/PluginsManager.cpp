@@ -344,7 +344,7 @@ bool PluginsManager::loadPlugins(const TCHAR* dir, const PluginViewList* pluginU
 	HANDLE hFindFolder = ::FindFirstFile(pluginsFolderFilter.c_str(), &foundData);
 	HANDLE hFindDll = INVALID_HANDLE_VALUE;
 
-	// Get Notepad++ current version
+	// Get NotepadFree current version
 	TCHAR nppFullPathName[MAX_PATH];
 	GetModuleFileName(NULL, nppFullPathName, MAX_PATH);
 	Version nppVer;
@@ -372,7 +372,7 @@ bool PluginsManager::loadPlugins(const TCHAR* dir, const PluginViewList* pluginU
 				// - foundFileName: folder-name
 				// _ pluginsFullPathFilter: version
 				// 
-				// Find plugin update info of current plugin and check if it's compatible to Notepad++ current versions
+				// Find plugin update info of current plugin and check if it's compatible to NotepadFree current versions
 				bool isCompatible = true;
 
 				if (pluginUpdateInfoList)
@@ -386,7 +386,7 @@ bool PluginsManager::loadPlugins(const TCHAR* dir, const PluginViewList* pluginU
 						v.setVersionFrom(pluginsFullPathFilter);
 						if (v == pui->_version)
 						{
-							// Find compatible Notepad++ versions
+							// Find compatible NotepadFree versions
 							isCompatible = nppVer.isCompatibleTo(pui->_nppCompatibleVersions.first, pui->_nppCompatibleVersions.second);
 
 							if (!isCompatible && pluginIncompatibleList)
@@ -450,7 +450,7 @@ bool PluginsManager::loadPlugins(const TCHAR* dir, const PluginViewList* pluginU
 					// - foundFileName2: folder-name
 					// _ pluginsFullPathFilter2: version
 					// 
-					// Find plugin update info of current plugin and check if it's compatible to Notepad++ current versions
+					// Find plugin update info of current plugin and check if it's compatible to NotepadFree current versions
 					bool isCompatible2 = true;
 
 					if (pluginUpdateInfoList)
@@ -464,7 +464,7 @@ bool PluginsManager::loadPlugins(const TCHAR* dir, const PluginViewList* pluginU
 							v2.setVersionFrom(pluginsFullPathFilter2);
 							if (v2 == pui2->_version)
 							{
-								// Find compatible Notepad++ versions
+								// Find compatible NotepadFree versions
 								isCompatible2 = nppVer.isCompatibleTo(pui2->_nppCompatibleVersions.first, pui2->_nppCompatibleVersions.second);
 
 								if (!isCompatible2 && pluginIncompatibleList)

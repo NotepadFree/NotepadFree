@@ -580,10 +580,10 @@ bool Notepad_plus::doSave(BufferID id, const TCHAR * filename, bool isCopy)
 		}
 		else
 		{
-			// try to open Notepad++ in admin mode
+			// try to open NotepadFree in admin mode
 			bool isSnapshotMode = NppParameters::getInstance().getNppGUI().isSnapshotMode();
 			if (isSnapshotMode) // if both rememberSession && backup mode are enabled
-			{                   // Open the 2nd Notepad++ instance in Admin mode, then close the 1st instance.
+			{                   // Open the 2nd NotepadFree instance in Admin mode, then close the 1st instance.
 				int openInAdminModeRes = _nativeLangSpeaker.messageBox("OpenInAdminMode",
 				_pPublicInterface->getHSelf(),
 				TEXT("This file cannot be saved and it may be protected.\rDo you want to launch NotepadFree in Administrator mode?"),
@@ -618,7 +618,7 @@ bool Notepad_plus::doSave(BufferID id, const TCHAR * filename, bool isCopy)
 				}
 			}
 			else // rememberSession && backup mode are not both enabled
-			{    // open only the file to save in Notepad++ of Administrator mode by keeping the current instance.
+			{    // open only the file to save in NotepadFree of Administrator mode by keeping the current instance.
 				int openInAdminModeRes = _nativeLangSpeaker.messageBox("OpenInAdminModeWithoutCloseCurrent",
 				_pPublicInterface->getHSelf(),
 				TEXT("The file cannot be saved and it may be protected.\rDo you want to launch NotepadFree in Administrator mode?"),

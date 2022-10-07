@@ -281,7 +281,7 @@ void Notepad_plus_Window::init(HINSTANCE hInst, HWND parent, const TCHAR *cmdLin
 
 	::SendMessage(_hSelf, NPPM_INTERNAL_ENABLECHANGEHISTORY, 0, 0);
 
-	// Notify plugins that Notepad++ is ready
+	// Notify plugins that NotepadFree is ready
 	SCNotification scnN;
 	scnN.nmhdr.code = NPPN_READY;
 	scnN.nmhdr.hwndFrom = _hSelf;
