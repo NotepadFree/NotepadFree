@@ -963,7 +963,7 @@ generic_string NppParameters::getSettingsFolder()
 	if (settingsFolderPath.empty())
 		return _nppPath;
 
-	pathAppend(settingsFolderPath, TEXT("Notepad++"));
+	pathAppend(settingsFolderPath, TEXT("NotepadFree"));
 	return settingsFolderPath;
 }
 
@@ -1016,7 +1016,7 @@ bool NppParameters::load()
 	{
 		_userPath = getSpecialFolderLocation(CSIDL_APPDATA);
 
-		pathAppend(_userPath, TEXT("Notepad++"));
+		pathAppend(_userPath, TEXT("NotepadFree"));
 		if (!PathFileExists(_userPath.c_str()))
 			::CreateDirectory(_userPath.c_str(), NULL);
 
