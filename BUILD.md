@@ -14,7 +14,7 @@ NotepadFree 始终使用Boost 正则表达式 PCRE 支持而不是普通 Scintil
 
 ## 构建 `notepad++.exe`:
 
- 1. 打开 [`PowerEditor\visual.net\notepadPlus.sln`](https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/visual.net/notepadPlus.sln)
+ 1. 打开 [`PowerEditor\visual.net\notepadPlus.sln`](https://github.com/NotepadFree/NotepadFree/blob/main/PowerEditor/visual.net/notepadPlus.sln)
  2. 选择配置 (Debug 或 Release) and 和平台 (x64 、 Win32 或 ARM64)
  3. 像一个普通Visual Studio项目一样构建 NotepadFree 解决方案。这也将构建依赖的 Scintilla 和 Lexilla 项目。
 
