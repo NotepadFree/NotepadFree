@@ -1,4 +1,4 @@
-﻿// This file is part of NotepadFree project
+﻿// This file is part of Notepad++ project
 // Copyright (C) 2021 NotepadFree authors.
 
 // This program is free software: you can redistribute it and/or modify
